@@ -1,0 +1,223 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+.subscription-card{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 1.5rem;
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
+  justify-content: center;
+}
+
+.subscription-cards{
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.plan-heading{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 12px;
+  color: #000;
+}
+.plan-desc{
+  margin: 0;
+  font-size: 14px;
+  color: #8e8a8a;
+  font-weight: 500;
+}
+.plan-amount{
+font-size: 3rem;
+margin: 10px 0;
+color: #212943;
+display: flex;
+align-items: center;
+}
+.symbol{
+  font-size: 12px;
+}
+
+.plan-btn{
+padding: 12px 14px;
+width: 100%;
+background: #212943;
+color: #fff;
+border: 0;
+border-radius: 5px;
+font-weight: 500;
+margin-top: 8px;
+cursor: pointer;
+}
+.plan-btn:hover{
+  opacity: 0.7;
+}
+.pricing-detail-label{
+  text-align: center;
+  margin-bottom: 8px;
+}
+.pricing-detail-desc{
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+}
+li{
+  padding: 5px 0;
+}
+.d-flex{
+  display: flex;
+}
+.align-items-center{
+  align-items: center;
+}
+.g-8{
+  gap: 8px;
+}
+table{
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+th,td{
+  padding: 5px 12px;
+  border: 1px solid #333;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .subscription-card{
+      grid-template-columns: repeat(3,270px);
+      justify-content: center;
+  }
+}
+
+
+.ShopSection{
+  padding: 40px 15px;
+  max-width: 1200px;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+.MenuList{
+  display: flex;
+  margin-right: 15px;
+  flex-direction: column;
+  height: 100%;
+  background: #f3e9e9;
+  border-radius: 6px;
+  padding: 12px 0;
+  width: 175px;
+  flex: 0 0 175px;
+  font-size: 14px;
+}
+.MenuListItem{
+  min-width: 120px;
+  text-decoration: none;
+  color: #333;
+  text-align: left;
+  padding: 5px 14px;
+  display: flex;
+  align-items: center;
+}
+.ProductGrid{
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.ProductThumb{
+  height: 300px;
+  background: #e3e6e4;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.ProductGridWrapper{
+  flex: 1;
+}
+.ProductInfo{
+  text-align: center;
+}
+.ProductTitle{
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+padding: 10px 14px;
+}
+
+.ProductLocation{
+  font-size: 12px;
+  text-align: center;
+  padding: 0 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  color: #888080;
+}
+
+.CatIcon{
+  width: 22px;
+  margin-right: 10px;
+}
+.CatIcon img{
+  max-width: 100%;
+  height: auto;
+}
+.CatLabel{
+  width: calc(100% - 22px);
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ProductThumb img{
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.amountSymbol{
+  font-size: 12px;
+}
+
+.ProductBtn{
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.PageHead{
+  font-size: 20px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.PageTitle{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.PageDesc{
+  font-size: 14px;
+  color: #888080;
+  margin-top: 12px;
+}
