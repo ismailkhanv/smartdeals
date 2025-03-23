@@ -1,0 +1,25 @@
+.MenuListItem{
+  padding: 5px 5px;
+  cursor: pointer;
+  color: #333;
+  font-weight: normal;
+  width: 100%;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  transition: color 0.2s linear;
+}
+
+.MenuListItem:hover{
+    color: #000;
+}
+
+.smSidebarLabel{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    padding: 10px 5px;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+}

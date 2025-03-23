@@ -1,53 +1,53 @@
-import React, { createContext } from 'react'
-import All from './Pages/All/All';
-import Men from './Pages/Men/Men';
-import Women from './Pages/Women/Women';
-import { Route, Routes } from 'react-router-dom';
+import React, { createContext, useState } from 'react'
+import NavBar from './Components/navbar/NavBar'
+import { Route, Routes } from 'react-router-dom'
+import All from './Pages/All/All'
+import Men from './Pages/Men/Men'
+import Women from './Pages/Women/Women'
 import './App.css'
-import NavBar from './Components/navbar/NavBar';
 
-export const productData = createContext();
+export const Productsinfo = createContext();
 
 let products = [
-  { name: 'Ismail', cat_id: 1, location: 'Cbe', thumb_title: 'Men',thumb: 'images/users/men-1.jpg', salary: 49 },
-  { name: 'Ammu', cat_id: 2, location: 'Chennai', thumb_title: 'Women',thumb: 'images/users/women-1.jpg',salary: 25 },
-  { name: 'Sanjay', cat_id: 1, location: 'Cbe', thumb_title: 'Men',thumb: 'images/users/men-2.jpg',salary: 20 },
-  { name: 'Ameesha', cat_id: 2, location: 'Mumbai', thumb_title: 'Women',thumb: 'images/users/women-2.jpg',salary: 70 },
-  { name: 'Shiva', cat_id: 1, location: 'Cbe', thumb_title: 'Men',thumb: 'images/users/men-3.jpg',salary: 15 },
-  { name: 'Ajay', cat_id: 1, location: 'Chennai', thumb_title: 'Men',thumb: 'images/users/men-4.jpg',salary: 25 },
-  { name: 'Ayisha', cat_id: 2, location: 'Cbe', thumb_title: 'Women',thumb: 'images/users/women-3.jpg',salary: 40 },
-  { name: 'Kumar', cat_id: 1, location: 'Chennai', thumb_title: 'Men',thumb: 'images/users/men-5.jpg',salary: 55 },
-  { name: 'Preethi', cat_id: 2, location: 'Mumbai', thumb_title: 'Women',thumb: 'images/users/women-4.jpg',salary: 33 },
-  { name: 'Simran', cat_id: 2, location: 'Cbe', thumb_title: 'Women',thumb: 'images/users/women-5.jpg',salary: 69 },
+  { name: 'Premier Cropped Skinny Jean', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StretchCottonSkinnyPant_1024x.jpg', amount: 49 },
+  { name: 'Ocean Wash Linen Sport Shirt', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/CustomFitSoft-TouchPolo_3_600x.jpg',amount: 25 },
+  { name: 'Tailored Fit Mesh-Panel Polo', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StripedCap-SleevePolo_3_600x.jpg',amount: 20 },
+  { name: 'Standard Fit Sport Shirt', cat_id: 1, category: 'Guess', thumb: 'images/products/men/Featherweight_Pima_Hoodie_4_2048x2048_4a6d6aad-3619-4140-be98-998454c3287d_1024x.jpg',amount: 70 },
+  { name: 'Two-Tone Sleeveless Dress', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StripedFunnelneckPullover_1_600x.jpg',amount: 15 },
+  { name: 'Custom Fit Soft-Touch Polo', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/Ocean-WashLinenSportShirt_1_600x.jpg',amount: 25 },
+  { name: 'Twill 2-Button Jacket', cat_id: 2, category: 'Levis', thumb: 'images/products/women/TailoredFitPoloShirt_4_1024x.jpg',amount: 40 },
+  { name: 'East Hampton Fleece Hoodie', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/StandardFitSportShirt_3_600x.jpg',amount: 55 },
+  { name: 'Tailored Fit Mesh-Panel Polo', cat_id: 2, category: 'Guess', thumb: 'images/products/women/Two-ToneSleevelessDress_1_600x.jpg',amount: 33 },
+  { name: 'Packable Jacket', cat_id: 1, category: 'Levis', thumb: 'images/products/men/PackableJacket_4_1024x.jpg',amount: 69 },
 ]
 
-
 const App = () => {
-  
   return (
 
+    <Productsinfo.Provider value={products}>
 
-        <productData.Provider value= {products}>
-          <div className='container'>
-            <div className='PageHead'>
-              <h1 className='PageTitle'>Hire Your Employee now @bestdeals!</h1>
-              <p  className='PageDesc'>We have a lot of deals only for You! Don't miss any new offers...</p>
-            </div>
-            <div className="ShopSection">
+      <div className='smPage'>
+
+        <div className='container'>
+          <div className='smShop'>
+            <div className='smCatSidebar'>
+              <h4 className='smSidebarLabel'>Categories</h4>
               <NavBar />
+            </div>
 
-              <div className="ProductGridWrapper">
-                <Routes>
-                  <Route path='/all' element={<All />} />
-                  <Route path='/men' element={<Men />} />
-                  <Route path='/women' element={<Women />} />
-                </Routes>
-              </div>
+            <div className='ProductListWrapper'>
+              <Routes>
+                <Route path='/all' element={<All />} />
+                <Route path='/men' element={<Men />} />
+                <Route path='/women' element={<Women />} />
+
+              </Routes>
             </div>
           </div>
-      
-        </productData.Provider>
+        </div>
 
+      </div>
+    </Productsinfo.Provider>
     
   )
 }

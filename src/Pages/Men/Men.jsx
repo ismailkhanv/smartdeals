@@ -1,21 +1,25 @@
 import React, { useContext } from 'react'
-import { productData } from '../../App';
-import ProductCard from '../../Components/ProductCard';
+import ProductCard from '../../Components/ProductCard'
+import { Productsinfo } from '../../App'
+
 
 const Men = () => {
+    const smProducts = useContext(Productsinfo);
+    const smMensProducts = smProducts.filter((x)=>(
+        x.cat_id === 1
+    ))
+    const prodcount = smMensProducts.length;
 
-  const all = useContext(productData);
-
-  const mensProduct = all.filter((x)=>(
-      x.cat_id === 1
-  ))
   return (
-    <div className='ProductGrid'>
-    {mensProduct.map((x)=>(
-      <ProductCard {...x} />
-    ))}   
-  </div>
+        <div className='ProductsWrapper'>
+            <h2 className='productsLabel'> Men <span className='smProductsCount'>({prodcount})</span></h2>
+                <div className='smProductsGrid'>
+                    {smMensProducts.map((x)=>(
+                        <ProductCard {...x} />
+                    ))}
+                </div>
+        </div>
   )
 }
 
-export default Men 
+export default Men

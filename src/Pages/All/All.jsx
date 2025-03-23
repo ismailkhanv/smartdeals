@@ -1,20 +1,22 @@
 import React, { useContext } from 'react'
-import ProductCards from '../../Components/ProductCard'
-import { productData } from '../../App'
+import { Productsinfo } from '../../App'
 import ProductCard from '../../Components/ProductCard';
-
 
 const All = () => {
 
-  const all = useContext(productData);
+    const smProducts = useContext(Productsinfo);
+    let prodcount = smProducts.length;
 
   return (
-    <div className='ProductGrid'>
-      {all.map((x)=>(
-        <ProductCard {...x} />
-      ))}   
+    <div className='ProductsWrapper'>
+        <h2 className='productsLabel'> All <span className='smProductsCount'>({prodcount})</span></h2>
+            <div className='smProductsGrid'>
+                {smProducts.map((x)=>(
+                    <ProductCard {...x} />
+                ))}
+            </div>
     </div>
   )
 }
- 
+
 export default All
