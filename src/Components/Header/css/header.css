@@ -1,0 +1,84 @@
+.ui_logowrapper{
+    max-width: 155px;
+}
+.bn_logo{
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+header{
+    background: var(--card_color);
+}
+header .nav-link{
+    color: var(--text_color);
+    font-size: 14px;
+}
+header .nav-link.active{
+    color: var(--primary_color);
+}
+
+.dropdown-item{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 0.875rem;
+}
+
+@media(min-width:992px){
+
+}
+
+@media(min-width:1200px){
+    .ui_nav_searchwrapper{
+        max-width: 200px;
+    }
+}
+@media(max-width:1199px){
+    .navbar-expand-xl .nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 12px;
+    }
+    .navbar-expand-xl .dropdown-menu{
+        width: 100%;
+        border: unset;
+        position: relative;
+        background-color: inherit;
+        color: inherit;
+        border: unset;
+        top: unset;
+        left: unset;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-expand-xl .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
+@media(max-width:991px){
+    .navbar-expand-lg .nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 12px;
+    }
+    .navbar-expand-lg .dropdown-menu{
+        width: 100%;
+        border: unset;
+        position: relative;
+        background-color: inherit;
+        color: inherit;
+        border: unset;
+        top: unset;
+        left: unset;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-expand-lg .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}

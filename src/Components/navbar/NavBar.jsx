@@ -7,7 +7,7 @@ const NavBar = () => {
     <div className="MenuList">
         <Link to='/all' className='MenuListItem'>All</Link>
         <Link to='/men' className='MenuListItem'>Men</Link>
-        <Link to= 'women' className='MenuListItem'>Women</Link>
+        <Link to='/women' className='MenuListItem'>Women</Link>
     </div>
   )
 }

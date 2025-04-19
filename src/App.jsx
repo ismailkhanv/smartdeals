@@ -5,6 +5,13 @@ import All from './Pages/All/All'
 import Men from './Pages/Men/Men'
 import Women from './Pages/Women/Women'
 import './App.css'
+import Header from './Components/Header/Header'
+import Offers from './Pages/Offers/Offers'
+import Wishlist from './Pages/Wishlist/Wishlist'
+import NewDeals from './Pages/NewDeals/NewDeals'
+import Orders from './Pages/Orders/Orders'
+import Settings from './Pages/Settings/Settings'
+import Profile from './Pages/Profile/Profile'
 
 export const Productsinfo = createContext();
 
@@ -28,23 +35,25 @@ const App = () => {
 
       <div className='smPage'>
 
-        <div className='container'>
-          <div className='smShop'>
-            <div className='smCatSidebar'>
-              <h4 className='smSidebarLabel'>Categories</h4>
-              <NavBar />
-            </div>
+        <Header />
 
-            <div className='ProductListWrapper'>
+         <main className='bnPageMain'>
+          <div className='container'>
               <Routes>
+                <Route path='/' element ={<All />} /> {/*Important to display default component in home page */}
                 <Route path='/all' element={<All />} />
                 <Route path='/men' element={<Men />} />
                 <Route path='/women' element={<Women />} />
-
+                <Route path='/offers' element={<Offers />} />
+                <Route path='/wishlist' element={<Wishlist/>} />
+                <Route path='/new-deals' element={<NewDeals />} />
+                <Route path='/orders' element= {<Orders />} />
+                <Route path='/settings' element={<Settings />} />
+                <Route path='profile' element={<Profile />} />
               </Routes>
             </div>
-          </div>
-        </div>
+         </main>
+         
 
       </div>
     </Productsinfo.Provider>
