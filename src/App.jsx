@@ -12,6 +12,7 @@ import NewDeals from './Pages/NewDeals/NewDeals'
 import Orders from './Pages/Orders/Orders'
 import Settings from './Pages/Settings/Settings'
 import Profile from './Pages/Profile/Profile'
+import Footer from './Components/Footer/Footer'
 
 export const Productsinfo = createContext();
 
@@ -53,6 +54,8 @@ const App = () => {
               </Routes>
             </div>
          </main>
+
+         <Footer />
          
 
       </div>

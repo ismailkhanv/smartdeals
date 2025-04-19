@@ -1,0 +1,25 @@
+footer{
+    font-size: 12px;
+    background: var(--card_color);
+}
+.bn_link_label{
+    font-size: 12px;
+    color: var(--heading_color);
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+}
+
+footer .nav-item{
+    font-size: 10px;
+    color: #333;
+}
+input, button{
+    font-size: 12px !important;
+}
+
+footer [class*= 'col-']{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
