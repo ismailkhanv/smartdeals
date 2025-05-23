@@ -17,16 +17,16 @@ import Footer from './Components/Footer/Footer'
 export const Productsinfo = createContext();
 
 let products = [
-  { name: 'Premier Cropped Skinny Jean', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StretchCottonSkinnyPant_1024x.jpg', amount: 49 },
-  { name: 'Ocean Wash Linen Sport Shirt', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/CustomFitSoft-TouchPolo_3_600x.jpg',amount: 25 },
-  { name: 'Tailored Fit Mesh-Panel Polo', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StripedCap-SleevePolo_3_600x.jpg',amount: 20 },
-  { name: 'Standard Fit Sport Shirt', cat_id: 1, category: 'Guess', thumb: 'images/products/men/Featherweight_Pima_Hoodie_4_2048x2048_4a6d6aad-3619-4140-be98-998454c3287d_1024x.jpg',amount: 70 },
-  { name: 'Two-Tone Sleeveless Dress', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StripedFunnelneckPullover_1_600x.jpg',amount: 15 },
-  { name: 'Custom Fit Soft-Touch Polo', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/Ocean-WashLinenSportShirt_1_600x.jpg',amount: 25 },
-  { name: 'Twill 2-Button Jacket', cat_id: 2, category: 'Levis', thumb: 'images/products/women/TailoredFitPoloShirt_4_1024x.jpg',amount: 40 },
-  { name: 'East Hampton Fleece Hoodie', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/StandardFitSportShirt_3_600x.jpg',amount: 55 },
-  { name: 'Tailored Fit Mesh-Panel Polo', cat_id: 2, category: 'Guess', thumb: 'images/products/women/Two-ToneSleevelessDress_1_600x.jpg',amount: 33 },
-  { name: 'Packable Jacket', cat_id: 1, category: 'Levis', thumb: 'images/products/men/PackableJacket_4_1024x.jpg',amount: 69 },
+  { id: 1, name: 'Premier Cropped Skinny Jean', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StretchCottonSkinnyPant_1024x.jpg', amount: 49 },
+  { id: 2, name: 'Ocean Wash Linen Sport Shirt', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/CustomFitSoft-TouchPolo_3_600x.jpg',amount: 25 },
+  { id: 3, name: 'Tailored Fit Mesh-Panel Polo', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StripedCap-SleevePolo_3_600x.jpg',amount: 20 },
+  { id: 4, name: 'Standard Fit Sport Shirt', cat_id: 1, category: 'Guess', thumb: 'images/products/men/Featherweight_Pima_Hoodie_4_2048x2048_4a6d6aad-3619-4140-be98-998454c3287d_1024x.jpg',amount: 70 },
+  { id: 5, name: 'Two-Tone Sleeveless Dress', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StripedFunnelneckPullover_1_600x.jpg',amount: 15 },
+  { id: 6, name: 'Custom Fit Soft-Touch Polo', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/Ocean-WashLinenSportShirt_1_600x.jpg',amount: 25 },
+  { id: 7, name: 'Twill 2-Button Jacket', cat_id: 2, category: 'Levis', thumb: 'images/products/women/TailoredFitPoloShirt_4_1024x.jpg',amount: 40 },
+  { id: 8, name: 'East Hampton Fleece Hoodie', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/StandardFitSportShirt_3_600x.jpg',amount: 55 },
+  { id: 9, name: 'Tailored Fit Mesh-Panel Polo', cat_id: 2, category: 'Guess', thumb: 'images/products/women/Two-ToneSleevelessDress_1_600x.jpg',amount: 33 },
+  { id: 10, name: 'Packable Jacket', cat_id: 1, category: 'Levis', thumb: 'images/products/men/PackableJacket_4_1024x.jpg',amount: 69 },
 ]
 
 const App = () => {

@@ -23,7 +23,7 @@ const Women = () => {
                           <h2 className='productsLabel'> Women <span className='smProductsCount'>({prodcount})</span></h2>
                           <div className='smProductsGrid'>
                               {smWomensProducts.map((x) => (
-                                  <ProductCard {...x} />
+                                  <ProductCard key={x.id} {...x} />
                               ))}
 
                           </div>

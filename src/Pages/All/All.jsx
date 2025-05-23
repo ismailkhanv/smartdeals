@@ -5,7 +5,7 @@ import NavBar from '../../Components/navbar/NavBar';
 
 const All = () => {
 
-    const smProducts = useContext(Productsinfo);
+    const smProducts = useContext(Productsinfo) || [];
     let prodcount = smProducts.length;
 
   return (
@@ -20,9 +20,11 @@ const All = () => {
           <div className='ProductListWrapper'>
             <div className='ProductsWrapper'>
               <h2 className='productsLabel'> All <span className='smProductsCount'>({prodcount})</span></h2>
+              
               <div className='smProductsGrid'>
                 {smProducts.map((x) => (
-                  <ProductCard {...x} />
+                  // <ProductCard {...x} />
+                  <ProductCard key={x.id} {...x} />
                 ))}
               </div>
             </div>

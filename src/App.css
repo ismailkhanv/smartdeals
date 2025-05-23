@@ -176,6 +176,10 @@
     transform:scaleY(1)
   }
 }
+.MenuListItem.active{
+  color: var(--primary_color);
+}
+
 @media(min-width:992px) {
   .smShop{
     flex-direction: row;

@@ -9,7 +9,7 @@ const Men = () => {
     const smMensProducts = smProducts.filter((x)=>(
         x.cat_id === 1
     ))
-    const prodcount = smMensProducts.length;
+    const prodcount = smMensProducts.length || [];
 
   return (
       <div className='bnShopWrapper'>
@@ -24,7 +24,7 @@ const Men = () => {
                           <h2 className='productsLabel'> Men <span className='smProductsCount'>({prodcount})</span></h2>
                           <div className='smProductsGrid'>
                               {smMensProducts.map((x) => (
-                                  <ProductCard {...x} />
+                                  <ProductCard key={x.id} {...x} />
                               ))}
                           </div>
                       </div>
