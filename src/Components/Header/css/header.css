@@ -1,5 +1,8 @@
 .ui_logowrapper{
-    max-width: 155px;
+    max-width: 100px;
+    flex: 0 0 auto;
+    width: auto;
+    padding-right: 10px;
 }
 .bn_logo{
   font-family: "Comfortaa", sans-serif;
@@ -13,18 +16,40 @@ header{
 }
 header .nav-link{
     color: var(--text_color);
-    font-size: 14px;
+    font-size: 0.75rem;
+    padding: var(--bs-nav-link-padding-y) 0.75rem;
 }
 header .nav-link.active{
     color: var(--primary_color);
 }
-
+header .nav-link:focus, .nav-link:hover,.bn_header_action_btn:hover{
+    color: var(--secondary_color);
+    cursor: pointer;
+}
 .dropdown-item{
     padding-top: 6px;
     padding-bottom: 6px;
     font-size: 0.875rem;
 }
 
+.bn_products_searchWrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+    padding: 8px 14px;
+    max-width: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.bn_products_search{
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    max-width: calc(100% - 20px);
+}
 @media(min-width:992px){
 
 }
@@ -58,13 +83,13 @@ header .nav-link.active{
     }
     
 }
-@media(max-width:991px){
-    .navbar-expand-lg .nav{
+@media(max-width:767px){
+    .navbar-expand-md .nav{
         display: flex;
         flex-direction: column;
         padding-top: 12px;
     }
-    .navbar-expand-lg .dropdown-menu{
+    .navbar-expand-md .dropdown-menu{
         width: 100%;
         border: unset;
         position: relative;
@@ -76,9 +101,31 @@ header .nav-link.active{
         padding-top: 0;
         padding-bottom: 0;
     }
-    .navbar-expand-lg .nav-link{
-        padding-left: 0;
-        padding-right: 0;
+    header .navbar-expand-md .nav-link{
+        text-align: left;
+        border-bottom: 1px solid #efefef;
+        padding: 0.75rem 1rem;
+    }
+    .navbar-expand-md .nav-item:last-child .nav-link{
+        border-bottom: 1px solid transparent;
+    }
+    .bn_products_searchWrapper{
+        max-width: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: 0.75rem 0;
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 53px;
+        background: #fff;
+        width: 100%;
+        left: 0;
+        border: 1px solid #eaeaea;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        z-index: 2;
     }
 
 }
