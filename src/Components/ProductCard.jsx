@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
+import Product from '../Pages/Product/Product';
 
 const ProductCard = ({name,category,thumb,amount}) => {
 
@@ -19,7 +21,7 @@ const ProductCard = ({name,category,thumb,amount}) => {
 
   
   return (
-    <div className='ProductItem'>
+    <Link className='ProductItem' to='./product'>
         <div className='ProductThumb position-relative'>
           <img src={thumb} className='img-fluid' alt={name} />
           <div className='smProductsActionBtns'>
@@ -39,7 +41,7 @@ const ProductCard = ({name,category,thumb,amount}) => {
             
             <div className='ProductTitle'>{name}</div>
         </div>
-    </div>
+    </Link>
   )
 }
 

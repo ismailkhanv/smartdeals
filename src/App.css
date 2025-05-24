@@ -4,7 +4,7 @@
 
 .smShop{
   display: flex;
-  align-items: stretch;
+  align-items: flex-start;
   flex-direction: column;
   width: 100%;
   height: 100%;
@@ -79,7 +79,9 @@
 .ProductItem:hover .smProductsActionBtns{
   opacity: 1;
 }
-
+.ProductItem:hover{
+  color: inherit;
+}
 .ProductBtn i::before{
   vertical-align: middle !important;
 }
@@ -155,6 +157,7 @@
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     overflow: hidden;
+    color: inherit;
 }
 .dropdown-menu{
   transform-origin: center top;
@@ -179,7 +182,11 @@
 .MenuListItem.active{
   color: var(--primary_color);
 }
-
+@media screen and (min-width:768px) and (max-width: 991px) {
+  .smProductsGrid {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
 @media(min-width:992px) {
   .smShop{
     flex-direction: row;
@@ -190,6 +197,7 @@
   .smCatSidebar{
     width: 200px;
     flex:0 0 200px;
+    min-height: 200px;
   }
   .ProductListWrapper{
     width: calc(100% - 200px);

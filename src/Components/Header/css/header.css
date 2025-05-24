@@ -42,6 +42,7 @@ header .nav-link:focus, .nav-link:hover,.bn_header_action_btn:hover{
     max-width: 200px;
     width: 100%;
     overflow: hidden;
+    font-size: 14px;
 }
 .bn_products_search{
     border: 0;
