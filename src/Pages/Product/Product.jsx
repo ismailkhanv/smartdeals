@@ -1,16 +1,10 @@
 import React, { useState } from 'react'
 import './css/product.css'
+import productData from "../../assets/data/products.json"
 
 const Product = () => {
 
-    const images = [
-        'images/products/items/men-shoes-3.jpg',
-        'images/products/items/men-shoes.jpg',
-        'images/products/items/men-shoes-1.jpg',
-        'images/products/items/men-shoes-2.jpg',
-    ]
-
-    const [selectedImg, SetSelectedImg] = useState(images[0]);
+    const [selectedImg, SetSelectedImg] = useState(productData.images[0]);
     const imageClick = (img) => {
         SetSelectedImg(img);
     }
@@ -24,7 +18,7 @@ const Product = () => {
                             <img src={selectedImg} alt='product' className='bn_product_img_item img-fluid' />
                         </div>
                         <div className='bn_prod_list'>
-                            {images.map((img, index) => (
+                            {productData.images.map((img, index) => (
                                 <img src={img} key={index} alt={index} className={img === selectedImg ? 'bn_img_thumb active img-fluid' : 'bn_img_thumb img-fluid'} onClick={() => imageClick(img)} />
                             ))}
                         </div>
@@ -40,11 +34,11 @@ const Product = () => {
                             </nav>
                         </div>
                         <div className='bn_product_details'>
-                            <h1 className='bn_product_title'>Lifestyle Shoes for Men | Elegantly Rounded Front, Soothing Insole Casuals For Men</h1>
-                            <p className='bn_product_amount'>₹1,149<span className='bn_product_amt'>₹1,299</span><span className='bn_product_discount'>20% Off</span></p>
+                            <h1 className='bn_product_title'>{productData.title}</h1>
+                            <p className='bn_product_amount'>{productData.price}<span className='bn_product_amt'>{productData.originalPrice}</span><span className='bn_product_discount'>{productData.discount}</span></p>
                             <div className='bn_product_review'>
-                                <span className='bn_product_rating'>4.1 <i className="bi bi-star-fill"></i></span>
-                                <span className='bn_product_rating_count text-secondary ps-2'>1434 rating and 311 reviews</span>
+                                <span className='bn_product_rating'>{productData.rating}<i className="bi bi-star-fill"></i></span>
+                                <span className='bn_product_rating_count text-secondary ps-2'>{productData.ratingCount}</span>
                             </div>
                         </div>
                     </div>
