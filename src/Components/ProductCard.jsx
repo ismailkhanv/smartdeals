@@ -22,7 +22,7 @@ const ProductCard = (props) => {
   }
 
   return (
-    <Link className='ProductItem' to={'/product/${item.id}'}>
+    <Link className='ProductItem' to={`/product/${item.id}`}>
         <div className='ProductThumb position-relative'>
           <img src={item.thumbnail} className='img-fluid' alt={item.title} />
           <div className='sdProductsActionBtns'>
