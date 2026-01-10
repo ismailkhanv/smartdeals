@@ -5,9 +5,9 @@ import NavBar from '../../Components/navbar/NavBar';
 
 const Groceries = () => {
     const products = useContext(Productsinfo) || [];
-    const sdGroceriessProducts = products.filter((x)=>{
-        return x.category === 'groceries'
-    })
+    const sdGroceriessProducts = products.filter((x)=>(
+        x.category === 'groceries'
+    ))
     const prodcount = sdGroceriessProducts.length || [];
 
   return (

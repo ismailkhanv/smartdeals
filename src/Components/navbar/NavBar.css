@@ -17,8 +17,8 @@
 }
 
 .MenuListItem.active,.MenuListItem:hover{
-  background: #fafafa;
-  color: #000;
+  background: var(--selected_bg);
+  color: var(--primary_color);
 }
 
 .sdSidebarLabel{
