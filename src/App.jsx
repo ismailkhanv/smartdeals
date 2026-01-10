@@ -15,7 +15,6 @@ import Settings from './Pages/Settings/Settings'
 import Profile from './Pages/Profile/Profile'
 import Footer from './Components/Footer/Footer'
 import Product from './Pages/Product/Product'
-import ProductItem from "./assets/data/products.json"
 
 export const Productsinfo = createContext();
 
@@ -65,7 +64,7 @@ const App = () => {
                 <Route path='/orders' element= {<Orders />} />
                 <Route path='/settings' element={<Settings />} />
                 <Route path='/profile' element={<Profile />} />
-                <Route path='/product' element={<Product />} />
+                <Route path='/product/:id' element={<Product />} />
               </Routes>
 
             </div>

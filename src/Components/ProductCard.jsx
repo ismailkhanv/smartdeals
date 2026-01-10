@@ -21,16 +21,15 @@ const ProductCard = (props) => {
     setcartCount(prevCount => prevCount + 1);
   }
 
-  
   return (
-    <Link className='ProductItem' to='/product'>
+    <Link className='ProductItem' to={'/product/${item.id}'}>
         <div className='ProductThumb position-relative'>
           <img src={item.thumbnail} className='img-fluid' alt={item.title} />
           <div className='sdProductsActionBtns'>
             <button className={`ProductBtn sdWishlistBtn ${ active ? 'active' : ''} `} onClick={addWishlist}><i className="bi bi-heart"></i></button>
             <div className='sdCartBtnWrapper position-relative'>
-              <button className= 'ProductBtn sdcartBtn' onClick={addtocart}><i className="bi bi-cart"></i></button>
-              <span className='sdcartCount'>{item.stock}</span>
+              <button className='ProductBtn sdcartBtn' onClick={addtocart}><i className="bi bi-cart"></i></button>
+              <span className='sdcartCount'>{cartcount}</span>
             </div>
           </div>
           

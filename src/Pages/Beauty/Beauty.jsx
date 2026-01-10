@@ -3,7 +3,6 @@ import ProductCard from '../../Components/ProductCard'
 import { Productsinfo } from '../../App'
 import NavBar from '../../Components/navbar/NavBar';
 
-
 const Beauty = () => {
     const sdProducts = useContext(Productsinfo) || [];
     const sdBeautysProducts = sdProducts.filter((x)=>(
