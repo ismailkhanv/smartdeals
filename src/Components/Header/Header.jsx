@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/header.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -9,24 +9,23 @@ const Header = () => {
       <div className="container">
         <nav className="navbar navbar-expand-md">
           <div className="container-fluid position-relative">
-            <Link to='/' className="navbar-brand d-flex align-items-center mb-0 me-auto text-decoration-none ui_logowrapper">
+            <NavLink to='/' className="navbar-brand d-flex align-items-center mb-0 me-auto text-decoration-none ui_logowrapper">
               <span className='sd_logo text-dark'>smart<span className='sd_text-primary'>deals</span></span>
-            </Link>
+            </NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ui_navbarContent" aria-controls="ui_navbarContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-md-end ps-md-3" id="ui_navbarContent">
-
               <ul className="nav">
-                <li className="nav-item"><Link to='/' className='nav-link active'>Home</Link></li>
-                <li className="nav-item"><Link to='/offers' className='nav-link'>Offers</Link></li>
-                <li className="nav-item"><Link to='/all' className='nav-link'>Features</Link></li>
-                <li className="nav-item"><Link to='/new-deals' className='nav-link'>New Deals</Link></li>
-                <li className="nav-item d-md-none"><Link to='/cart' className="nav-link">Cart</Link></li>
-                <li className="nav-item d-md-none"><Link to='/orders' className="nav-link">My Orders</Link></li>
-                <li className="nav-item d-md-none"><Link to='/wishlist' className="nav-link">Wishlist</Link></li>
-                <li className="nav-item d-md-none"><Link to='/settings' className="nav-link">Settings</Link></li>
-                <li className="nav-item d-md-none"><Link to='/profile' className="nav-link">My Account</Link></li>
+                <li className="nav-item"><NavLink to='/' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink></li>
+                <li className="nav-item"><NavLink to='/offers' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Offers</NavLink></li>
+                <li className="nav-item"><NavLink to='/all' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Products</NavLink></li>
+                <li className="nav-item"><NavLink to='/new-deals' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>New Deals</NavLink></li>
+                <li className="nav-item d-md-none"><NavLink to='/cart' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Cart</NavLink></li>
+                <li className="nav-item d-md-none"><NavLink to='/orders' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>My Orders</NavLink></li>
+                <li className="nav-item d-md-none"><NavLink to='/wishlist' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Wishlist</NavLink></li>
+                <li className="nav-item d-md-none"><NavLink to='/settings' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Settings</NavLink></li>
+                <li className="nav-item d-md-none"><NavLink to='/profile' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>My Account</NavLink></li>
               </ul>
 
               <div className='ms-md-auto d-flex align-items-center gap-3 justify-content-end px-3 px-md-0'>
@@ -35,7 +34,7 @@ const Header = () => {
                   <input type='text' className='sd_products_search' placeholder='Search Product' autoFocus="fasle" />
                 </form>
                 <div className='sd_header_action_btn'>
-                  <Link to='/cart'><i className="bi bi-cart"></i></Link>
+                  <NavLink to='/cart'><i className="bi bi-cart"></i></NavLink>
                 </div>
                 <ul className="nav pt-0 d-none d-md-block">
                   <li className="nav-item dropdown">
@@ -43,10 +42,10 @@ const Header = () => {
                       <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" className="rounded-circle my-3 my-md-0" />
                     </a>
                     <ul className="dropdown-menu text-sdall" aria-labelledby="sd_UserAccountSettings" style={{ left: 'auto', right: 0 }}>
-                      <li><Link to='/orders' className="dropdown-item">My Orders</Link></li>
-                      <li><Link to='/wishlist' className="dropdown-item">Wishlist</Link></li>
-                      <li><Link to='/settings' className="dropdown-item">Settings</Link></li>
-                      <li><Link to='/profile' className="dropdown-item">My Account</Link></li>
+                      <li><NavLink to='/orders' className="dropdown-item">My Orders</NavLink></li>
+                      <li><NavLink to='/wishlist' className="dropdown-item">Wishlist</NavLink></li>
+                      <li><NavLink to='/settings' className="dropdown-item">Settings</NavLink></li>
+                      <li><NavLink to='/profile' className="dropdown-item">My Account</NavLink></li>
                     </ul>
                   </li>
                 </ul>
@@ -54,11 +53,8 @@ const Header = () => {
             </div>
           </div>
         </nav>
-
       </div>
-
     </header>
-
   )
 }
 

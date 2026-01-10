@@ -82,7 +82,11 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+.dropdown-item.active, .dropdown-item:active{
+  color: var(--primary_color);
+  background-color: var(--selected_bg);
+  background: var(--selected_bg);
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

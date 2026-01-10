@@ -17,13 +17,6 @@ header .nav-link{
     font-size: 0.75rem;
     padding: var(--bs-nav-link-padding-y) 0.75rem;
 }
-header .nav-link.active{
-    color: var(--primary_color);
-}
-header .nav-link:focus, .nav-link:hover,.sd_header_action_btn:hover{
-    color: var(--secondary_color);
-    cursor: pointer;
-}
 .dropdown-item{
     padding-top: 6px;
     padding-bottom: 6px;
@@ -48,6 +41,10 @@ header .nav-link:focus, .nav-link:hover,.sd_header_action_btn:hover{
     box-shadow: none;
     padding: 0;
     max-width: calc(100% - 20px);
+}
+
+.nav-link.active,.nav-link:hover,.nav-link:focus{
+    color: var(--primary_color);
 }
 @media(min-width:992px){
 

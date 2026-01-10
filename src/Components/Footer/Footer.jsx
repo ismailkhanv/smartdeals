@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
 
                 <div className="d-flex justify-content-between py-3 border-top">
-                    <p className='mb-0'>© 2025 Company, Inc. All rights reserved.</p>
+                    <p className='mb-0'>© 2026 SmartDeals, Inc. All rights reserved.</p>
                 </div>
             </div>
         </footer>
