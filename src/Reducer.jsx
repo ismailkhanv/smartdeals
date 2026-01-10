@@ -8,7 +8,7 @@ const Reducer = () => {
                 return {...state, count : state.count + 1};
 
             case 'display':
-                return {...state, display : state.display === 'Hello Ik' ? 'Hello Isma' : 'Hello Ik'};
+                return {...state, display : state.display === 'Hello Ik' ? 'Hello Isda' : 'Hello Ik'};
                 
                 
                 default:

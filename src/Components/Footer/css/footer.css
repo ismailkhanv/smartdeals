@@ -2,7 +2,7 @@ footer{
     font-size: 12px;
     background: var(--card_color);
 }
-.bn_link_label{
+.sd_link_label{
     font-size: 12px;
     color: var(--heading_color);
     padding-bottom: 10px;

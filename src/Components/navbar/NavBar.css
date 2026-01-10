@@ -1,20 +1,27 @@
 .MenuListItem{
-  padding: 5px 5px;
-  cursor: pointer;
-  color: #333;
-  font-weight: normal;
-  width: 100%;
-  display: block;
-  font-size: 14px;
-  line-height: 18px;
-  transition: color 0.2s linear;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #333;
+    font-weight: normal;
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    transition: color ease 0.3s , background ease 0.3s;
+    border-radius: 5px;
+    margin-bottom: 8px;
 }
 
 .MenuListItem:hover{
     color: #000;
 }
 
-.smSidebarLabel{
+.MenuListItem.active,.MenuListItem:hover{
+  background: #fafafa;
+  color: #000;
+}
+
+.sdSidebarLabel{
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.03em;

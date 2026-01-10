@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-2 col-md-3 col-6">
-                        <h5 className="bn_link_label">About</h5>
+                        <h5 className="sd_link_label">About</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Contact Us</a></li>
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About Us</a></li>
@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col-lg-2 col-md-3 col-6">
-                        <h5 className="bn_link_label">Group Partners</h5>
+                        <h5 className="sd_link_label">Group Partners</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Amazon</a></li>
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FlipKart</a></li>
@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col-lg-2 col-md-3 col-6">
-                        <h5 className="bn_link_label">Help</h5>
+                        <h5 className="sd_link_label">Help</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Payments</a></li>
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Shipping</a></li>
@@ -37,7 +37,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6">
-                        <h5 className="bn_link_label">Consumer Policy</h5>
+                        <h5 className="sd_link_label">Consumer Policy</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Terms</a></li>
                             <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Policy</a></li>
@@ -48,7 +48,7 @@ const Footer = () => {
 
                     <div className="col-lg-4 col-md-6 col-12">
                         <form>
-                            <h5 className="bn_link_label">Subscribe to our newsletter</h5>
+                            <h5 className="sd_link_label">Subscribe to our newsletter</h5>
                             <p>Monthly digest of whats new and exciting from us.</p>
                             <div className="d-flex w-100 gap-2">
                                 <label for="newsletter1" className="visually-hidden">Email address</label>

@@ -1,10 +1,8 @@
 .ui_logowrapper{
-    max-width: 100px;
     flex: 0 0 auto;
     width: auto;
-    padding-right: 10px;
 }
-.bn_logo{
+.sd_logo{
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -22,7 +20,7 @@ header .nav-link{
 header .nav-link.active{
     color: var(--primary_color);
 }
-header .nav-link:focus, .nav-link:hover,.bn_header_action_btn:hover{
+header .nav-link:focus, .nav-link:hover,.sd_header_action_btn:hover{
     color: var(--secondary_color);
     cursor: pointer;
 }
@@ -32,7 +30,7 @@ header .nav-link:focus, .nav-link:hover,.bn_header_action_btn:hover{
     font-size: 0.875rem;
 }
 
-.bn_products_searchWrapper{
+.sd_products_searchWrapper{
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -44,7 +42,7 @@ header .nav-link:focus, .nav-link:hover,.bn_header_action_btn:hover{
     overflow: hidden;
     font-size: 14px;
 }
-.bn_products_search{
+.sd_products_search{
     border: 0;
     outline: none;
     box-shadow: none;
@@ -110,7 +108,7 @@ header .nav-link:focus, .nav-link:hover,.bn_header_action_btn:hover{
     .navbar-expand-md .nav-item:last-child .nav-link{
         border-bottom: 1px solid transparent;
     }
-    .bn_products_searchWrapper{
+    .sd_products_searchWrapper{
         max-width: 100%;
         width: 100%;
         overflow: hidden;

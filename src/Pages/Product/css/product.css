@@ -1,7 +1,7 @@
-.bn_productPage{
+.sd_productPage{
     padding: 40px 0;
 }
-.bn_product_gallery{
+.sd_product_gallery{
     display: flex;
     flex-direction: column;
     border: 1px solid var(--line_color);
@@ -10,16 +10,16 @@
     width: 100%;
     flex: 0 0 100%;
 }
-.bn_product_img{
+.sd_product_img{
     border-bottom: 1px solid var(--line_color);
     padding: 16px;
 }
-.bn_product_content{
+.sd_product_content{
     width: 100%;
     flex: 0 0 100%;
     padding: 16px 24px;
 }
-.bn_prod_list{
+.sd_prod_list{
     display: flex;
     align-items: flex-start;
     gap: 12px;
@@ -28,7 +28,7 @@
     padding: 10px 16px;
 }
 
-.bn_img_thumb{
+.sd_img_thumb{
     border: 1px solid transparent;
     padding: 4px;
     border-radius: 5px;
@@ -37,10 +37,10 @@
     object-position: center;
     cursor: pointer;
 }
-.bn_img_thumb.active,.bn_img_thumb:hover{
+.sd_img_thumb.active,.sd_img_thumb:hover{
     border-color: var(--primary_color);
 }
-.bn_productPageMain{
+.sd_productPageMain{
     background: var(--card_color);
     border-radius: 8px;
     padding: 24px 20px;
@@ -58,11 +58,11 @@
     white-space: nowrap;
     overflow: hidden;
 }
-.bn_product_title{
+.sd_product_title{
     font-size: 18px;
     line-height: 1.5;
 }
-.bn_product_amount{
+.sd_product_amount{
     font-size: 28px;
     font-weight: 600;
     display: flex;
@@ -70,16 +70,16 @@
     gap: 8px;
     flex-wrap: wrap;
 }
-.bn_product_amt{
+.sd_product_amt{
     font-size: 16px;
     text-decoration: line-through;
     color: #5f5f5fbf;
 }
-.bn_product_discount{
+.sd_product_discount{
     font-size: 16px;
     color: var(--primary_color);
 }
-.bn_product_rating{
+.sd_product_rating{
     background-color: var(--primary_color);
     color: #fff;
     padding: 3px 8px;
@@ -89,23 +89,23 @@
     align-items: center;
     gap: 4px;
 }
-.bn_product_rating .bi{
+.sd_product_rating .bi{
     font-size: 10px;
     position: relative;
     top: -1px;
 }
-.bn_product_review{
+.sd_product_review{
     font-size: 14px;
 }
 @media(min-width: 768px){
-    .bn_product_gallery{
+    .sd_product_gallery{
         width: 350px;
         flex: 0 0 350px;
     }
-    .bn_product_content{
+    .sd_product_content{
         flex: 1;
     }
-    .bn_productPageMain{
+    .sd_productPageMain{
         flex-direction: row;
     }
 }

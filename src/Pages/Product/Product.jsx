@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './css/product.css'
-import productData from "../../assets/data/products.json"
+import productData from "../../assets/data/item.json"
 
 const Product = () => {
 
@@ -10,21 +10,21 @@ const Product = () => {
     }
 
     return (
-        <div className='bn_productPage'>
+        <div className='sd_productPage'>
             <div className='container'>
-                <div className='bn_productPageMain'>
-                    <div className='bn_product_gallery'>
-                        <div className='bn_product_img'>
-                            <img src={selectedImg} alt='product' className='bn_product_img_item img-fluid' />
+                <div className='sd_productPageMain'>
+                    <div className='sd_product_gallery'>
+                        <div className='sd_product_img'>
+                            <img src={selectedImg} alt='product' className='sd_product_img_item img-fluid' />
                         </div>
-                        <div className='bn_prod_list'>
+                        <div className='sd_prod_list'>
                             {productData.images.map((img, index) => (
-                                <img src={img} key={index} alt={index} className={img === selectedImg ? 'bn_img_thumb active img-fluid' : 'bn_img_thumb img-fluid'} onClick={() => imageClick(img)} />
+                                <img src={img} key={index} alt={index} className={img === selectedImg ? 'sd_img_thumb active img-fluid' : 'sd_img_thumb img-fluid'} onClick={() => imageClick(img)} />
                             ))}
                         </div>
                     </div>
-                    <div className='bn_product_content'>
-                        <div className='bn_breadcrumbs_wrapper'>
+                    <div className='sd_product_content'>
+                        <div className='sd_breadcrumbs_wrapper'>
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item"><a href="#">Home</a></li>
@@ -33,12 +33,12 @@ const Product = () => {
                                 </ol>
                             </nav>
                         </div>
-                        <div className='bn_product_details'>
-                            <h1 className='bn_product_title'>{productData.title}</h1>
-                            <p className='bn_product_amount'>{productData.price}<span className='bn_product_amt'>{productData.originalPrice}</span><span className='bn_product_discount'>{productData.discount}</span></p>
-                            <div className='bn_product_review'>
-                                <span className='bn_product_rating'>{productData.rating}<i className="bi bi-star-fill"></i></span>
-                                <span className='bn_product_rating_count text-secondary ps-2'>{productData.ratingCount}</span>
+                        <div className='sd_product_details'>
+                            <h1 className='sd_product_title'>{productData.title}</h1>
+                            <p className='sd_product_amount'>{productData.price}<span className='sd_product_amt'>{productData.originalPrice}</span><span className='sd_product_discount'>{productData.discount}</span></p>
+                            <div className='sd_product_review'>
+                                <span className='sd_product_rating'>{productData.rating}<i className="bi bi-star-fill"></i></span>
+                                <span className='sd_product_rating_count text-secondary ps-2'>{productData.ratingCount}</span>
                             </div>
                         </div>
                     </div>

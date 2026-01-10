@@ -1,9 +1,10 @@
-import React, { createContext, useState } from 'react'
-import NavBar from './Components/navbar/NavBar'
+import React, { createContext, useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import All from './Pages/All/All'
-import Men from './Pages/Men/Men'
-import Women from './Pages/Women/Women'
+import Beauty from './Pages/Beauty/Beauty'
+import Fragrances from './Pages/Fragrances/Fragrances'
+import Furniture from './Pages/Furniture/Furniture'
+import Groceries from './Pages/Groceries/Groceries'
 import './App.css'
 import Header from './Components/Header/Header'
 import Offers from './Pages/Offers/Offers'
@@ -14,46 +15,59 @@ import Settings from './Pages/Settings/Settings'
 import Profile from './Pages/Profile/Profile'
 import Footer from './Components/Footer/Footer'
 import Product from './Pages/Product/Product'
+import ProductItem from "./assets/data/products.json"
 
 export const Productsinfo = createContext();
 
-let products = [
-  { id: 1, name: 'Premier Cropped Skinny Jean', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StretchCottonSkinnyPant_1024x.jpg', amount: 49 },
-  { id: 2, name: 'Ocean Wash Linen Sport Shirt', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/CustomFitSoft-TouchPolo_3_600x.jpg',amount: 25 },
-  { id: 3, name: 'Tailored Fit Mesh-Panel Polo', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StripedCap-SleevePolo_3_600x.jpg',amount: 20 },
-  { id: 4, name: 'Standard Fit Sport Shirt', cat_id: 1, category: 'Guess', thumb: 'images/products/men/Featherweight_Pima_Hoodie_4_2048x2048_4a6d6aad-3619-4140-be98-998454c3287d_1024x.jpg',amount: 70 },
-  { id: 5, name: 'Two-Tone Sleeveless Dress', cat_id: 2, category: 'Levis', thumb: 'images/products/women/StripedFunnelneckPullover_1_600x.jpg',amount: 15 },
-  { id: 6, name: 'Custom Fit Soft-Touch Polo', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/Ocean-WashLinenSportShirt_1_600x.jpg',amount: 25 },
-  { id: 7, name: 'Twill 2-Button Jacket', cat_id: 2, category: 'Levis', thumb: 'images/products/women/TailoredFitPoloShirt_4_1024x.jpg',amount: 40 },
-  { id: 8, name: 'East Hampton Fleece Hoodie', cat_id: 1, category: 'Lacoste', thumb: 'images/products/men/StandardFitSportShirt_3_600x.jpg',amount: 55 },
-  { id: 9, name: 'Tailored Fit Mesh-Panel Polo', cat_id: 2, category: 'Guess', thumb: 'images/products/women/Two-ToneSleevelessDress_1_600x.jpg',amount: 33 },
-  { id: 10, name: 'Packable Jacket', cat_id: 1, category: 'Levis', thumb: 'images/products/men/PackableJacket_4_1024x.jpg',amount: 69 },
-]
-
 const App = () => {
+
+  const [shopProducts,setShopProducts] = useState(null);
+
+  // Method 1:
+  // useEffect(()=>{
+  //   setShopProducts(ProductItem.products);
+  // });
+
+  useEffect(()=>{
+    fetch('https://dummyjson.com/products')
+    .then(res=>res.json())
+    .then(data => {
+      setShopProducts(data.products);
+    })
+    .catch(() =>{
+      alert('Data is not loading');
+    })
+  }, []);
+
+
+
   return (
 
-    <Productsinfo.Provider value={products}>
+    <Productsinfo.Provider value={shopProducts}>
 
-      <div className='smPage'>
+      <div className='sdPage'>
 
         <Header />
 
          <main className='bnPageMain'>
+          
           <div className='container'>
               <Routes>
                 <Route path='/' element ={<All />} /> {/*Important to display default component in home page */}
                 <Route path='/all' element={<All />} />
-                <Route path='/men' element={<Men />} />
-                <Route path='/women' element={<Women />} />
+                <Route path='/beauty' element={<Beauty />} />
+                <Route path='/fragrances' element={<Fragrances />} />
+                <Route path='/furniture' element={<Furniture />} />
+                <Route path='/groceries' element={<Groceries />} />
                 <Route path='/offers' element={<Offers />} />
                 <Route path='/wishlist' element={<Wishlist/>} />
                 <Route path='/new-deals' element={<NewDeals />} />
                 <Route path='/orders' element= {<Orders />} />
                 <Route path='/settings' element={<Settings />} />
-                <Route path='profile' element={<Profile />} />
+                <Route path='/profile' element={<Profile />} />
                 <Route path='/product' element={<Product />} />
               </Routes>
+
             </div>
          </main>
 

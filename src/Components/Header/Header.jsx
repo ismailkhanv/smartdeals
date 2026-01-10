@@ -10,7 +10,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-md">
           <div className="container-fluid position-relative">
             <Link to='/' className="navbar-brand d-flex align-items-center mb-0 me-auto text-decoration-none ui_logowrapper">
-              <span className='bn_logo text-dark'>buy<span className='bn_text-primary'>now</span></span>
+              <span className='sd_logo text-dark'>smart<span className='sd_text-primary'>deals</span></span>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ui_navbarContent" aria-controls="ui_navbarContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -30,19 +30,19 @@ const Header = () => {
               </ul>
 
               <div className='ms-md-auto d-flex align-items-center gap-3 justify-content-end px-3 px-md-0'>
-                <form className='bn_products_searchWrapper'>
+                <form className='sd_products_searchWrapper'>
                   <i className="bi bi-search"></i>
-                  <input type='text' className='bn_products_search' placeholder='Search Product' autoFocus="fasle" />
+                  <input type='text' className='sd_products_search' placeholder='Search Product' autoFocus="fasle" />
                 </form>
-                <div className='bn_header_action_btn'>
+                <div className='sd_header_action_btn'>
                   <Link to='/cart'><i className="bi bi-cart"></i></Link>
                 </div>
                 <ul className="nav pt-0 d-none d-md-block">
                   <li className="nav-item dropdown">
-                    <a href="#" className="d-block text-decoration-none dropdown-toggle" id="bn_UserAccountSettings" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a href="#" className="d-block text-decoration-none dropdown-toggle" id="sd_UserAccountSettings" data-bs-toggle="dropdown" aria-expanded="false">
                       <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" className="rounded-circle my-3 my-md-0" />
                     </a>
-                    <ul className="dropdown-menu text-small" aria-labelledby="bn_UserAccountSettings" style={{ left: 'auto', right: 0 }}>
+                    <ul className="dropdown-menu text-sdall" aria-labelledby="sd_UserAccountSettings" style={{ left: 'auto', right: 0 }}>
                       <li><Link to='/orders' className="dropdown-item">My Orders</Link></li>
                       <li><Link to='/wishlist' className="dropdown-item">Wishlist</Link></li>
                       <li><Link to='/settings' className="dropdown-item">Settings</Link></li>

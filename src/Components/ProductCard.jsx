@@ -2,12 +2,14 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import Product from '../Pages/Product/Product';
 
-const ProductCard = ({name,category,thumb,amount}) => {
+const ProductCard = (props) => {
+
+  let item = props;
 
   let [active,setActive] = useState(false);
   let [cartcount,setcartCount] = useState(0);
 
-  const activeStatus = ()=>{
+  const activeStatus = () =>{
     setActive(prevActive => !prevActive); // Toggle class 'active'
   }
 
@@ -21,25 +23,25 @@ const ProductCard = ({name,category,thumb,amount}) => {
 
   
   return (
-    <Link className='ProductItem' to='./product'>
+    <Link className='ProductItem' to='/product'>
         <div className='ProductThumb position-relative'>
-          <img src={thumb} className='img-fluid' alt={name} />
-          <div className='smProductsActionBtns'>
-            <button className={`ProductBtn smWishlistBtn ${ active ? 'active' : ''} `} onClick={addWishlist}><i className="bi bi-heart"></i></button>
-            <div className='smCartBtnWrapper position-relative'>
-              <button className= 'ProductBtn smcartBtn' onClick={addtocart}><i className="bi bi-cart"></i></button>
-              <span className='smcartCount'>{cartcount}</span>
+          <img src={item.thumbnail} className='img-fluid' alt={item.title} />
+          <div className='sdProductsActionBtns'>
+            <button className={`ProductBtn sdWishlistBtn ${ active ? 'active' : ''} `} onClick={addWishlist}><i className="bi bi-heart"></i></button>
+            <div className='sdCartBtnWrapper position-relative'>
+              <button className= 'ProductBtn sdcartBtn' onClick={addtocart}><i className="bi bi-cart"></i></button>
+              <span className='sdcartCount'>{item.stock}</span>
             </div>
           </div>
           
         </div>
         <div className='ProductInfo'>
             <div className='d-flex align-items-center justify-content-between' style={{gap: '8px'}}>
-                <div className='ProductLocation'>{category}</div>
-                <div className='ProductAmount'><span className='amountSymbol'>$</span>{amount}</div>
+                <div className='ProductLocation'>{item.category}</div>
+                <div className='ProductAmount'><span className='amountSymbol'>$</span>{item.price}</div>
             </div>
             
-            <div className='ProductTitle'>{name}</div>
+            <div className='ProductTitle'>{item.title}</div>
         </div>
     </Link>
   )
