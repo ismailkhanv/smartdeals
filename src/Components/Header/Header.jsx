@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/header.css'
 import { Link, NavLink } from 'react-router-dom'
+import Search from '../Search/Search'
 
 const Header = () => {
   return (
@@ -28,10 +29,8 @@ const Header = () => {
               </ul>
 
               <div className='ms-md-auto d-flex align-items-center gap-3 justify-content-end px-3 px-md-0'>
-                <form className='sd_products_searchWrapper'>
-                  <i className="bi bi-search"></i>
-                  <input type='text' className='sd_products_search' placeholder='Search Product' autoFocus="fasle" />
-                </form>
+                <Search />
+                
                 <div className='sd_header_action_btn'>
                   <NavLink to='/cart'><i className="bi bi-cart"></i></NavLink>
                 </div>
