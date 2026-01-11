@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import Product from '../Pages/Product/Product';
+import { slugify } from '../utils/slug';
 
 const ProductCard = (props) => {
 
@@ -22,7 +23,7 @@ const ProductCard = (props) => {
   }
 
   return (
-    <Link className='ProductItem' to={`/product/${item.id}`}>
+    <Link className='ProductItem' to={`/product/${item.id}/${slugify(item.title)}`}>
         <div className='ProductThumb position-relative'>
           <img src={item.thumbnail} className='img-fluid' alt={item.title} />
           <div className='sdProductsActionBtns'>

@@ -13,9 +13,17 @@ footer{
 
 footer .nav-item{
     font-size: 10px;
-    color: #333;
+    color: var(--text_color);
 }
-input, button{
+
+footer .nav-item .nav-link{
+    color: inherit;
+}
+footer .nav-item .nav-link:hover{
+    color: var(--primary_color);
+}
+
+footer input, footer button{
     font-size: 12px !important;
 }
 

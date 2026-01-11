@@ -1,7 +1,7 @@
 .MenuListItem{
     padding: 8px 12px;
     cursor: pointer;
-    color: #333;
+    color: var(--text_color);
     font-weight: normal;
     width: 100%;
     display: block;
@@ -11,16 +11,10 @@
     border-radius: 5px;
     margin-bottom: 8px;
 }
-
-.MenuListItem:hover{
-    color: #000;
-}
-
 .MenuListItem.active,.MenuListItem:hover{
   background: var(--selected_bg);
   color: var(--primary_color);
 }
-
 .sdSidebarLabel{
     font-size: 12px;
     text-transform: uppercase;
@@ -29,4 +23,5 @@
     padding: 10px 5px;
     border-bottom: 1px solid #eaeaea;
     width: 100%;
+    color: var(--heading_color);
 }

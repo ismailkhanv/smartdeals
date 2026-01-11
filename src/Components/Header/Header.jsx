@@ -6,9 +6,8 @@ const Header = () => {
   return (
 
     <header className="py-1 mb-0 border-bottom position-relative">
-      <div className="container">
         <nav className="navbar navbar-expand-md">
-          <div className="container-fluid position-relative">
+          <div className="container position-relative">
             <NavLink to='/' className="navbar-brand d-flex align-items-center mb-0 me-auto text-decoration-none ui_logowrapper">
               <span className='sd_logo text-dark'>smart<span className='sd_text-primary'>deals</span></span>
             </NavLink>
@@ -53,7 +52,6 @@ const Header = () => {
             </div>
           </div>
         </nav>
-      </div>
     </header>
   )
 }

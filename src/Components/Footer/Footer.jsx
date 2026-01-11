@@ -1,5 +1,6 @@
 import React from 'react'
 import './css/footer.css'
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -10,39 +11,39 @@ const Footer = () => {
                     <div className="col-lg-2 col-md-3 col-6">
                         <h5 className="sd_link_label">About</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Contact Us</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About Us</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Careers</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Press</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Corporate Information</a></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">About Us</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Contact Us</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Careers</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Press</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Corporate Information</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-lg-2 col-md-3 col-6">
                         <h5 className="sd_link_label">Group Partners</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Amazon</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FlipKart</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Meesho</a></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Amazon</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">FlipKart</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Meesho</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-lg-2 col-md-3 col-6">
                         <h5 className="sd_link_label">Help</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Payments</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Shipping</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Cancellation & Returns</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FAQs</a></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Payments</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Shipping</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Cancellation & Returns</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">FAQs</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-3 col-6">
                         <h5 className="sd_link_label">Consumer Policy</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Terms</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Policy</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Security</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Roadmap</a></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Terms</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Policy</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Security</Link></li>
+                            <li className="nav-item mb-2"><Link to='/' className="nav-link p-0 text-muted">Roadmap</Link></li>
                         </ul>
                     </div>
 

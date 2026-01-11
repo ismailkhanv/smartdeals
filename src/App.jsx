@@ -49,8 +49,6 @@ const App = () => {
         <Header />
 
          <main className='bnPageMain'>
-          
-          <div className='container'>
               <Routes>
                 <Route path='/' element ={<All />} /> {/*Important to display default component in home page */}
                 <Route path='/all' element={<All />} />
@@ -64,10 +62,8 @@ const App = () => {
                 <Route path='/orders' element= {<Orders />} />
                 <Route path='/settings' element={<Settings />} />
                 <Route path='/profile' element={<Profile />} />
-                <Route path='/product/:id' element={<Product />} />
+                <Route path='/product/:id/:slug/' element={<Product />} />
               </Routes>
-
-            </div>
          </main>
 
          <Footer />
