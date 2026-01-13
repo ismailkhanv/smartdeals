@@ -46,8 +46,64 @@ header .nav-link{
 .nav-link.active,.nav-link:hover,.nav-link:focus{
     color: var(--primary_color);
 }
-@media(min-width:992px){
 
+.sd_searchResultsWrapper{
+    transform-origin: center top;
+    max-height: calc(100vh - 75px);
+    overflow: hidden;
+    animation: 300ms ease-in-out 0s 1 normal forwards running growDown;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%),0 2px 4px -2px rgb(0 0 0 / 10%);
+    border-radius: .5rem !important;
+    border: 1px solid #ebebeb;
+    padding: 0;
+    position: absolute;
+    top: 45px;
+    background: #fff;
+    width: 100%;
+    font-size: 14px;
+    z-index: 2;
+}
+.sd_searchResultsHead{
+    padding: 10px 14px;
+    border-bottom: 1px solid #eaeaea;
+}
+.sd_searchResultsList{
+    display: block;
+    width: 100%;
+    padding: 0;
+    height: calc(100vh - 118px);
+    overflow: hidden;
+    overflow-y: auto;
+}
+.sd_searchResultsListItem{
+    width: 100%;
+    padding: 10px 14px;
+    text-align: left;
+    background-color: #fff;
+    cursor: pointer;
+}
+.sd_searchResultsListItem:hover{
+    background-color: var(--selected_bg);
+}
+
+.sd_navbarClose{
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    cursor: pointer;
+}
+.sd_navbarClose:hover{
+    color: var(--primary_color);
+}
+@media screen and (min-width: 768px) {
+    .sd_searchResultsWrapper{
+        min-width: 300px;
+        right: 0;
+        left: auto;
+    }
+}
+@media(min-width:992px){
+    
 }
 
 @media(min-width:1200px){
@@ -84,6 +140,9 @@ header .nav-link{
         display: flex;
         flex-direction: column;
         padding-top: 12px;
+        max-height: calc(100% - 65px);
+        overflow: hidden;
+        overflow-y: auto;
     }
     .navbar-expand-md .dropdown-menu{
         width: 100%;
@@ -111,9 +170,9 @@ header .nav-link{
         overflow: hidden;
         margin: 0.75rem 0;
     }
-    .navbar-collapse {
-        position: absolute;
-        top: 53px;
+    header .navbar-collapse {
+        position: fixed;
+        top: 0;
         background: #fff;
         width: 100%;
         left: 0;
@@ -122,6 +181,19 @@ header .nav-link{
         border-radius: 8px;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         z-index: 2;
+        height: 100%;
+    }
+
+    .navbar-expand-md .nav .nav-item{
+        width: 100%;
+    }
+
+    .sd_searchResultsWrapper{
+        transform-origin: center bottom;
+        max-height: 300px;
+        overflow: hidden;
+        top: auto;
+        bottom: 60px;
     }
 
 }

@@ -4,6 +4,10 @@ import { Link, NavLink } from 'react-router-dom'
 import Search from '../Search/Search'
 
 const Header = () => {
+
+  const navClose = () =>{
+     setShowResults(false);
+  }
   return (
 
     <header className="py-1 mb-0 border-bottom position-relative">
@@ -16,6 +20,7 @@ const Header = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-md-end ps-md-3" id="ui_navbarContent">
+              <div className='sd_navbarClose d-md-none' onClick={navClose}><i class="bi bi-x-circle"></i></div>
               <ul className="nav">
                 <li className="nav-item"><NavLink to='/' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink></li>
                 <li className="nav-item"><NavLink to='/offers' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Offers</NavLink></li>
