@@ -3,12 +3,12 @@ import { Productsinfo } from '../../App'
 import ProductCard from '../../Components/ProductCard';
 import NavBar from '../../Components/navbar/NavBar';
 
-const Offers = () => {
+const BestDeals = () => {
     const sdProducts =  useContext(Productsinfo) || [];
-    const sdOfferssProducts = sdProducts.filter((x)=>(
-        x.discountPercentage > 10
+    const sdBestDealsProducts = sdProducts.filter((x)=>(
+        x.rating > 4
     ))
-     const prodcount = sdOfferssProducts.length;
+     const prodcount = sdBestDealsProducts.length;
   return (
 
       <div className='bnShopWrapper'>
@@ -20,9 +20,9 @@ const Offers = () => {
                   </div>
                   <div className='ProductListWrapper'>
                       <div className='ProductsWrapper'>
-                          <h2 className='productsLabel'> Offers <span className='sdProductsCount'>({prodcount})</span></h2>
+                          <h2 className='productsLabel'> BestDeals <span className='sdProductsCount'>({prodcount})</span></h2>
                           <div className='sdProductsGrid'>
-                              {sdOfferssProducts.map((x) => (
+                              {sdBestDealsProducts.map((x) => (
                                   <ProductCard key={x.id} {...x} />
                               ))}
 
@@ -35,4 +35,4 @@ const Offers = () => {
   )
 }
 
-export default Offers
+export default BestDeals

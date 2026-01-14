@@ -8,15 +8,12 @@ const Search = () => {
   const [searchInput,setSearchInput] = useState('');
   const [showResults,setShowResults] = useState(false);
 
+  const mainProduct = Product.filter((item)=>(
+      item.title.toLowerCase().includes(searchInput.toLowerCase())
+  ));
+
   const timer = useRef(null);
-
-  const [prodTitle,setProdTitle] = useState('');
-
-  useEffect(()=>{
-    const title = Product.map(x => x.title);
-    setProdTitle(title);
-  },[Product]);
-
+  
   
   const searchResults = (e) =>{
     const value = e.target.value;
@@ -28,13 +25,9 @@ const Search = () => {
     timer.current = setTimeout(()=>{
       if(value.trim() !== ''){
         setShowResults(true);
-      } else{
-        return <div>Sorry! No results found!</div>
-      }
-    },[500]);
+      } 
+    },500);
   }
-
-
   return (
     <div className='position-relative w-100'>
         <form className='sd_products_searchWrapper'>
@@ -44,19 +37,25 @@ const Search = () => {
 
         {showResults && (
             <div className='sd_searchResultsWrapper'>
+                <div className='sd_searchResultsClose'></div>
                 <div className='sd_searchResults w-100 h-100'>
                     <div className='sd_searchResultsHead'>
                       Search results of: <span>{searchInput}</span>
                     </div>
 
                     <div className='sd_searchResultsList'>
-                            {prodTitle
-                              .filter(item => item.toLowerCase().includes(searchInput.toLowerCase()))
-                              .map((title,index)=>(
-                                <div className='sd_searchResultsListItem' key={index}>{title}</div>
-                              ))}
+                      {mainProduct.length > 0 ? (
+                          mainProduct.map((item)=>(
+                            <div className='sd_searchResultsListItem' key={item.id}>
+                                <div className='sd_searchResultsListItemThumb'><img src={item.thumbnail} className='img-fluid' alt={item.title} /></div>
+                                <div className='sd_searchResultsListItemTitle'>{item.title}</div>
+                            </div>
+                          ))
+                      ) : (
+                        <div className='sd_emptyResults'>Sorry! No results found...</div>
+                      )}                       
                        
-                      
+
                     </div>
                 </div>
               

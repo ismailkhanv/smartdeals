@@ -9,7 +9,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Offers from './Pages/Offers/Offers'
 import Wishlist from './Pages/Wishlist/Wishlist'
-import NewDeals from './Pages/NewDeals/NewDeals'
+import BestDeals from './Pages/BestDeals/BestDeals'
 import Orders from './Pages/Orders/Orders'
 import Settings from './Pages/Settings/Settings'
 import Profile from './Pages/Profile/Profile'
@@ -58,7 +58,7 @@ const App = () => {
                 <Route path='/groceries' element={<Groceries />} />
                 <Route path='/offers' element={<Offers />} />
                 <Route path='/wishlist' element={<Wishlist/>} />
-                <Route path='/new-deals' element={<NewDeals />} />
+                <Route path='/best-deals' element={<BestDeals />} />
                 <Route path='/orders' element= {<Orders />} />
                 <Route path='/settings' element={<Settings />} />
                 <Route path='/profile' element={<Profile />} />

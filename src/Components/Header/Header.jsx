@@ -20,12 +20,12 @@ const Header = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-md-end ps-md-3" id="ui_navbarContent">
-              <div className='sd_navbarClose d-md-none' onClick={navClose}><i class="bi bi-x-circle"></i></div>
+              <div className='sd_navbarClose d-md-none' onClick={navClose}><i className="bi bi-x-circle"></i></div>
               <ul className="nav">
                 <li className="nav-item"><NavLink to='/' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink></li>
                 <li className="nav-item"><NavLink to='/offers' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Offers</NavLink></li>
                 <li className="nav-item"><NavLink to='/all' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Products</NavLink></li>
-                <li className="nav-item"><NavLink to='/new-deals' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>New Deals</NavLink></li>
+                <li className="nav-item"><NavLink to='/best-deals' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Best Deals</NavLink></li>
                 <li className="nav-item d-md-none"><NavLink to='/cart' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Cart</NavLink></li>
                 <li className="nav-item d-md-none"><NavLink to='/orders' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>My Orders</NavLink></li>
                 <li className="nav-item d-md-none"><NavLink to='/wishlist' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Wishlist</NavLink></li>
