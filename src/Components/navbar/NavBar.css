@@ -1,15 +1,15 @@
 .MenuListItem{
-    padding: 8px 12px;
+    padding: 6px 12px;
     cursor: pointer;
     color: var(--text_color);
     font-weight: normal;
     width: 100%;
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 18px;
     transition: color ease 0.3s , background ease 0.3s;
     border-radius: 5px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 .MenuListItem.active,.MenuListItem:hover{
   background: var(--selected_bg);

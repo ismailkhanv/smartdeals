@@ -2,8 +2,7 @@ import React, { useContext, useState } from 'react'
 import { Productsinfo } from '../../App'
 import ProductCard from '../../Components/ProductCard';
 import NavBar from '../../Components/navbar/NavBar';
-
-const ITEMS_PER_PAGE = 9;
+import Pagination from '../../Components/Pagination/Pagination';
 
 const Fragrances = () => {
     const sdProducts =  useContext(Productsinfo) || [];
@@ -11,7 +10,7 @@ const Fragrances = () => {
         x.category === 'fragrances'
     ))
     const prodcount = sdFragrancessProducts.length;
-
+    const [ITEMS_PER_PAGE,setITEMS_PER_PAGE] = useState(9);
     const [currentPage, setCurrentPage] = useState(1);
     const totalPages = Math.ceil(prodcount / ITEMS_PER_PAGE);
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
@@ -29,7 +28,15 @@ const Fragrances = () => {
                   </div>
                   <div className='ProductListWrapper'>
                       <div className='ProductsWrapper'>
-                          <h2 className='productsLabel'> Fragrances <span className='sdProductsCount'>({prodcount})</span></h2>
+                          <div className='ProductsWrapperHead'>
+                            <h2 className='productsLabel'> Fragrances <span className='sdProductsCount'>({prodcount})</span></h2>
+                            <Pagination itemPerPage = {ITEMS_PER_PAGE} 
+                                    selectCount = {(value) => {
+                                        setITEMS_PER_PAGE(value); 
+                                        setCurrentPage(1);
+                                    }}
+                            />                         
+                        </div>
                           <div className='sdProductsGrid'>
                               {currentProducts.map((x) => (
                                   <ProductCard key={x.id} {...x} />
