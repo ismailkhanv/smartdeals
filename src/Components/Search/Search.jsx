@@ -1,5 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import { Productsinfo } from '../../App';
+import { Link } from 'react-router-dom';
+import { slugify } from '../../utils/slug';
 
 const Search = () => {
 
@@ -46,10 +48,10 @@ const Search = () => {
                     <div className='sd_searchResultsList'>
                       {mainProduct.length > 0 ? (
                           mainProduct.map((item)=>(
-                            <div className='sd_searchResultsListItem' key={item.id}>
+                            <Link to={`/product/${item.id}/${slugify(item.title)}`} className='sd_searchResultsListItem' key={item.id}>
                                 <div className='sd_searchResultsListItemThumb'><img src={item.thumbnail} className='img-fluid' alt={item.title} /></div>
                                 <div className='sd_searchResultsListItemTitle'>{item.title}</div>
-                            </div>
+                            </Link>
                           ))
                       ) : (
                         <div className='sd_emptyResults'>Sorry! No results found...</div>

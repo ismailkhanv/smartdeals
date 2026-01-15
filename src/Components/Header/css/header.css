@@ -71,7 +71,7 @@ header .nav-link{
     display: block;
     width: 100%;
     padding: 0;
-    height: calc(100vh - 118px);
+    max-height: calc(100vh - 118px);
     overflow: hidden;
     overflow-y: auto;
     position: relative;
@@ -86,6 +86,8 @@ header .nav-link{
     gap: 6px;
     align-items: center;
     border-bottom: 1px solid #ededed;
+    color: var(--text_color);
+    font-weight: 400;
 }
 .sd_searchResultsListItem:hover{
     background-color: var(--selected_bg);
