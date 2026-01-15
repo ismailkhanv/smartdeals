@@ -18,6 +18,7 @@
     width: 100%;
     flex: 0 0 100%;
     padding: 16px 24px;
+    font-size: 14px;
 }
 .sd_prod_list{
     display: flex;
@@ -48,6 +49,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 .breadcrumb{
     font-size: 12px;
@@ -94,13 +96,78 @@
     position: relative;
     top: -1px;
 }
-.sd_product_review{
+.sd_product_rating{
     font-size: 14px;
+}
+
+.sd_product_tags_list{
+    background: #e5e5e5;
+    border-radius: 30px;
+    padding: 6px 12px;
+    line-height: 1;
+    color: var(--text_color);
+    font-size: 11px;
+    text-transform: capitalize;
+}
+.sd_product_info_wrapper h2{
+    font-size: 16px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.sd_product_info_tableWrapper{
+    overflow-x: auto;
+}
+.sd_product_info_table{
+    border: 1px solid var(--line_color);
+}
+.sd_product_info_table tr td{
+    padding: 10px 14px;
+}
+.sd_product_info_table tr td:first-child{
+    border-right: 1px solid var(--line_color);
+    width: 35%;
+}
+.sd_productQRCode{
+    --imgSize: 40px;
+    width: var(--imgSize);
+    height: var(--imgSize);
+    object-fit: cover;
+    overflow: hidden;
+}
+.sd_product_reviews_item{
+    padding: 20px 14px;
+    border-bottom: 1px solid var(--line_color);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.sd_product_reviews_item:last-child{
+    border-color: transparent;
+}
+.sd_product_reviews_head img{
+    width: 20px;
+    margin-right: 5px;
+}
+.sd_product_reviews_title{
+    line-height: 1;
+}
+.sd_product_rating_date{
+    font-size: 12px;
+    color: #a4a2a2;
+}
+.sd_product_ratinglist .bi-star{
+    color: var(--text_color);
+}
+.sd_product_ratinglist .bi-star-fill, .sd_product_ratinglist .bi-star-half{
+    color: var(--primary_color);
 }
 @media(min-width: 768px){
     .sd_product_gallery{
         width: 350px;
         flex: 0 0 350px;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 20px;
     }
     .sd_product_content{
         flex: 1;
