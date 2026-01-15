@@ -1,14 +1,23 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import { Productsinfo } from '../../App'
 import ProductCard from '../../Components/ProductCard';
 import NavBar from '../../Components/navbar/NavBar';
+
+const ITEMS_PER_PAGE = 9;
 
 const Fragrances = () => {
     const sdProducts =  useContext(Productsinfo) || [];
     const sdFragrancessProducts = sdProducts.filter((x)=>(
         x.category === 'fragrances'
     ))
-     const prodcount = sdFragrancessProducts.length;
+    const prodcount = sdFragrancessProducts.length;
+
+    const [currentPage, setCurrentPage] = useState(1);
+    const totalPages = Math.ceil(prodcount / ITEMS_PER_PAGE);
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = startIndex + ITEMS_PER_PAGE;
+    const currentProducts = sdFragrancessProducts.slice(startIndex, endIndex);
+
   return (
 
       <div className='bnShopWrapper'>
@@ -22,11 +31,25 @@ const Fragrances = () => {
                       <div className='ProductsWrapper'>
                           <h2 className='productsLabel'> Fragrances <span className='sdProductsCount'>({prodcount})</span></h2>
                           <div className='sdProductsGrid'>
-                              {sdFragrancessProducts.map((x) => (
+                              {currentProducts.map((x) => (
                                   <ProductCard key={x.id} {...x} />
                               ))}
-
                           </div>
+                          {/* Pagination */}
+                          {prodcount >= ITEMS_PER_PAGE ? (
+                                <div className="sdPagination d-flex align-items-center justify-content-center flex-wrap">
+                                    {Array.from({ length: totalPages }, (_, i) => (
+                                    <button
+                                        key={i}
+                                        className={`sdPageBtn ${currentPage === i + 1 ? 'active' : ''}`}
+                                        onClick={() => setCurrentPage(i + 1)}>
+                                        {i + 1}
+                                    </button>
+                                    ))}
+                                </div>
+                          ) :(
+                            <div></div>
+                          )}                          
                       </div>
                   </div>
               </div>

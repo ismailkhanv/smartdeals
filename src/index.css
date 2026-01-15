@@ -24,29 +24,10 @@
   width: 100%;
   height: 100%;
 }
-.sdPage{
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-.bnPageMain{
-  flex: 1;
-}
-a {
-  font-weight: 500;
-  color: var(--secondary_color);
-  text-decoration: inherit;
-  border: 0;
-  outline: 0;
-}
-a:hover {
-  color: var(--primary_color);
-}
 
-
+*,*::before,*::after{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   min-width: 320px;
@@ -60,6 +41,16 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+a {
+  font-weight: 500;
+  color: var(--secondary_color);
+  text-decoration: inherit;
+  border: 0;
+  outline: 0;
+}
+a:hover {
+  color: var(--primary_color);
 }
 .sd_text-primary{
   color: var(--primary_color);
@@ -81,8 +72,7 @@ button {
 button:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
+button:focus, button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 .dropdown-item.active, .dropdown-item:active{
@@ -90,16 +80,24 @@ button:focus-visible {
   background-color: var(--selected_bg);
   background: var(--selected_bg);
 }
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.dropdown-menu{
+  transform-origin: center top;
+  max-height: 500px !important;
+  overflow-y: auto;
+  animation: 300ms ease-in-out 0s 1 normal forwards running growDown;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%),0 2px 4px -2px rgb(0 0 0 / 10%);
+  border-radius: .5rem !important;
+  border: 1px solid #ebebeb;
+}
+@keyframes growDown {
+  0% {
+    transform:scaleY(0)
   }
-  a:hover {
-    color: #747bff;
+  80% {
+    transform:scaleY(1.1)
   }
-  button {
-    background-color: #f9f9f9;
+  100% {
+    transform:scaleY(1)
   }
 }
 

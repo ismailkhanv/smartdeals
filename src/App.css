@@ -1,7 +1,3 @@
-*,*::before,*::after{
-  box-sizing: border-box;
-}
-
 .sdShop{
   display: flex;
   align-items: flex-start;
@@ -11,7 +7,17 @@
   gap: 2rem;
   padding: 40px 0;
 }
-
+.sdPage{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.bnPageMain{
+  flex: 1;
+}
 .sdCatSidebar{
   width: 100%;
   flex:0 0 100%;
@@ -160,26 +166,36 @@
     overflow: hidden;
     color: inherit;
 }
-.dropdown-menu{
-  transform-origin: center top;
-  max-height: 500px !important;
-  overflow-y: auto;
-  animation: 300ms ease-in-out 0s 1 normal forwards running growDown;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%),0 2px 4px -2px rgb(0 0 0 / 10%);
-  border-radius: .5rem !important;
-  border: 1px solid #ebebeb;
+
+/* Pageination design starts here */
+.sdPagination{
+    padding-top: 30px;
+    gap: 12px;
 }
-@keyframes growDown {
-  0% {
-    transform:scaleY(0)
-  }
-  80% {
-    transform:scaleY(1.1)
-  }
-  100% {
-    transform:scaleY(1)
-  }
+.sdPageBtn{
+    --btn-size: 35px;
+    background-color: transparent;
+    background: transparent;
+    width: var(--btn-size);
+    height: var(--btn-size);
+    border: 1px solid #eaeaea;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
 }
+
+.sdPageBtn.active, .sdPageBtn:hover{
+  background: var(--selected_bg);
+  color: var(--primary_color);
+  border-color: var(--selected_bg);
+}
+
+/* Pageination design ends here */
 
 @media screen and (min-width:768px) and (max-width: 991px) {
   .sdProductsGrid {
