@@ -20,7 +20,7 @@ export const Productsinfo = createContext();
 
 const App = () => {
 
-  const [shopProducts,setShopProducts] = useState(null);
+  const [shopProducts,setShopProducts] = useState(null) || [];
 
   // Method 1:
   // useEffect(()=>{
@@ -46,7 +46,8 @@ const App = () => {
 
       <div className='sdPage'>
 
-        <Header />
+          <Header />
+        
 
          <main className='bnPageMain'>
               <Routes>

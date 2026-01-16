@@ -3,10 +3,13 @@ import { Productsinfo } from '../../App'
 import ProductCard from '../../Components/ProductCard'
 import NavBar from '../../Components/navbar/NavBar'
 import Pagination from '../../Components/Pagination/Pagination';
+import { PuffLoader } from 'react-spinners';
 
 
 const All = () => {
   const sdProducts = useContext(Productsinfo) || [];
+
+  const prodCount = sdProducts.length;
   const [currentPage, setCurrentPage] = useState(1);
   
   const [ITEMS_PER_PAGE,setITEMS_PER_PAGE] = useState(9);
@@ -15,6 +18,7 @@ const All = () => {
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
   const currentProducts = sdProducts.slice(startIndex, endIndex);
+
 
   return (
     <div className='bnShopWrapper'>
@@ -29,7 +33,7 @@ const All = () => {
             <div className='ProductsWrapper'>
               <div className='ProductsWrapperHead'>
                   <h2 className='productsLabel'>
-                    All <span className='sdProductsCount'>({sdProducts.length})</span>
+                    All <span className='sdProductsCount'>({prodCount})</span>
                   </h2>
                   <Pagination 
                     itemPerPage = {ITEMS_PER_PAGE}
@@ -40,16 +44,22 @@ const All = () => {
                   />
               </div>
               
-
-              <div className='sdProductsGrid'>
-                {currentProducts.map(x => (
-                  <ProductCard key={x.id} {...x} />
-                ))}
-              </div>
+              {prodCount >= 1 ? (
+                   <div className='sdProductsGrid'>
+                    {currentProducts.map(x => (
+                      <ProductCard key={x.id} {...x} />
+                    ))}
+                  </div>
+              ) : (
+                <div className='sdProductsLoader text-center d-flex align-items-center justify-content-center' style={{'flex': 1}}>
+                    <PuffLoader color="#40a060" />
+                </div>
+              )}      
+             
 
               {/* Pagination */}
 
-               {sdProducts.length >= ITEMS_PER_PAGE ? (
+               {prodCount >= ITEMS_PER_PAGE ? (
                   <div className="sdPagination d-flex align-items-center justify-content-center flex-wrap">
                     {Array.from({ length: totalPages }, (_, i) => (
                       <button

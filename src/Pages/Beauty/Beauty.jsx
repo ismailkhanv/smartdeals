@@ -3,6 +3,7 @@ import ProductCard from '../../Components/ProductCard'
 import { Productsinfo } from '../../App'
 import NavBar from '../../Components/navbar/NavBar';
 import Pagination from '../../Components/Pagination/Pagination';
+import { PuffLoader } from 'react-spinners';
 
 
 const Beauty = () => {
@@ -38,11 +39,19 @@ const Beauty = () => {
                                 }}
                             />
                         </div>
-                          <div className='sdProductsGrid'>
-                              {currentProducts.map((x) => (
-                                  <ProductCard key={x.id} {...x} />
-                              ))}
-                          </div>
+                          
+                           {prodcount >= 1 ? (
+                                <div className='sdProductsGrid'>
+                                    {currentProducts.map(x => (
+                                        <ProductCard key={x.id} {...x} />
+                                    ))}
+                                </div>
+                            ) : (
+                                <div className='sdProductsLoader text-center d-flex align-items-center justify-content-center' style={{'flex': 1}}>
+                                    Products are loading...
+                                    <PuffLoader color="#40a060" />
+                                </div>
+                            )}      
 
                           {/* Pagination */}
                           {prodcount >= ITEMS_PER_PAGE ? (

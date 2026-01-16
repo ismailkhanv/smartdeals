@@ -4,6 +4,7 @@ import { Productsinfo } from '../../App'
 import { Link, useParams } from 'react-router-dom'
 import { slugify } from '../../utils/slug'
 import usrImg from './images/user.png'
+import { PuffLoader } from 'react-spinners'
 
 const Product = () => {
 
@@ -24,8 +25,19 @@ const Product = () => {
         },[productData]);
 
     if(!productData){
-        return <div className='container text-center'>Data is Loading...</div>
-    }
+        return (
+            <div className='bnPageMain'>
+                <div className='sd_productPage'>
+                    <div className='container text-center'>
+                        <div className='sd_productPageMain position-relative d-flex align-items-center justify-content-center text-center'>
+                            <PuffLoader color="#40a060" /> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )}
+
+    const originalPrice = (productData.price / (1 - productData.discountPercentage / 100)).toFixed(2);
 
 
     return (
@@ -59,7 +71,15 @@ const Product = () => {
                                     <span className='sd_product_tags_list' key={index}>{tags}</span>
                                 ))}
                             </div>
-                            <p className='sd_product_amount' style={{gap:0}}><span class="amountSymbol" style={{fontSize:'14px'}}>$</span>{productData.price}</p>
+                            <div className='sd_product_amountWrapper d-flex align-items-center gap-2'>
+                                <span className='sd_product_amount' style={{gap: 0}}>
+                                    <span class="amountSymbol" style={{fontSize:'14px'}}>$</span>{productData.price} 
+                                </span>
+                                <span className='sd_product_amount' style={{gap: 0,fontSize: '20px',textDecoration:'line-through',color:'#7d7d7d',fontWeight:500}}>
+                                    <span class="amountSymbol" style={{fontSize:'14px'}}>$</span>{originalPrice}
+                                </span>
+                            </div>
+                            
                             <div className='d-flex align-items-center gap-2'>
                                 <span className='sd_product_rating'>{productData.rating}<i className="bi bi-star-fill"></i></span>
                                 <span className='sd_product_rating_count'>{productData.reviews.length} reviews</span>
