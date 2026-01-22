@@ -259,6 +259,23 @@
   transform: translate(-50%,-50%);
   text-align: center;
 }
+
+.sd_pageCard{
+  background: var(--card_color);
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+}
+
+.sd_pageCardHeaderLabel{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    padding-bottom: 0;
+    color: var(--primary_color);
+    margin-bottom: 0;
+}
+
 @media screen and (min-width:768px) and (max-width: 991px) {
   .sdProductsGrid {
     grid-template-columns: repeat(3,1fr);

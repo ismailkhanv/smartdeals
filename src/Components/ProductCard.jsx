@@ -33,7 +33,6 @@ const ProductCard = (props) => {
               <span className='sdcartCount'>{cartcount}</span>
             </div>
           </div>
-          
         </div>
         <div className='ProductInfo'>
             <div className='d-flex align-items-center justify-content-between' style={{gap: '8px'}}>

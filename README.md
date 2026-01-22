@@ -11,3 +11,10 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 # smartdeals
+
+Wishlist ref:
+https://wpmayor.com/wp-content/uploads/2024/06/wishlist-frontend.png
+
+
+
+Loaders: https://www.davidhu.io/react-spinners/storybook/?path=/docs/puffloader--docs

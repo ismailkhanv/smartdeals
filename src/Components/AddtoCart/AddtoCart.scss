@@ -1,0 +1,45 @@
+.sdAddCartWrapper{
+    border: 1px solid var(--line_color);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+
+    .sdCartBtn{
+        --btn-size: 32px;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        border-radius: 0;
+        box-shadow: none;
+        cursor: pointer;
+        width: var(--btn-size);
+        height: var(--btn-size);
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+
+        [class*=" bi-"]::before{
+            font-weight: 600 !important;
+        }
+    } 
+    .sdCartBtn:hover{
+        background: var(--selected_bg);
+    }
+    .sdCartBtnAdd{
+        border-left: 1px solid var(--line_color);
+    }
+    .sdCartBtnMinus{
+        border-right: 1px solid var(--line_color);
+    }
+
+    .sdCartCount{
+        flex: 1;
+        display: block;
+        text-align: center;
+    }
+}
