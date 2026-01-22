@@ -3,6 +3,8 @@ import Pagination from '../../Components/Pagination/Pagination';
 import './wishlist.scss'
 import { Productsinfo } from '../../App';
 import AddtoCart from '../../Components/AddtoCart/AddtoCart';
+import { Link } from 'react-router-dom';
+import { slugify } from '../../utils/slug';
 
 
 const Wishlist = () => {
@@ -41,11 +43,11 @@ const Wishlist = () => {
 
                       
                       {productData.slice(0,wishlistCount).map((item,index)=>(
-                        <tr>
+                        <tr className='position-relative'>
                           <td scope="row"><input type="checkbox" id={index} className='sd_wishlistTableCheckBox' name="vehicle1" value="Bike" /></td>
                           <td className='text-start d-flex align-items-center gap-3'>
                             <img key={index} src={item.images?.[0]} className='sd_wishlistProductImg' alt={item.title} />
-                            <label for={index} className='sd_wishlistProductTitle'>{item.title}</label>
+                            <Link className='w-100 sd_wishlistProductTitleLink' to={`/product/${item.id}/${slugify(item.title)}`}><label for={index} className='sd_wishlistProductTitle'>{item.title}</label></Link>
                           </td>
                           <td>${item.price}</td>
                           <td> <AddtoCart /> </td>
