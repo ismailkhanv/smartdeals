@@ -20,7 +20,6 @@ const Header = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-md-end ps-md-3" id="ui_navbarContent">
-              <div className='sd_navbarClose d-md-none' onClick={navClose}><i className="bi bi-x-circle"></i></div>
               <ul className="nav">
                 <li className="nav-item"><NavLink to='/' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink></li>
                 <li className="nav-item"><NavLink to='/offers' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Offers</NavLink></li>
@@ -36,7 +35,7 @@ const Header = () => {
               <div className='ms-md-auto d-flex align-items-center gap-3 justify-content-end px-3 px-md-0'>
                 <Search />
                 
-                <div className='sd_header_action_btn'>
+                <div className='sd_header_action_btn d-none d-md-block'>
                   <NavLink to='/cart'><i className="bi bi-cart"></i></NavLink>
                 </div>
                 <ul className="nav pt-0 d-none d-md-block">
