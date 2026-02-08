@@ -15,6 +15,7 @@ import Settings from './Pages/Settings/Settings'
 import Profile from './Pages/Profile/Profile'
 import Footer from './Components/Footer/Footer'
 import Product from './Pages/Product/Product'
+import Slider from './Components/Slider/Slider'
 
 export const Productsinfo = createContext();
 
@@ -48,8 +49,10 @@ const App = () => {
 
           <Header />
         
+  <Slider />
 
          <main className='bnPageMain'>
+          
               <Routes>
                 <Route path='/' element ={<All />} /> {/*Important to display default component in home page */}
                 <Route path='/all' element={<All />} />
