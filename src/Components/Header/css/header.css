@@ -41,6 +41,7 @@ header .nav-link{
     box-shadow: none;
     padding: 0;
     max-width: calc(100% - 20px);
+    background: transparent;
 }
 
 .nav-link.active,.nav-link:hover,.nav-link:focus{
@@ -48,33 +49,67 @@ header .nav-link{
 }
 
 .sd_searchResultsWrapper{
-    transform-origin: center top;
-    max-height: calc(100vh - 75px);
+    transform-origin: center center;
     overflow: hidden;
-    animation: 300ms ease-in-out 0s 1 normal forwards running growDown;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%),0 2px 4px -2px rgb(0 0 0 / 10%);
     border-radius: .5rem !important;
     border: 1px solid #ebebeb;
     padding: 0;
-    position: absolute;
-    top: 45px;
-    background: #fff;
     width: 100%;
     font-size: 14px;
     z-index: 2;
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    margin: auto;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #0000009e;
 }
+
+.sd_searchResults{
+    position: absolute;
+    background-color: #fff;
+    max-width: 750px;
+    margin: 0 auto;
+    max-height: 600px;
+    border-radius: 12px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .sd_searchResultsHead{
     padding: 10px 14px;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #f2f2f2;
+}
+.sd_searchResultsHead .sd_products_searchWrapperInner{
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    padding: 0 5px;
+    max-width: 100%;
+}
+.sd_products_searchWrapperInner .sd_products_search{
+    max-width: 100%;
+    width: 100%;
 }
 .sd_searchResultsList{
     display: block;
     width: 100%;
     padding: 0;
-    max-height: calc(100vh - 118px);
+    max-height: calc(100% - 45px);
     overflow: hidden;
     overflow-y: auto;
     position: relative;
+    height: 100%;
+}
+.sd_searchResultsListLabel{
+    font-size: 12px;
+    padding: 10px 15px;
+    margin-bottom: 0;
 }
 .sd_searchResultsListItem{
     width: 100%;
@@ -85,9 +120,11 @@ header .nav-link{
     display: flex;
     gap: 6px;
     align-items: center;
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid #fafafa;
     color: var(--text_color);
     font-weight: 400;
+    max-width: calc(100% - 25px);
+    margin: 0 auto;
 }
 .sd_searchResultsListItem:hover{
     background-color: var(--selected_bg);
@@ -121,6 +158,13 @@ header .nav-link{
 .sd_navbarClose:hover{
     color: var(--primary_color);
 }
+.sd_emptyResultsWrapper{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 45px);
+    background: #fff;
+    top: 0;
+}
 .sd_emptyResults{
     position: absolute;
     top: 50%;
@@ -130,12 +174,27 @@ header .nav-link{
     padding: 0 16px;
     text-align: center;
 }
+.sd_searchResultsClose{
+    --item-size: 20px;
+    width: var(--item-size);
+    height: var(--item-size);
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    position: absolute;
+    right: -25px;
+    top: 0px;
+    cursor: pointer;
+}
+.sd_searchResultsClose:hover{
+    background-color: var(--selected_bg);
+    color: var(--primary_color);
+}
 @media screen and (min-width: 768px) {
-    .sd_searchResultsWrapper{
-        min-width: 300px;
-        right: 0;
-        left: auto;
-    }
+
 }
 @media(min-width:992px){
     
@@ -223,12 +282,5 @@ header .nav-link{
         width: 100%;
     }
 
-    .sd_searchResultsWrapper{
-        transform-origin: center bottom;
-        max-height: 300px;
-        overflow: hidden;
-        top: auto;
-        bottom: 60px;
-    }
 
 }
