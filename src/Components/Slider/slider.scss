@@ -2,6 +2,12 @@
     .swiper-slide {
         border-radius: 8px;
         overflow: hidden;
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-start;
+        padding: 15px 5vw;
 
         img{
             max-width: 100%;
@@ -13,16 +19,14 @@
             overflow: hidden;
         }
         .sd_BannerInfo{
-            position: absolute;
-            top: 50%;
-            left: 100px;
-            transform: translate(0,-50%);
             text-align: left;
-            max-width: 600px;
-            margin: 0 auto;
+            max-width: 100%;
+            margin: auto 0;
+            height: auto;
+            width: 100%;
 
             .sd_BannerTitle{
-                font-size: 2rem;
+                font-size: calc(4vh - 10px);
             }
             .sd_BannerDesc{
                 font-size: 12px;
@@ -40,6 +44,9 @@
                 min-width: 150px;
             }
         }
+    }
+    .swiper-slide:nth-child(1){
+        color: #fff;
     }
     .swiper-button-next{
         right: 0;
@@ -90,4 +97,19 @@
         }
     }
     
+}
+
+@media (min-width: 768px){
+    .sd_pageHero{
+        .swiper-slide {
+            aspect-ratio: 16/4;
+            .sd_BannerInfo{
+                max-width: 50%;
+                
+                .sd_BannerTitle{
+                    font-size: calc(5vh - 10px);
+                }
+            }
+        }
+    }
 }

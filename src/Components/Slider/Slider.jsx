@@ -1,12 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 // Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import './slider.scss'
-import { Link } from "react-router-dom";
+
 
 const bannerImages = [
     {
@@ -37,8 +38,6 @@ const bannerImages = [
 
 const Slider = () => {
   return (
-    <div className="sd_pageHero" style={{paddingTop: '40px'}}>
-        <div className="container">
             <Swiper
                 modules={[Autoplay, Pagination, Navigation]}
                 // autoplay={{
@@ -52,12 +51,8 @@ const Slider = () => {
                 className="homeHeroSlider"
                 >
                 {bannerImages.map((item, index) => (
-                    <SwiperSlide key={index}>
-                        <img
-                            src={item.thumbnail}
-                            alt={`Banner ${index + 1}`}
-                            className="img-fluid w-100"
-                        />
+                    <SwiperSlide key={index} style={{backgroundImage: `url(${item.thumbnail})`}}>
+                        
                         <div className="sd_BannerInfo">
                             <h1 className="sd_BannerTitle">{item.bannerTitle}</h1>
                             <p  className="sd_BannerDesc">{item.bannerDesc}</p>
@@ -66,8 +61,6 @@ const Slider = () => {
                     </SwiperSlide>
                     ))}
                 </Swiper>   
-        </div>
-    </div>
     
   );
 };

@@ -9,7 +9,7 @@ const Search = () => {
 
   const [searchInput,setSearchInput] = useState('');
   const [showResults,setShowResults] = useState(false);
-   const [showSearchBox,setShowSearchBox] = useState(false);
+  const [showSearchBox,setShowSearchBox] = useState(false);
 
   const mainProduct = Product.filter((item)=>(
       item.title.toLowerCase().includes(searchInput.toLowerCase())

@@ -15,7 +15,7 @@ import Settings from './Pages/Settings/Settings'
 import Profile from './Pages/Profile/Profile'
 import Footer from './Components/Footer/Footer'
 import Product from './Pages/Product/Product'
-import Slider from './Components/Slider/Slider'
+import Home from './Pages/Home/Home'
 
 export const Productsinfo = createContext();
 
@@ -48,13 +48,12 @@ const App = () => {
       <div className='sdPage'>
 
           <Header />
-        
-  <Slider />
+
 
          <main className='bnPageMain'>
           
               <Routes>
-                <Route path='/' element ={<All />} /> {/*Important to display default component in home page */}
+                <Route path='/' element ={<Home />} /> {/*Important to display default component in home page */}
                 <Route path='/all' element={<All />} />
                 <Route path='/beauty' element={<Beauty />} />
                 <Route path='/fragrances' element={<Fragrances />} />
