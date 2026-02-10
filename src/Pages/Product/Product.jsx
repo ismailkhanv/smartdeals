@@ -11,10 +11,6 @@ const Product = () => {
     const {id, slug} = useParams();
     const products = useContext(Productsinfo) || [];
 
-    // const productData = useMemo(
-    //     () => products.find(p => p.id === Number(id)), [products,id]
-    // );
-
     const productData = products.find(p=> p.id == Number(id));
 
     const [selectedImg, SetSelectedImg] = useState(null);

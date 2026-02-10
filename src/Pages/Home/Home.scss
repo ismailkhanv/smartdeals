@@ -13,6 +13,7 @@
         .sd_catItem{
             --item-size: 105px;
             width: var(--item-size);
+            flex: 0 0 auto;
             overflow: hidden;
             min-width: 0;
             display: flex;

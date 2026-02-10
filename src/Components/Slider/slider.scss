@@ -29,23 +29,25 @@
                 font-size: calc(4vh - 10px);
             }
             .sd_BannerDesc{
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 300;
+                padding-top: 5px;
             }
             .sd_BannerBtn{
                 background-color: #000;
                 color: #fff;
-                padding: 8px 14px;
+                padding: 12px 14px;
                 text-align: center;
                 line-height: 1;
-                border-radius: 4px;
+                border-radius: 2px;
                 font-weight: 400;
                 font-size: 14px;
                 min-width: 150px;
+                display: inline-block;
             }
         }
     }
-    .swiper-slide:nth-child(1){
+    .swiper-slide:nth-child(1),.swiper-slide:nth-child(3){
         color: #fff;
     }
     .swiper-button-next{

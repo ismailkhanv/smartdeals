@@ -12,27 +12,27 @@ import './slider.scss'
 const bannerImages = [
     {
         thumbnail: '/images/home/Hero/banner-1.jpg',
-        bannerTitle: 'Shop Your Product now!',
-        bannerDesc: 'lorem ipsum dolor sit emit',
+        bannerTitle: 'Big Savings, Bigger Smiles',
+        bannerDesc: "Discover unbeatable deals on products you'll love. Shop more, Spend less -- only for a limited time.",
         buttonLabel: 'Shop now'
     },
     {
         thumbnail: '/images/home/Hero/banner-2.jpg',
-        bannerTitle: 'Shop Your Product now!',
-        bannerDesc: 'lorem ipsum dolor sit emit',
-        buttonLabel: 'Shop now'
+        bannerTitle: 'Upgrade Your Everyday',
+        bannerDesc: 'From essentials to must-haves, find quality products designed to make life easier and better.',
+        buttonLabel: 'Buy now'
     },
     {
         thumbnail: '/images/home/Hero/banner-3.jpg',
-        bannerTitle: 'Shop Your Product now!',
-        bannerDesc: 'lorem ipsum dolor sit emit',
-        buttonLabel: 'Shop now'
+        bannerTitle: "Deals You Can't Miss",
+        bannerDesc: "Fresh offers added daily. Grab your favorites before they're gone",
+        buttonLabel: 'Purchase now'
     },
     {
         thumbnail: '/images/home/Hero/banner-4.jpg',
-        bannerTitle: 'Shop Your Product now!',
-        bannerDesc: 'lorem ipsum dolor sit emit',
-        buttonLabel: 'Shop now'
+        bannerTitle: 'Style. Quality. Value.',
+        bannerDesc: 'Carefully curated products that bring comfort, style, and value to your doorstep.',
+        buttonLabel: 'View more'
     }
 ];
 
