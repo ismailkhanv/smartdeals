@@ -51,6 +51,25 @@
     }
 }
 
+.sd_pageCard{
+    .sd_homeCatLinkBtn{
+        background-color: #fff;
+        color: #000;
+        font-size: 14px;
+        aspect-ratio: 2/3;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        border-radius: 6px 0 0 6px;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
+
 
 .sd_homeSectionLabel{
     color: var(--primary_color);
@@ -60,4 +79,43 @@
     font-size: 12px;
     padding-bottom: 20px;
     width: 100%;
+}
+
+.sd_homeCatProductsList{
+    overflow: hidden;
+
+    .sd_homeCatProductsListItem{
+        --item-size: 200px;
+        width: var(--item-size);
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+
+        .sd_CatProductsItemThumb{
+            width: 100%;
+            background: #f9f9f9;
+            aspect-ratio: 1;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+            img{
+                transition: transform ease 0.3s;
+                transform: scale(1);
+            }
+        }
+        .sd_CatProductsItemTitle{
+            color: var(--text_color);
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+
+    .sd_homeCatProductsListItem:hover img{
+        transform: scale(1.3);
+    }
 }

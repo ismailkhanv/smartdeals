@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Productsinfo } from '../../App'
 import { slugify } from '../../utils/slug'
 import './Home.scss'
+import CatList from '../../Components/CatList/CatList'
 
 const Home = () => {
 
@@ -36,6 +37,8 @@ const Home = () => {
                 </div>
             </div>
         </section>
+
+        <CatList />
     </div>
   )
 }
