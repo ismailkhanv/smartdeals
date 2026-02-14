@@ -8,7 +8,7 @@ import { PuffLoader } from 'react-spinners'
 
 const Product = () => {
 
-    const {id, slug} = useParams();
+    const {id} = useParams();
     const products = useContext(Productsinfo) || [];
 
     const productData = products.find(p=> p.id == Number(id));
@@ -57,7 +57,7 @@ const Product = () => {
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item"><Link to='/'>Home</Link></li>
-                                    <li className="breadcrumb-item" aria-current="page"><Link to={`/${slugify(productData.category)}`}>{productData.category}</Link></li>
+                                    <li className="breadcrumb-item" aria-current="page"><Link to={`../category/${slugify(productData.category)}`}>{productData.category}</Link></li>
                                     <li className="breadcrumb-item active" aria-current="page">Men Solid formal shoes</li>
                                 </ol>
                             </nav>

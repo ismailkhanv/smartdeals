@@ -16,6 +16,7 @@ import Profile from './Pages/Profile/Profile'
 import Footer from './Components/Footer/Footer'
 import Product from './Pages/Product/Product'
 import Home from './Pages/Home/Home'
+import Category from './Pages/Category/Category'
 
 export const Productsinfo = createContext();
 
@@ -49,16 +50,16 @@ const App = () => {
 
           <Header />
 
-
          <main className='bnPageMain'>
           
               <Routes>
                 <Route path='/' element ={<Home />} /> {/*Important to display default component in home page */}
                 <Route path='/all' element={<All />} />
-                <Route path='/beauty' element={<Beauty />} />
+                {/* <Route path='/beauty' element={<Beauty />} />
                 <Route path='/fragrances' element={<Fragrances />} />
                 <Route path='/furniture' element={<Furniture />} />
-                <Route path='/groceries' element={<Groceries />} />
+                <Route path='/groceries' element={<Groceries />} />  */}
+                <Route path='/category/:category/' element={<Category />} /> 
                 <Route path='/offers' element={<Offers />} />
                 <Route path='/wishlist' element={<Wishlist/>} />
                 <Route path='/best-deals' element={<BestDeals />} />

@@ -33,7 +33,7 @@ const CatList = () => {
                         </div>
                     </div>
                       
-                   <Link to={`${slugify(category)}`} className='sd_homeCatLinkBtn'>
+                   <Link to={`/category/${slugify(category)}`} className='sd_homeCatLinkBtn'>
                       <i className="bi bi-chevron-right"></i>
                   </Link> 
                 </div>

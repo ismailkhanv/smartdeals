@@ -1,27 +1,30 @@
 import React, { useContext, useState } from 'react'
-import ProductCard from '../../Components/ProductCard'
 import { Productsinfo } from '../../App'
+import ProductCard from '../../Components/ProductCard';
 import NavBar from '../../Components/navbar/NavBar';
-import Pagination from '../../Components/Pagination/Pagination';
 import { PuffLoader } from 'react-spinners';
+import { useParams } from 'react-router-dom';
+import { slugify } from '../../utils/slug';
+import Pagination from '../../Components/Pagination/Pagination';
 
+const Category = () => {
 
-const Beauty = () => {
-    const sdProducts = useContext(Productsinfo) || [];
-    const sdBeautysProducts = sdProducts.filter((x)=>(
-        x.category === 'beauty'
-    ))
-    
-    const prodcount = sdBeautysProducts.length || [];
+    const products = useContext(Productsinfo) || [];
+    const {category} = useParams();
+
+    const sdFilteredProducts = products.filter(p=> p.category.toLowerCase() === category.toLowerCase());
+        
+    const prodcount = sdFilteredProducts.length;
     const [ITEMS_PER_PAGE,setITEMS_PER_PAGE] = useState(9);
     const [currentPage, setCurrentPage] = useState(1);
     const totalPages = Math.ceil(prodcount / ITEMS_PER_PAGE);
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
-    const currentProducts = sdBeautysProducts.slice(startIndex, endIndex);
+    const currentProducts = sdFilteredProducts.slice(startIndex, endIndex);
+
 
   return (
-      <div className='bnShopWrapper'>
+    <div className='bnShopWrapper'> 
           <div className='container'>
               <div className='sdShop'>
                   <div className='sdCatSidebar'>
@@ -31,7 +34,7 @@ const Beauty = () => {
                   <div className='ProductListWrapper'>
                       <div className='ProductsWrapper'>
                         <div className='ProductsWrapperHead'>
-                           <h2 className='productsLabel'> Beauty <span className='sdProductsCount'>({prodcount})</span></h2>
+                           <h2 className='productsLabel'> {category} <span className='sdProductsCount'>({prodcount})</span></h2>
                             <Pagination
                                 itemPerPage = {ITEMS_PER_PAGE}
                                 selectCount = {(value)=>{
@@ -49,7 +52,6 @@ const Beauty = () => {
                                 </div>
                             ) : (
                                 <div className='sdProductsLoader text-center d-flex align-items-center justify-content-center' style={{'flex': 1}}>
-                                    Products are loading...
                                     <PuffLoader color="#40a060" />
                                 </div>
                             )}      
@@ -80,4 +82,4 @@ const Beauty = () => {
   )
 }
 
-export default Beauty
+export default Category
