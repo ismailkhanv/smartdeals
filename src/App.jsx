@@ -54,7 +54,7 @@ const App = () => {
           
               <Routes>
                 <Route path='/' element ={<Home />} /> {/*Important to display default component in home page */}
-                <Route path='/all' element={<All />} />
+                <Route path='/category/all' element={<All />} />
                 {/* <Route path='/beauty' element={<Beauty />} />
                 <Route path='/fragrances' element={<Fragrances />} />
                 <Route path='/furniture' element={<Furniture />} />

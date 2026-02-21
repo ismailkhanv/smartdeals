@@ -24,7 +24,7 @@ const Home = () => {
                     <div className='sd_homeSectionLabel'>Shop By Categories</div>
                     <div className='d-flex align-items-center sd_catItemListMain'>
                         {categories.map((item,index)=>(
-                            <Link key={index} to = {`/${slugify(item)}`} className='sd_catItem text-center'>
+                            <Link key={index} to = {`/category/${slugify(item)}`} className='sd_catItem text-center'>
                                 <div className='sd_catThumb'>
                                     <img src={`/images/categories/${item}.jpg`} className='img-fluid' alt='All' />
                                 </div>
