@@ -42,49 +42,59 @@ const Product = () => {
         <div className='sd_productPage'>
             <div className='container'>
                 <div className='sd_productPageMain'>
-                    <div className='sd_product_gallery'>
-                        <div className='sd_product_img'>
-                            <img src={selectedImg} className='sd_product_img_item img-fluid' />
-                        </div>
-                        <div className='sd_prod_list'>
-                            {productData.images.map((img, index) => (
-                                <img key={index} src={img} className={img === selectedImg ? 'sd_img_thumb active' : 'sd_img_thumb' } onClick={()=>SetSelectedImg(img)}></img>
-                            ))}
-                        </div>
-                    </div>
-                    <div className='sd_product_content'>
-                        <div className='sd_breadcrumbs_wrapper'>
-                            <nav aria-label="breadcrumb">
-                                <ol className="breadcrumb">
-                                    <li className="breadcrumb-item"><Link to='/'>Home</Link></li>
-                                    <li className="breadcrumb-item" aria-current="page"><Link to={`../category/${slugify(productData.category)}`}>{productData.category}</Link></li>
-                                    <li className="breadcrumb-item active" aria-current="page">Men Solid formal shoes</li>
-                                </ol>
-                            </nav>
-                        </div>
-                        <div className='sd_product_details'>
-                            <h1 className='sd_product_title'>{productData.title}</h1>
-                            <div className='sd_product_tags pb-2 d-flex align-items-center gap-2'>
-                                {productData.tags.map((tags,index)=>(
-                                    <span className='sd_product_tags_list' key={index}>{tags}</span>
+                    <div className='sd_productPageMainTop'>
+                        <div className='sd_product_gallery'>
+                            <div className='sd_product_img'>
+                                <img src={selectedImg} className='sd_product_img_item img-fluid' />
+                            </div>
+                            <div className='sd_prod_list'>
+                                {productData.images.map((img, index) => (
+                                    <img key={index} src={img} className={img === selectedImg ? 'sd_img_thumb active' : 'sd_img_thumb' } onClick={()=>SetSelectedImg(img)}></img>
                                 ))}
                             </div>
-                            <div className='sd_product_amountWrapper d-flex align-items-center gap-2'>
-                                <span className='sd_product_amount' style={{gap: 0}}>
-                                    <span class="amountSymbol" style={{fontSize:'14px'}}>$</span>{productData.price} 
-                                </span>
-                                <span className='sd_product_amount' style={{gap: 0,fontSize: '20px',textDecoration:'line-through',color:'#7d7d7d',fontWeight:500}}>
-                                    <span class="amountSymbol" style={{fontSize:'14px'}}>$</span>{originalPrice}
-                                </span>
+                        </div>
+                        <div className='sd_product_content'>
+                            <div className='sd_breadcrumbs_wrapper'>
+                                <nav aria-label="breadcrumb">
+                                    <ol className="breadcrumb">
+                                        <li className="breadcrumb-item"><Link to='/'>Home</Link></li>
+                                        <li className="breadcrumb-item" aria-current="page"><Link to={`../category/${slugify(productData.category)}`}>{productData.category}</Link></li>
+                                        <li className="breadcrumb-item active" aria-current="page">Men Solid formal shoes</li>
+                                    </ol>
+                                </nav>
                             </div>
-                            
-                            <div className='d-flex align-items-center gap-2'>
-                                <span className='sd_product_rating'>{productData.rating}<i className="bi bi-star-fill"></i></span>
-                                <span className='sd_product_rating_count'>{productData.reviews.length} reviews</span>
+                            <div className='sd_product_details'>
+                                <h1 className='sd_product_title'>{productData.title}</h1>
+                                <div className='sd_product_tags pb-2 d-flex align-items-center gap-2'>
+                                    {productData.tags.map((tags,index)=>(
+                                        <span className='sd_product_tags_list' key={index}>{tags}</span>
+                                    ))}
+                                </div>
+                                <div className='sd_product_amountWrapper d-flex align-items-center gap-2'>
+                                    <span className='sd_product_amount' style={{gap: 0}}>
+                                        <span class="amountSymbol" style={{fontSize:'14px'}}>$</span>{productData.price} 
+                                    </span>
+                                    <span className='sd_product_amount' style={{gap: 0,fontSize: '20px',textDecoration:'line-through',color:'#7d7d7d',fontWeight:500}}>
+                                        <span class="amountSymbol" style={{fontSize:'14px'}}>$</span>{originalPrice}
+                                    </span>
+                                </div>
+                                
+                                <div className='d-flex align-items-center gap-2'>
+                                    <span className='sd_product_rating'>{productData.rating}<i className="bi bi-star-fill"></i></span>
+                                    <span className='sd_product_rating_count'>{productData.reviews.length} reviews</span>
+                                </div>
+                                <div className='sd_product_description pt-3'>{productData.description}</div>
+                                <div className='sd_productActionBtnWrapper d-flex align-items-center gap-3 flex-wrap pt-3'>
+                                    <Link to='/cart' className='sd_productbutton sd_addtoCartBtn btn btn-primary'>Add to cart</Link>
+                                    <Link to='/cart' className='sd_productbutton sd_addtoCartBtn btn btn-secondary'>Buy now</Link>
+                                </div>
                             </div>
-                            <div className='sd_product_description pt-3'>{productData.description}</div>
+                        </div>
 
-                            <div className='sd_product_info_wrapper pt-3'>
+                    </div>
+                    
+                    <div className='sd_product_content'>
+                        <div className='sd_product_info_wrapper pt-3'>
                                 <h2>More Information</h2>
                                 <table className='sd_product_info_table w-100 table table-striped'>
                                     <tbody>
@@ -174,7 +184,7 @@ const Product = () => {
                                     ))}
                                 </div> 
                             </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
