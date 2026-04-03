@@ -21,9 +21,7 @@ const Wishlist = () => {
                 <h2 class="sd_pageCardHeaderLabel">Wishlist</h2>
                 <Pagination 
                   itemPerPage = {wishlistCount}
-                  selectCount = {(value)=>(
-                    setwishlistCount(value)
-                  )}
+                  selectCount = {(value)=> setwishlistCount(value)}
                 />
               </div>
               <div className='sd_pageCardContent'>
@@ -52,7 +50,13 @@ const Wishlist = () => {
                           <td>${item.price}</td>
                           <td> <AddtoCart /> </td>
                           <td>In Stock</td>
-                          <td><button className='sd_addtocartBtn btn btn-primary'>Add to Cart</button></td>
+                          <td>
+                            <div className='d-flex align-items-center justify-content-center gap-1'>
+                              <button className='sd_addtocartBtn btn btn-primary'>Add to Cart</button>
+                              <button className='sd_itemDeleteBtn'><i class="bi bi-trash2"></i></button>
+                            </div>
+                            
+                          </td>
                         </tr>
                       ))}
                       

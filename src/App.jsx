@@ -17,6 +17,7 @@ import Footer from './Components/Footer/Footer'
 import Product from './Pages/Product/Product'
 import Home from './Pages/Home/Home'
 import Category from './Pages/Category/Category'
+import Cart from './Pages/Cart/Cart'
 
 export const Productsinfo = createContext();
 
@@ -63,6 +64,7 @@ const App = () => {
                 <Route path='/offers' element={<Offers />} />
                 <Route path='/wishlist' element={<Wishlist/>} />
                 <Route path='/best-deals' element={<BestDeals />} />
+                <Route path='/cart' element= {<Cart />} />
                 <Route path='/orders' element= {<Orders />} />
                 <Route path='/settings' element={<Settings />} />
                 <Route path='/profile' element={<Profile />} />
