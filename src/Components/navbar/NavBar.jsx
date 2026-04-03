@@ -7,8 +7,6 @@ const NavBar = () => {
 
   const products = useContext(Productsinfo) || [];
 
-  const location = useLocation();
-
   const categoryItem = [...new Set(products.map((p)=>p.category))];
 
   const activeCls = ({ isActive })=> (isActive ? 'MenuListItem active' : 'MenuListItem');
