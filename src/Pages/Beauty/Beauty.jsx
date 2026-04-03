@@ -19,7 +19,7 @@ const Beauty = () => {
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const currentProducts = sdBeautysProducts.slice(startIndex, endIndex);
-
+    const pageCount = [9,18,27,36];
   return (
       <div className='bnShopWrapper'>
           <div className='container'>
@@ -38,6 +38,7 @@ const Beauty = () => {
                                     setITEMS_PER_PAGE(value);
                                     setCurrentPage(1);
                                 }}
+                                options={pageCount}
                             />
                         </div>
                           

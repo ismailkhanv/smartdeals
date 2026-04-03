@@ -10,14 +10,15 @@ const Offers = () => {
     const sdOfferssProducts = sdProducts.filter((x)=>(
         x.discountPercentage > 10
     ))
-     const prodcount = sdOfferssProducts.length;
-
-     const [ITEMS_PER_PAGE,setITEMS_PER_PAGE] = useState(9);
+    const prodcount = sdOfferssProducts.length;
+    const [ITEMS_PER_PAGE,setITEMS_PER_PAGE] = useState(9);
     const [currentPage, setCurrentPage] = useState(1);
     const totalPages = Math.ceil(prodcount / ITEMS_PER_PAGE);
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const currentProducts = sdOfferssProducts.slice(startIndex, endIndex);
+    const pageCount = [9,18,27,36];
+
   return (
 
       <div className='bnShopWrapper'>
@@ -36,6 +37,7 @@ const Offers = () => {
                                         setITEMS_PER_PAGE(value); 
                                         setCurrentPage(1);
                                     }}
+                                    options={pageCount}
                                  />                              
                             </div>
                           

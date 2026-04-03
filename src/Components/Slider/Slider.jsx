@@ -56,7 +56,7 @@ const Slider = () => {
                         <div className="sd_BannerInfo">
                             <h1 className="sd_BannerTitle">{item.bannerTitle}</h1>
                             <p  className="sd_BannerDesc">{item.bannerDesc}</p>
-                            <Link to ='/all' className="sd_BannerBtn">{item.buttonLabel}</Link>
+                            <Link to ='/category/all' className="sd_BannerBtn">{item.buttonLabel}</Link>
                         </div>
                     </SwiperSlide>
                     ))}

@@ -13,11 +13,12 @@ const All = () => {
   const [currentPage, setCurrentPage] = useState(1);
   
   const [ITEMS_PER_PAGE,setITEMS_PER_PAGE] = useState(9);
-  const totalPages = Math.ceil(sdProducts.length / ITEMS_PER_PAGE);
+  const totalPages = Math.ceil(prodCount / ITEMS_PER_PAGE);
 
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
   const currentProducts = sdProducts.slice(startIndex, endIndex);
+  const pageCount = [9,18,27,36];
 
 
   return (
@@ -41,6 +42,7 @@ const All = () => {
                         setITEMS_PER_PAGE(value);
                         setCurrentPage(1);
                     }}
+                    options={pageCount}
                   />
               </div>
               

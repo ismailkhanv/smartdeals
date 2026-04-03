@@ -18,6 +18,7 @@ const BestDeals = () => {
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const currentProducts = sdBestDealsProducts.slice(startIndex, endIndex);
+    const pageCount = [9,18,27,36];
 
   return (
 
@@ -38,6 +39,7 @@ const BestDeals = () => {
                                     setITEMS_PER_PAGE(value);
                                     setCurrentPage(1);
                                 }}
+                                options={pageCount}
                             />
                             </div>
 

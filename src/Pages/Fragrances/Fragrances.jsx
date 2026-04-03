@@ -17,7 +17,7 @@ const Fragrances = () => {
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const currentProducts = sdFragrancessProducts.slice(startIndex, endIndex);
-
+    const pageCount = [9,18,27,36];
   return (
 
       <div className='bnShopWrapper'>
@@ -36,6 +36,7 @@ const Fragrances = () => {
                                         setITEMS_PER_PAGE(value); 
                                         setCurrentPage(1);
                                     }}
+                                    options={pageCount}
                             />                         
                         </div>
                          

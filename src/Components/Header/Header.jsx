@@ -23,7 +23,7 @@ const Header = () => {
               <ul className="nav">
                 <li className="nav-item"><NavLink to='/' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink></li>
                 <li className="nav-item"><NavLink to='/offers' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Offers</NavLink></li>
-                <li className="nav-item"><NavLink to='/all' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Products</NavLink></li>
+                <li className="nav-item"><NavLink to='/category/all' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Products</NavLink></li>
                 <li className="nav-item"><NavLink to='/best-deals' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Best Deals</NavLink></li>
                 <li className="nav-item d-md-none"><NavLink to='/cart' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>Cart</NavLink></li>
                 <li className="nav-item d-md-none"><NavLink to='/orders' className={({isActive})=> isActive ? 'nav-link active' : 'nav-link'}>My Orders</NavLink></li>

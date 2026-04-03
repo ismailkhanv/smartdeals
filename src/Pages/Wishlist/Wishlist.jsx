@@ -11,6 +11,7 @@ const Wishlist = () => {
 
   const productData = useContext(Productsinfo) || [];
   const [wishlistCount,setwishlistCount] = useState(9);
+  const pageCount = [5,10];
 
   return (
     <div className='sd_wishlist_page'>
@@ -22,6 +23,7 @@ const Wishlist = () => {
                 <Pagination 
                   itemPerPage = {wishlistCount}
                   selectCount = {(value)=> setwishlistCount(value)}
+                  options={pageCount}
                 />
               </div>
               <div className='sd_pageCardContent'>
