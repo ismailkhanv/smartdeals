@@ -7,6 +7,11 @@
   --card_color: #fff;
   --line_color: #eaeaea;
   --selected_bg: #ebf5ef;
+
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+
+  
 }
 
 *, ::after, ::before {

@@ -2,6 +2,7 @@ import React, { createContext, useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import All from './Pages/All/All'
 import './App.css'
+import './App.scss'
 import Header from './Components/Header/Header'
 import Offers from './Pages/Offers/Offers'
 import Wishlist from './Pages/Wishlist/Wishlist'
@@ -14,6 +15,8 @@ import Product from './Pages/Product/Product'
 import Home from './Pages/Home/Home'
 import Category from './Pages/Category/Category'
 import Cart from './Pages/Cart/Cart'
+
+import 'animate.css'
 
 export const Productsinfo = createContext();
 

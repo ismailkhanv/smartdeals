@@ -126,7 +126,9 @@ header .nav-link{
     font-weight: 400;
     max-width: calc(100% - 25px);
     margin: 0 auto;
+    --animate-delay: 0.5s;
 }
+
 .sd_searchResultsListItem:hover{
     background-color: var(--selected_bg);
 }

@@ -62,7 +62,7 @@ const Search = () => {
                       <p className='sd_searchResultsListLabel'>Our Products</p>
                       {mainProduct.length > 0 ? (
                           mainProduct.map((item)=>(
-                            <Link to={`/product/${item.id}/${slugify(item.title)}`} className='sd_searchResultsListItem' key={item.id} onClick={hideSearchResults}>
+                            <Link to={`/product/${item.id}/${slugify(item.title)}`} className='sd_searchResultsListItem animate__animated animate__fadeInLeft' key={item.id} onClick={hideSearchResults}>
                                 <div className='sd_searchResultsListItemThumb'><img src={item.thumbnail} className='img-fluid' alt={item.title} /></div>
                                 <div className='sd_searchResultsListItemTitle'>{item.title}</div>
                             </Link>

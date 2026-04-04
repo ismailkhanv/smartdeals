@@ -156,10 +156,10 @@
   height: auto;
   object-position: top;
   transition: ease 0.1s;
-  transform: scale(1);
 }
 .ProductThumb:hover img{
-  transform: scale(1.2);
+  animation-name: zoomIn;
+  animation-duration: 0.5s;
 }
 .ProductTitle{
   font-size: 14px;
@@ -273,7 +273,7 @@
     margin-bottom: 0;
 }
 
-@media screen and (min-width:768px) and (max-width: 991px) {
+@media screen and (min-width:768px){
   .sdProductsGrid {
     grid-template-columns: repeat(3,1fr);
   }
@@ -281,9 +281,6 @@
 @media(min-width:992px) {
   .sdShop{
     flex-direction: row;
-  }
-  .sdProductsGrid{
-    grid-template-columns: repeat(3,1fr);
   }
   .sdCatSidebar{
     width: 200px;
@@ -293,5 +290,11 @@
   .ProductListWrapper{
     width: calc(100% - 200px);
     margin-left: auto;
+  }
+}
+
+@media(min-width:1400px) {
+  .sdProductsGrid {
+    grid-template-columns: repeat(4,1fr);
   }
 }

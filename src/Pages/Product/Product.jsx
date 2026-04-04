@@ -45,7 +45,7 @@ const Product = () => {
                     <div className='sd_productPageMainTop'>
                         <div className='sd_product_gallery'>
                             <div className='sd_product_img'>
-                                <img src={selectedImg} className='sd_product_img_item img-fluid' />
+                                <img key={selectedImg} src={selectedImg} className='sd_product_img_item img-fluid animate__animated animate__fadeInLeft' />
                             </div>
                             <div className='sd_prod_list'>
                                 {productData.images.map((img, index) => (

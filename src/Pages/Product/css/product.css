@@ -13,6 +13,11 @@
 .sd_product_img{
     border-bottom: 1px solid var(--line_color);
     padding: 16px;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+    position: relative;
+    overflow: hidden;
 }
 .sd_product_content{
     width: 100%;
