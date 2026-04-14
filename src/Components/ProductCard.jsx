@@ -11,7 +11,7 @@ const ProductCard = (props) => {
   let [cartcount,setcartCount] = useState(0);
 
   const activeStatus = () =>{
-    setActive(prevActive => !prevActive); // Toggle class 'active'
+    setActive(Active => !Active); // Toggle class 'active'
   }
 
   const addWishlist = () =>{
@@ -19,15 +19,15 @@ const ProductCard = (props) => {
   }
  
   const addtocart = ()=>{
-    setcartCount(prevCount => prevCount + 1);
+    setcartCount(count => count + 1);
   }
 
   return (
-    <Link className='ProductItem' to={`/product/${item.id}/${slugify(item.title)}`}>
+    <div className='ProductItem'>
         <div className='ProductThumb position-relative'>
           <img src={item.thumbnail} className='img-fluid' alt={item.title} />
           <div className='sdProductsActionBtns'>
-            <button className={`ProductBtn sdWishlistBtn ${ active ? 'active' : ''} `} onClick={addWishlist}><i className="bi bi-heart"></i></button>
+            <button className={`ProductBtn sdWishlistBtn ${active ? 'active' : ''}`} onClick={addWishlist}><i className="bi bi-heart"></i></button>
             <div className='sdCartBtnWrapper position-relative'>
               <button className='ProductBtn sdcartBtn' onClick={addtocart}><i className="bi bi-cart"></i></button>
               <span className='sdcartCount'>{cartcount}</span>
@@ -36,13 +36,13 @@ const ProductCard = (props) => {
         </div>
         <div className='ProductInfo'>
             <div className='d-flex align-items-center justify-content-between' style={{gap: '8px'}}>
-                <div className='ProductLocation'>{item.category}</div>
-                <div className='ProductAmount'><span className='amountSymbol'>$</span>{item.price}</div>
+                <div className='sd_ProductCategory'>{item.category}</div>
+                <div className='sd_ProductAmount'><span className='amountSymbol'>$</span>{item.price}</div>
             </div>
             
-            <div className='ProductTitle'>{item.title}</div>
+            <Link className='ProductTitle' to={`/product/${item.id}/${slugify(item.title)}`}>{item.title}</Link>
         </div>
-    </Link>
+    </div>
   )
 }
 

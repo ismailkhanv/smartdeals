@@ -162,11 +162,14 @@
   animation-duration: 0.5s;
 }
 .ProductTitle{
-  font-size: 14px;
-  font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
+    color: inherit;
+    width: 100%;
+    display: block;
 }
 
-.ProductLocation{
+.sd_ProductCategory{
   color: #999999;
   font-size: 12px;
   line-height: 19px;
@@ -174,10 +177,12 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-weight: 400;
 }
 
-.ProductAmount{
-  font-weight: 600;
+.sd_ProductAmount{
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .sdWishlistBtn.active{

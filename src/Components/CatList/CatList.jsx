@@ -14,7 +14,7 @@ const CatList = () => {
     <div className='sd_CatProductsSec'>
       {prodCat.map((category,index)=>{
 
-        const prodData = products.filter(item => item.category === category).slice(0,7);
+        const prodData = products.filter(item => item.category === category).slice(0,10);
         return (
           <section key={index} className='sd_pageSection pb-5'>
             <div className='container'>
@@ -23,12 +23,19 @@ const CatList = () => {
                         <div className='sd_homeSectionLabel'>{category}</div>
                         <div className='sd_homeCatProductsList d-flex align-items-start gap-3'>
                           {prodData.map((products,index)=>(
-                            <Link to={`/product/${products.id}/${slugify(products.title)}`} key={index} className='sd_homeCatProductsListItem'>
-                                <div className='sd_CatProductsItemThumb'>
-                                    <img src={products.thumbnail} className='img-fluid' alt={products.title} />
-                                </div>
-                                <div className='sd_CatProductsItemTitle'> {products.title}</div>
-                            </Link>
+                              <Link to={`/product/${products.id}/${slugify(products.title)}`} key={index} className='sd_homeCatProductsListItem'>
+                                  <div className='sd_CatProductsItemThumb'>
+                                      <img src={products.thumbnail} className='img-fluid' alt={products.title} />
+                                  </div>
+                                  <div className='d-flex align-items-center justify-content-between'>
+                                    <div className='sd_ProductCategory'>{products.category}</div>
+                                    <div className='sd_ProductAmount'><span class="amountSymbol">$</span>{products.price}</div>
+                                  </div>
+                                  <div className='sd_CatProductsItemTitle'> {products.title}</div>
+                                  
+                              </Link>
+
+                              
                           ))}
                         </div>
                     </div>
