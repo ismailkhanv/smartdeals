@@ -29,7 +29,7 @@ const Home = () => {
                                     <img src={`/images/categories/${item}.jpg`} className='img-fluid' alt='All' />
                                 </div>
                                 <div className='sd_catTitle'>
-                                    {item}
+                                    {item.category}
                                 </div>
                             </Link>
                         ))}
@@ -42,18 +42,18 @@ const Home = () => {
 
         <section className='sd_pageSection pb-5'>
             <div className='container'>
-                <div class="row row-cols-1 row-cols-lg-3 mx-auto" style={{maxWidth: '800px'}}>
-                    <div class="col">
+                <div className="row row-cols-1 row-cols-lg-3 mx-auto" style={{maxWidth: '800px'}}>
+                    <div className="col">
                         <div className='sd_adBanners'>
                             <img src='./images/banners/banner-9.jpeg' className='img-fluid' alt='smartdeals' />
                         </div>
                     </div>
-                    <div class="col">
+                    <div className="col">
                         <div className='sd_adBanners'>
                             <img src='./images/banners/banner-4.jpeg' className='img-fluid' alt='smartdeals' />
                         </div>
                     </div>
-                    <div class="col">
+                    <div className="col">
                         <div className='sd_adBanners'>
                             <img src='./images/banners/banner-3.jpeg' className='img-fluid' alt='smartdeals' />
                         </div>

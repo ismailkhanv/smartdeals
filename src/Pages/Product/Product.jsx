@@ -72,10 +72,10 @@ const Product = () => {
                                 </div>
                                 <div className='sd_product_amountWrapper d-flex align-items-center gap-2'>
                                     <span className='sd_product_amount' style={{gap: 0}}>
-                                        <span class="amountSymbol" style={{fontSize:'14px'}}>$</span>{productData.price} 
+                                        <span className="amountSymbol" style={{fontSize:'14px'}}>$</span>{productData.price} 
                                     </span>
                                     <span className='sd_product_amount' style={{gap: 0,fontSize: '20px',textDecoration:'line-through',color:'#7d7d7d',fontWeight:500}}>
-                                        <span class="amountSymbol" style={{fontSize:'14px'}}>$</span>{originalPrice}
+                                        <span className="amountSymbol" style={{fontSize:'14px'}}>$</span>{originalPrice}
                                     </span>
                                 </div>
                                 

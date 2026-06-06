@@ -29,7 +29,7 @@ const CatList = () => {
                                   </div>
                                   <div className='d-flex align-items-center justify-content-between'>
                                     <div className='sd_ProductCategory'>{products.category}</div>
-                                    <div className='sd_ProductAmount'><span class="amountSymbol">$</span>{products.price}</div>
+                                    <div className='sd_ProductAmount'><span className="amountSymbol">$</span>{products.price}</div>
                                   </div>
                                   <div className='sd_CatProductsItemTitle'> {products.title}</div>
                                   

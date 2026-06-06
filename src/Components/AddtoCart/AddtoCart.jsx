@@ -15,9 +15,9 @@ const AddtoCart = () => {
 
   return (
     <div className='sdAddCartWrapper'>
-        <button className='sdCartBtn sdCartBtnMinus' onClick={()=>dispatch({type:'cartminus'}) }><i class="bi bi-dash-lg"></i></button>
+        <button className='sdCartBtn sdCartBtnMinus' onClick={()=>dispatch({type:'cartminus'}) }><i className="bi bi-dash-lg"></i></button>
         <span className='sdCartCount'>{state.cartCount}</span>
-        <button className='sdCartBtn sdCartBtnAdd' onClick={()=> dispatch({type:'cartadd'})}><i class="bi bi-plus-lg"></i></button>
+        <button className='sdCartBtn sdCartBtnAdd' onClick={()=> dispatch({type:'cartadd'})}><i className="bi bi-plus-lg"></i></button>
     </div>
   )
 }

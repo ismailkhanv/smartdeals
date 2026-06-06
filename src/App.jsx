@@ -15,7 +15,7 @@ import Product from './Pages/Product/Product'
 import Home from './Pages/Home/Home'
 import Category from './Pages/Category/Category'
 import Cart from './Pages/Cart/Cart'
-
+import ProductItem from './assets/data/products.json'
 import 'animate.css'
 
 export const Productsinfo = createContext();
@@ -25,20 +25,21 @@ const App = () => {
   const [shopProducts,setShopProducts] = useState(null) || [];
 
   // Method 1:
-  // useEffect(()=>{
-  //   setShopProducts(ProductItem.products);
-  // });
-
   useEffect(()=>{
-    fetch('https://dummyjson.com/products')
-    .then(res=>res.json())
-    .then(data => {
-      setShopProducts(data.products);
-    })
-    .catch(() =>{
-      alert('Data is not loading');
-    })
-  }, []);
+    setShopProducts(ProductItem.products);
+  },[]);
+
+  // Method 2:
+  // useEffect(()=>{
+  //   fetch('https://dummyjson.com/products')
+  //   .then(res=>res.json())
+  //   .then(data => {
+  //     setShopProducts(data.products);
+  //   })
+  //   .catch(() =>{
+  //     alert('Data is not loading');
+  //   })
+  // }, []);
 
 
 

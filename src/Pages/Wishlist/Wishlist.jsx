@@ -19,7 +19,7 @@ const Wishlist = () => {
         <div className='sdShop'>
           <div className='sd_pageCard'>
               <div className='sd_pageCardHeader d-flex align-items-center justify-content-between flex-wrap gap-3'>
-                <h2 class="sd_pageCardHeaderLabel">Wishlist</h2>
+                <h2 className="sd_pageCardHeaderLabel">Wishlist</h2>
                 <Pagination 
                   itemPerPage = {wishlistCount}
                   selectCount = {(value)=> setwishlistCount(value)}
@@ -28,7 +28,7 @@ const Wishlist = () => {
               </div>
               <div className='sd_pageCardContent'>
                 <div className='sd_wishlist_tableWrapper pt-4 table-responsive'>
-                  <table class="table">
+                  <table className="table">
                     <thead>
                       <tr>
                         <th scope="col"><input type="checkbox" className='sd_wishlistTableCheckBox'/></th>
@@ -55,7 +55,7 @@ const Wishlist = () => {
                           <td>
                             <div className='d-flex align-items-center justify-content-center gap-1'>
                               <button className='sd_addtocartBtn btn btn-primary'>Add to Cart</button>
-                              <button className='sd_itemDeleteBtn'><i class="bi bi-trash2"></i></button>
+                              <button className='sd_itemDeleteBtn'><i className="bi bi-trash2"></i></button>
                             </div>
                             
                           </td>
