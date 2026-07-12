@@ -121,4 +121,15 @@
         animation-name: zoomIn;
         animation-duration: 0.5s;
     }
+    
 }
+
+.sd_adBanners{
+    img{
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        object-position: top center;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+} 

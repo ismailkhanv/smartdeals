@@ -42,7 +42,7 @@ const Home = () => {
 
         <section className='sd_pageSection pb-5'>
             <div className='container'>
-                <div className="row row-cols-1 row-cols-lg-3 mx-auto" style={{maxWidth: '800px'}}>
+                <div className="row row-cols-1 row-cols-lg-3 mx-auto">
                     <div className="col">
                         <div className='sd_adBanners'>
                             <img src='./images/banners/banner-9.jpeg' className='img-fluid' alt='smartdeals' />
