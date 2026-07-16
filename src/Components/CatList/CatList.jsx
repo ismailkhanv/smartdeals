@@ -21,7 +21,7 @@ const CatList = () => {
                 <div className='sd_pageCard position-relative'>
                     <div className='sd_homeCatProducts'>
                         <div className='sd_homeSectionLabel'>{category}</div>
-                        <div className='sd_homeCatProductsList d-flex align-items-start gap-3'>
+                        <div className='sd_homeCatProductsList d-flex align-items-start gap-4'>
                           {prodData.map((products,index)=>(
                               <Link to={`/product/${products.id}/${slugify(products.title)}`} key={index} className='sd_homeCatProductsListItem'>
                                   <div className='sd_CatProductsItemThumb'>
