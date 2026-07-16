@@ -15,13 +15,13 @@ const Category = () => {
     const sdFilteredProducts = products.filter(p=> p.category.toLowerCase() === category.toLowerCase());
         
     const prodcount = sdFilteredProducts.length;
-    const [ITEMS_PER_PAGE,setITEMS_PER_PAGE] = useState(9);
+    const [ITEMS_PER_PAGE,setITEMS_PER_PAGE] = useState(16);
     const [currentPage, setCurrentPage] = useState(1);
     const totalPages = Math.ceil(prodcount / ITEMS_PER_PAGE);
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const currentProducts = sdFilteredProducts.slice(startIndex, endIndex);
-    const pageCount = [9,18,27,36];
+    const pageCount = [16,24,32];
 
   return (
     <div className='bnShopWrapper'> 
