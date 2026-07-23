@@ -15,7 +15,7 @@ import Product from './Pages/Product/Product'
 import Home from './Pages/Home/Home'
 import Category from './Pages/Category/Category'
 import Cart from './Pages/Cart/Cart'
-import ProductItem from './assets/data/products.json'
+import ProductItem from './assets/data/smartdeals.json'
 import 'animate.css'
 
 export const Productsinfo = createContext();

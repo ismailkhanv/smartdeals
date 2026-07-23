@@ -26,10 +26,10 @@ const Home = () => {
                         {categories.map((item,index)=>(
                             <Link key={index} to = {`/category/${slugify(item)}`} className='sd_catItem text-center'>
                                 <div className='sd_catThumb'>
-                                    <img src={`/images/categories/${item}.jpg`} className='img-fluid' alt='All' />
+                                    <img src={`/images/categories/${item}.jpg`} className='img-fluid' alt={item} />
                                 </div>
                                 <div className='sd_catTitle'>
-                                    {item.category}
+                                    {item}
                                 </div>
                             </Link>
                         ))}

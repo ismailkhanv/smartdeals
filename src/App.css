@@ -159,8 +159,7 @@
   transition: ease 0.1s;
 }
 .ProductThumb:hover img{
-  animation-name: zoomIn;
-  animation-duration: 0.5s;
+  
 }
 .ProductTitle{
     font-size: 14px;

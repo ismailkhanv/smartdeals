@@ -23,7 +23,7 @@ const ProductCard = (props) => {
   }
 
   return (
-    <div className='ProductItem'>
+    <Link className='ProductItem' to={`/product/${item.id}/${slugify(item.title)}`}>
         <div className='ProductThumb position-relative'>
           <img src={item.thumbnail} className='img-fluid' alt={item.title} />
           <div className='sdProductsActionBtns'>
@@ -39,10 +39,9 @@ const ProductCard = (props) => {
                 <div className='sd_ProductCategory'>{item.category}</div>
                 <div className='sd_ProductAmount'><span className='amountSymbol'>$</span>{item.price}</div>
             </div>
-            
-            <Link className='ProductTitle' to={`/product/${item.id}/${slugify(item.title)}`}>{item.title}</Link>
+            <div className='ProductTitle'>{item.title}</div>
         </div>
-    </div>
+    </Link>
   )
 }
 
