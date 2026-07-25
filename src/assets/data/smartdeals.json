@@ -56,11 +56,11 @@
         "barcode": "9790543996202"
       },
       "images": [
-        "https://picsum.photos/seed/1_1/600/600",
-        "https://picsum.photos/seed/1_2/600/600",
-        "https://picsum.photos/seed/1_3/600/600"
+        "/images/products/smartphone/mobile42.webp",
+        "/images/products/smartphone/mobile2.webp",
+        "/images/products/smartphone/mobile3.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/1/300/300",
+      "thumbnail": "/images/products/smartphone/mobile42.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -121,12 +121,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "6912846052815"
       },
-      "images": [
-        "https://picsum.photos/seed/2_1/600/600",
-        "https://picsum.photos/seed/2_2/600/600",
-        "https://picsum.photos/seed/2_3/600/600"
+     "images": [
+        "/images/products/smartphone/mobile5.webp",
+        "/images/products/smartphone/mobile3.webp",
+        "/images/products/smartphone/mobile4.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/2/300/300",
+      "thumbnail": "/images/products/smartphone/mobile5.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -188,11 +188,11 @@
         "barcode": "9185853018894"
       },
       "images": [
-        "https://picsum.photos/seed/3_1/600/600",
-        "https://picsum.photos/seed/3_2/600/600",
-        "https://picsum.photos/seed/3_3/600/600"
+        "/images/products/smartphone/mobile41.webp",
+        "/images/products/smartphone/mobile4.webp",
+        "/images/products/smartphone/mobile5.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/3/300/300",
+      "thumbnail": "/images/products/smartphone/mobile41.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -254,11 +254,11 @@
         "barcode": "6842973461039"
       },
       "images": [
-        "https://picsum.photos/seed/4_1/600/600",
-        "https://picsum.photos/seed/4_2/600/600",
-        "https://picsum.photos/seed/4_3/600/600"
+        "/images/products/smartphone/mobile6.webp",
+        "/images/products/smartphone/mobile7.webp",
+        "/images/products/smartphone/mobile8.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/4/300/300",
+      "thumbnail": "/images/products/smartphone/mobile6.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -320,11 +320,11 @@
         "barcode": "5295479532499"
       },
       "images": [
-        "https://picsum.photos/seed/5_1/600/600",
-        "https://picsum.photos/seed/5_2/600/600",
-        "https://picsum.photos/seed/5_3/600/600"
+        "/images/products/smartphone/mobile7.webp",
+        "/images/products/smartphone/mobile8.webp",
+        "/images/products/smartphone/mobile9.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/5/300/300",
+      "thumbnail": "/images/products/smartphone/mobile11.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -386,11 +386,11 @@
         "barcode": "6492217560477"
       },
       "images": [
-        "https://picsum.photos/seed/6_1/600/600",
-        "https://picsum.photos/seed/6_2/600/600",
-        "https://picsum.photos/seed/6_3/600/600"
+        "/images/products/smartphone/mobile8.webp",
+        "/images/products/smartphone/mobile9.webp",
+        "/images/products/smartphone/mobile10.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/6/300/300",
+      "thumbnail": "/images/products/smartphone/mobile37.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -452,11 +452,11 @@
         "barcode": "1906107160079"
       },
       "images": [
-        "https://picsum.photos/seed/7_1/600/600",
-        "https://picsum.photos/seed/7_2/600/600",
-        "https://picsum.photos/seed/7_3/600/600"
+        "/images/products/smartphone/mobile9.webp",
+        "/images/products/smartphone/mobile10.webp",
+        "/images/products/smartphone/mobile11.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/7/300/300",
+      "thumbnail": "/images/products/smartphone/mobile38.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -518,11 +518,11 @@
         "barcode": "2097216962278"
       },
       "images": [
-        "https://picsum.photos/seed/8_1/600/600",
-        "https://picsum.photos/seed/8_2/600/600",
-        "https://picsum.photos/seed/8_3/600/600"
+        "/images/products/smartphone/mobile10.webp",
+        "/images/products/smartphone/mobile11.webp",
+        "/images/products/smartphone/mobile12.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/8/300/300",
+      "thumbnail": "/images/products/smartphone/mobile16.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -584,11 +584,11 @@
         "barcode": "1162283304234"
       },
       "images": [
-        "https://picsum.photos/seed/9_1/600/600",
-        "https://picsum.photos/seed/9_2/600/600",
-        "https://picsum.photos/seed/9_3/600/600"
+        "/images/products/smartphone/mobile11.webp",
+        "/images/products/smartphone/mobile12.webp",
+        "/images/products/smartphone/mobile13.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/9/300/300",
+      "thumbnail": "/images/products/smartphone/mobile30.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -650,11 +650,11 @@
         "barcode": "2811666211015"
       },
       "images": [
-        "https://picsum.photos/seed/10_1/600/600",
-        "https://picsum.photos/seed/10_2/600/600",
-        "https://picsum.photos/seed/10_3/600/600"
+        "/images/products/smartphone/mobile17.webp",
+        "/images/products/smartphone/mobile12.webp",
+        "/images/products/smartphone/mobile13.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/10/300/300",
+      "thumbnail": "/images/products/smartphone/mobile17.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -716,11 +716,11 @@
         "barcode": "6915567251093"
       },
       "images": [
-        "https://picsum.photos/seed/11_1/600/600",
-        "https://picsum.photos/seed/11_2/600/600",
-        "https://picsum.photos/seed/11_3/600/600"
+        "/images/products/smartphone/mobile20.webp",
+        "/images/products/smartphone/mobile13.webp",
+        "/images/products/smartphone/mobile14.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/11/300/300",
+      "thumbnail": "/images/products/smartphone/mobile20.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -782,11 +782,11 @@
         "barcode": "8767921372790"
       },
       "images": [
-        "https://picsum.photos/seed/12_1/600/600",
-        "https://picsum.photos/seed/12_2/600/600",
-        "https://picsum.photos/seed/12_3/600/600"
+        "/images/products/smartphone/mobile21.webp",
+        "/images/products/smartphone/mobile14.webp",
+        "/images/products/smartphone/mobile15.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/12/300/300",
+      "thumbnail": "/images/products/smartphone/mobile21.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -848,11 +848,11 @@
         "barcode": "4149689535842"
       },
       "images": [
-        "https://picsum.photos/seed/13_1/600/600",
-        "https://picsum.photos/seed/13_2/600/600",
-        "https://picsum.photos/seed/13_3/600/600"
+        "/images/products/smartphone/mobile22.webp",
+        "/images/products/smartphone/mobile15.webp",
+        "/images/products/smartphone/mobile16.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/13/300/300",
+      "thumbnail": "/images/products/smartphone/mobile22.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -914,11 +914,11 @@
         "barcode": "7229653662424"
       },
       "images": [
-        "https://picsum.photos/seed/14_1/600/600",
-        "https://picsum.photos/seed/14_2/600/600",
-        "https://picsum.photos/seed/14_3/600/600"
+        "/images/products/smartphone/mobile23.webp",
+        "/images/products/smartphone/mobile16.webp",
+        "/images/products/smartphone/mobile18.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/14/300/300",
+      "thumbnail": "/images/products/smartphone/mobile23.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -980,11 +980,11 @@
         "barcode": "6026173232159"
       },
       "images": [
-        "https://picsum.photos/seed/15_1/600/600",
-        "https://picsum.photos/seed/15_2/600/600",
-        "https://picsum.photos/seed/15_3/600/600"
+        "/images/products/smartphone/mobile25.webp",
+        "/images/products/smartphone/mobile18.webp",
+        "/images/products/smartphone/mobile19.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/15/300/300",
+      "thumbnail": "/images/products/smartphone/mobile25.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -1046,11 +1046,11 @@
         "barcode": "5067382650287"
       },
       "images": [
-        "https://picsum.photos/seed/16_1/600/600",
-        "https://picsum.photos/seed/16_2/600/600",
-        "https://picsum.photos/seed/16_3/600/600"
+        "/images/products/smartphone/mobile18.webp",
+        "/images/products/smartphone/mobile19.webp",
+        "/images/products/smartphone/mobile20.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/16/300/300",
+      "thumbnail": "/images/products/smartphone/mobile18.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -1111,12 +1111,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "9601174380879"
       },
-      "images": [
-        "https://picsum.photos/seed/17_1/600/600",
-        "https://picsum.photos/seed/17_2/600/600",
-        "https://picsum.photos/seed/17_3/600/600"
+     "images": [
+        "/images/products/smartphone/mobile25.webp",
+        "/images/products/smartphone/mobile24.webp",
+        "/images/products/smartphone/mobile26.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/17/300/300",
+      "thumbnail": "/images/products/smartphone/mobile25.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -1178,11 +1178,11 @@
         "barcode": "4337813286693"
       },
       "images": [
-        "https://picsum.photos/seed/18_1/600/600",
-        "https://picsum.photos/seed/18_2/600/600",
-        "https://picsum.photos/seed/18_3/600/600"
+        "/images/products/smartphone/mobile28.webp",
+        "/images/products/smartphone/mobile26.webp",
+        "/images/products/smartphone/mobile27.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/18/300/300",
+      "thumbnail": "/images/products/smartphone/mobile28.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -1244,11 +1244,11 @@
         "barcode": "5410174422765"
       },
       "images": [
-        "https://picsum.photos/seed/19_1/600/600",
-        "https://picsum.photos/seed/19_2/600/600",
-        "https://picsum.photos/seed/19_3/600/600"
+        "/images/products/smartphone/mobile27.webp",
+        "/images/products/smartphone/mobile30.webp",
+        "/images/products/smartphone/mobile31.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/19/300/300",
+      "thumbnail": "/images/products/smartphone/mobile27.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -1310,11 +1310,11 @@
         "barcode": "4968171801162"
       },
       "images": [
-        "https://picsum.photos/seed/20_1/600/600",
-        "https://picsum.photos/seed/20_2/600/600",
-        "https://picsum.photos/seed/20_3/600/600"
+        "/images/products/smartphone/mobile29.webp",
+        "/images/products/smartphone/mobile30.webp",
+        "/images/products/smartphone/mobile31.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/20/300/300",
+      "thumbnail": "/images/products/smartphone/mobile29.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -1376,11 +1376,11 @@
         "barcode": "9291476687369"
       },
       "images": [
-        "https://picsum.photos/seed/21_1/600/600",
-        "https://picsum.photos/seed/21_2/600/600",
-        "https://picsum.photos/seed/21_3/600/600"
+        "/images/products/smartphone/mobile14.webp",
+        "/images/products/smartphone/mobile32.webp",
+        "/images/products/smartphone/mobile33.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/21/300/300",
+      "thumbnail": "/images/products/smartphone/mobile14.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -1442,11 +1442,11 @@
         "barcode": "2156753027682"
       },
       "images": [
-        "https://picsum.photos/seed/22_1/600/600",
-        "https://picsum.photos/seed/22_2/600/600",
-        "https://picsum.photos/seed/22_3/600/600"
+        "/images/products/smartphone/mobile13.webp",
+        "/images/products/smartphone/mobile33.webp",
+        "/images/products/smartphone/mobile34.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/22/300/300",
+      "thumbnail": "/images/products/smartphone/mobile13.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -1508,11 +1508,11 @@
         "barcode": "8542094344655"
       },
       "images": [
-        "https://picsum.photos/seed/23_1/600/600",
-        "https://picsum.photos/seed/23_2/600/600",
-        "https://picsum.photos/seed/23_3/600/600"
+        "/images/products/smartphone/mobile10.webp",
+        "/images/products/smartphone/mobile34.webp",
+        "/images/products/smartphone/mobile35.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/23/300/300",
+      "thumbnail": "/images/products/smartphone/mobile10.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -1574,11 +1574,11 @@
         "barcode": "4281926558230"
       },
       "images": [
-        "https://picsum.photos/seed/24_1/600/600",
-        "https://picsum.photos/seed/24_2/600/600",
-        "https://picsum.photos/seed/24_3/600/600"
+        "/images/products/smartphone/mobile35.webp",
+        "/images/products/smartphone/mobile36.webp",
+        "/images/products/smartphone/mobile37.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/24/300/300",
+      "thumbnail": "/images/products/smartphone/mobile7.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -1640,11 +1640,11 @@
         "barcode": "2826459975675"
       },
       "images": [
-        "https://picsum.photos/seed/25_1/600/600",
-        "https://picsum.photos/seed/25_2/600/600",
-        "https://picsum.photos/seed/25_3/600/600"
+        "/images/products/smartphone/mobile37.webp",
+        "/images/products/smartphone/mobile38.webp",
+        "/images/products/smartphone/mobile39.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/25/300/300",
+      "thumbnail": "/images/products/smartphone/mobile24.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
