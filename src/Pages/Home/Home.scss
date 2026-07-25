@@ -108,6 +108,9 @@
             img{
                 transition: transform ease 0.3s;
                 transform: scale(1);
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
             }
         }
         .sd_CatProductsItemTitle{
@@ -115,10 +118,6 @@
             font-weight: 400;
             font-size: 14px;
         }
-    }
-
-    .sd_homeCatProductsListItem:hover img{
-        
     }
     
 }

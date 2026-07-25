@@ -161,9 +161,7 @@
     object-fit: cover;
     border-radius: 5px;
 }
-.ProductThumb:hover img{
-  
-}
+
 .ProductTitle{
     font-size: 14px;
     font-weight: 400;

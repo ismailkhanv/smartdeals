@@ -1706,11 +1706,11 @@
         "barcode": "6228558558976"
       },
       "images": [
-        "https://picsum.photos/seed/26_1/600/600",
-        "https://picsum.photos/seed/26_2/600/600",
-        "https://picsum.photos/seed/26_3/600/600"
+        "/images/products/laptops/laptop1.webp",
+        "/images/products/laptops/laptop2.webp",
+        "/images/products/laptops/laptop3.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/26/300/300",
+      "thumbnail": "/images/products/laptops/laptop1.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -1772,11 +1772,11 @@
         "barcode": "2447417329372"
       },
       "images": [
-        "https://picsum.photos/seed/27_1/600/600",
-        "https://picsum.photos/seed/27_2/600/600",
-        "https://picsum.photos/seed/27_3/600/600"
+        "/images/products/laptops/laptop3.webp",
+        "/images/products/laptops/laptop5.webp",
+        "/images/products/laptops/laptop4.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/27/300/300",
+      "thumbnail": "/images/products/laptops/laptop3.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -1838,11 +1838,11 @@
         "barcode": "3909517834337"
       },
       "images": [
-        "https://picsum.photos/seed/28_1/600/600",
-        "https://picsum.photos/seed/28_2/600/600",
-        "https://picsum.photos/seed/28_3/600/600"
+        "/images/products/laptops/laptop7.webp",
+        "/images/products/laptops/laptop6.webp",
+        "/images/products/laptops/laptop8.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/28/300/300",
+      "thumbnail": "/images/products/laptops/laptop7.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -1904,11 +1904,11 @@
         "barcode": "9380822196253"
       },
       "images": [
-        "https://picsum.photos/seed/29_1/600/600",
-        "https://picsum.photos/seed/29_2/600/600",
-        "https://picsum.photos/seed/29_3/600/600"
+        "/images/products/laptops/laptop8.webp",
+        "/images/products/laptops/laptop9.webp",
+        "/images/products/laptops/laptop10.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/29/300/300",
+      "thumbnail": "/images/products/laptops/laptop8.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -1970,11 +1970,11 @@
         "barcode": "6566019504445"
       },
       "images": [
-        "https://picsum.photos/seed/30_1/600/600",
-        "https://picsum.photos/seed/30_2/600/600",
-        "https://picsum.photos/seed/30_3/600/600"
+        "/images/products/laptops/laptop11.webp",
+        "/images/products/laptops/laptop10.webp",
+        "/images/products/laptops/laptop13.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/30/300/300",
+      "thumbnail": "/images/products/laptops/laptop11.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -2036,11 +2036,11 @@
         "barcode": "4424703552916"
       },
       "images": [
-        "https://picsum.photos/seed/31_1/600/600",
-        "https://picsum.photos/seed/31_2/600/600",
-        "https://picsum.photos/seed/31_3/600/600"
+        "/images/products/laptops/laptop16.webp",
+        "/images/products/laptops/laptop13.webp",
+        "/images/products/laptops/laptop12.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/31/300/300",
+      "thumbnail": "/images/products/laptops/laptop16.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -2102,11 +2102,11 @@
         "barcode": "6925913846565"
       },
       "images": [
-        "https://picsum.photos/seed/32_1/600/600",
-        "https://picsum.photos/seed/32_2/600/600",
-        "https://picsum.photos/seed/32_3/600/600"
+        "/images/products/laptops/laptop5.webp",
+        "/images/products/laptops/laptop14.webp",
+        "/images/products/laptops/laptop12.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/32/300/300",
+      "thumbnail": "/images/products/laptops/laptop5.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -2168,11 +2168,11 @@
         "barcode": "4247811889391"
       },
       "images": [
-        "https://picsum.photos/seed/33_1/600/600",
-        "https://picsum.photos/seed/33_2/600/600",
-        "https://picsum.photos/seed/33_3/600/600"
+        "/images/products/laptops/laptop22.webp",
+        "/images/products/laptops/laptop18.webp",
+        "/images/products/laptops/laptop20.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/33/300/300",
+      "thumbnail": "/images/products/laptops/laptop22.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -2234,11 +2234,11 @@
         "barcode": "3735506838187"
       },
       "images": [
-        "https://picsum.photos/seed/34_1/600/600",
-        "https://picsum.photos/seed/34_2/600/600",
-        "https://picsum.photos/seed/34_3/600/600"
+        "/images/products/laptops/laptop42.webp",
+        "/images/products/laptops/laptop24.webp",
+        "/images/products/laptops/laptop25.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/34/300/300",
+      "thumbnail": "/images/products/laptops/laptop42.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -2300,11 +2300,11 @@
         "barcode": "6723208571783"
       },
       "images": [
-        "https://picsum.photos/seed/35_1/600/600",
-        "https://picsum.photos/seed/35_2/600/600",
-        "https://picsum.photos/seed/35_3/600/600"
+        "/images/products/laptops/laptop43.webp",
+        "/images/products/laptops/laptop25.webp",
+        "/images/products/laptops/laptop26.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/35/300/300",
+      "thumbnail": "/images/products/laptops/laptop43.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -2366,11 +2366,11 @@
         "barcode": "1630841444163"
       },
       "images": [
-        "https://picsum.photos/seed/36_1/600/600",
-        "https://picsum.photos/seed/36_2/600/600",
-        "https://picsum.photos/seed/36_3/600/600"
+        "/images/products/laptops/laptop44.webp",
+        "/images/products/laptops/laptop32.webp",
+        "/images/products/laptops/laptop33.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/36/300/300",
+      "thumbnail": "/images/products/laptops/laptop44.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -2431,12 +2431,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "4552700303208"
       },
-      "images": [
-        "https://picsum.photos/seed/37_1/600/600",
-        "https://picsum.photos/seed/37_2/600/600",
-        "https://picsum.photos/seed/37_3/600/600"
+     "images": [
+        "/images/products/laptops/laptop45.webp",
+        "/images/products/laptops/laptop34.webp",
+        "/images/products/laptops/laptop35.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/37/300/300",
+      "thumbnail": "/images/products/laptops/laptop45.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -2498,11 +2498,11 @@
         "barcode": "8228484388648"
       },
       "images": [
-        "https://picsum.photos/seed/38_1/600/600",
-        "https://picsum.photos/seed/38_2/600/600",
-        "https://picsum.photos/seed/38_3/600/600"
+        "/images/products/laptops/laptop46.webp",
+        "/images/products/laptops/laptop27.webp",
+        "/images/products/laptops/laptop29.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/38/300/300",
+      "thumbnail": "/images/products/laptops/laptop46.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -2564,11 +2564,11 @@
         "barcode": "6839372286587"
       },
       "images": [
-        "https://picsum.photos/seed/39_1/600/600",
-        "https://picsum.photos/seed/39_2/600/600",
-        "https://picsum.photos/seed/39_3/600/600"
+        "/images/products/laptops/laptop47.webp",
+        "/images/products/laptops/laptop12.webp",
+        "/images/products/laptops/laptop35.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/39/300/300",
+      "thumbnail": "/images/products/laptops/laptop47.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -2630,11 +2630,11 @@
         "barcode": "7991090516894"
       },
       "images": [
-        "https://picsum.photos/seed/40_1/600/600",
-        "https://picsum.photos/seed/40_2/600/600",
-        "https://picsum.photos/seed/40_3/600/600"
+        "/images/products/laptops/laptop48.webp",
+        "/images/products/laptops/laptop21.webp",
+        "/images/products/laptops/laptop22.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/40/300/300",
+      "thumbnail": "/images/products/laptops/laptop48.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -2696,11 +2696,11 @@
         "barcode": "1544904227353"
       },
       "images": [
-        "https://picsum.photos/seed/41_1/600/600",
-        "https://picsum.photos/seed/41_2/600/600",
-        "https://picsum.photos/seed/41_3/600/600"
+        "/images/products/laptops/laptop49.webp",
+        "/images/products/laptops/laptop35.webp",
+        "/images/products/laptops/laptop36.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/41/300/300",
+      "thumbnail": "/images/products/laptops/laptop49.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -2762,11 +2762,11 @@
         "barcode": "3252711792799"
       },
       "images": [
-        "https://picsum.photos/seed/42_1/600/600",
-        "https://picsum.photos/seed/42_2/600/600",
-        "https://picsum.photos/seed/42_3/600/600"
+        "/images/products/laptops/laptop50.webp",
+        "/images/products/laptops/laptop1.webp",
+        "/images/products/laptops/laptop2.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/42/300/300",
+      "thumbnail": "/images/products/laptops/laptop50.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -2828,11 +2828,11 @@
         "barcode": "9479202353174"
       },
       "images": [
-        "https://picsum.photos/seed/43_1/600/600",
-        "https://picsum.photos/seed/43_2/600/600",
-        "https://picsum.photos/seed/43_3/600/600"
+        "/images/products/laptops/laptop38.webp",
+        "/images/products/laptops/laptop29.webp",
+        "/images/products/laptops/laptop30.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/43/300/300",
+      "thumbnail": "/images/products/laptops/laptop38.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -2894,11 +2894,11 @@
         "barcode": "5405447377710"
       },
       "images": [
-        "https://picsum.photos/seed/44_1/600/600",
-        "https://picsum.photos/seed/44_2/600/600",
-        "https://picsum.photos/seed/44_3/600/600"
+        "/images/products/laptops/laptop39.webp",
+        "/images/products/laptops/laptop22.webp",
+        "/images/products/laptops/laptop23.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/44/300/300",
+      "thumbnail": "/images/products/laptops/laptop39.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -2960,11 +2960,11 @@
         "barcode": "4156477904257"
       },
       "images": [
-        "https://picsum.photos/seed/45_1/600/600",
-        "https://picsum.photos/seed/45_2/600/600",
-        "https://picsum.photos/seed/45_3/600/600"
+        "/images/products/laptops/laptop40.webp",
+        "/images/products/laptops/laptop41.webp",
+        "/images/products/laptops/laptop42.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/45/300/300",
+      "thumbnail": "/images/products/laptops/laptop40.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -3026,11 +3026,11 @@
         "barcode": "5918391175054"
       },
       "images": [
-        "https://picsum.photos/seed/46_1/600/600",
-        "https://picsum.photos/seed/46_2/600/600",
-        "https://picsum.photos/seed/46_3/600/600"
+        "/images/products/laptops/laptop31.webp",
+        "/images/products/laptops/laptop34.webp",
+        "/images/products/laptops/laptop35.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/46/300/300",
+      "thumbnail": "/images/products/laptops/laptop31.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -3092,11 +3092,11 @@
         "barcode": "3462053499448"
       },
       "images": [
-        "https://picsum.photos/seed/47_1/600/600",
-        "https://picsum.photos/seed/47_2/600/600",
-        "https://picsum.photos/seed/47_3/600/600"
+        "/images/products/laptops/laptop30.webp",
+        "/images/products/laptops/laptop31.webp",
+        "/images/products/laptops/laptop32.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/47/300/300",
+      "thumbnail": "/images/products/laptops/laptop30.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -3158,11 +3158,11 @@
         "barcode": "8088524388168"
       },
       "images": [
-        "https://picsum.photos/seed/48_1/600/600",
-        "https://picsum.photos/seed/48_2/600/600",
-        "https://picsum.photos/seed/48_3/600/600"
+        "/images/products/laptops/laptop34.webp",
+        "/images/products/laptops/laptop22.webp",
+        "/images/products/laptops/laptop23.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/48/300/300",
+      "thumbnail": "/images/products/laptops/laptop34.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -3224,11 +3224,11 @@
         "barcode": "8562546781240"
       },
       "images": [
-        "https://picsum.photos/seed/49_1/600/600",
-        "https://picsum.photos/seed/49_2/600/600",
-        "https://picsum.photos/seed/49_3/600/600"
+        "/images/products/laptops/laptop36.webp",
+        "/images/products/laptops/laptop26.webp",
+        "/images/products/laptops/laptop27.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/49/300/300",
+      "thumbnail": "/images/products/laptops/laptop36.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -3290,11 +3290,11 @@
         "barcode": "7690366005843"
       },
       "images": [
-        "https://picsum.photos/seed/50_1/600/600",
-        "https://picsum.photos/seed/50_2/600/600",
-        "https://picsum.photos/seed/50_3/600/600"
+        "/images/products/laptops/laptop10.webp",
+        "/images/products/laptops/laptop6.webp",
+        "/images/products/laptops/laptop7.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/50/300/300",
+      "thumbnail": "/images/products/laptops/laptop10.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
