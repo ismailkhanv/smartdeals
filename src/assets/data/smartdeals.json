@@ -3356,11 +3356,11 @@
         "barcode": "7452746410643"
       },
       "images": [
-        "https://picsum.photos/seed/51_1/600/600",
-        "https://picsum.photos/seed/51_2/600/600",
-        "https://picsum.photos/seed/51_3/600/600"
+        "/images/products/men/men1.webp",
+        "/images/products/men/men2.webp",
+        "/images/products/men/men3.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/51/300/300",
+      "thumbnail": "/images/products/men/men1.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -3421,12 +3421,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "5720134509908"
       },
-      "images": [
-        "https://picsum.photos/seed/52_1/600/600",
-        "https://picsum.photos/seed/52_2/600/600",
-        "https://picsum.photos/seed/52_3/600/600"
+     "images": [
+        "/images/products/men/men2.webp",
+        "/images/products/men/men3.webp",
+        "/images/products/men/men4.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/52/300/300",
+      "thumbnail": "/images/products/men/men2.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -3488,11 +3488,11 @@
         "barcode": "5777618149062"
       },
       "images": [
-        "https://picsum.photos/seed/53_1/600/600",
-        "https://picsum.photos/seed/53_2/600/600",
-        "https://picsum.photos/seed/53_3/600/600"
+        "/images/products/men/men3.webp",
+        "/images/products/men/men4.webp",
+        "/images/products/men/men5.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/53/300/300",
+      "thumbnail": "/images/products/men/men3.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -3554,11 +3554,11 @@
         "barcode": "2563215363114"
       },
       "images": [
-        "https://picsum.photos/seed/54_1/600/600",
-        "https://picsum.photos/seed/54_2/600/600",
-        "https://picsum.photos/seed/54_3/600/600"
+        "/images/products/men/men4.webp",
+        "/images/products/men/men5.webp",
+        "/images/products/men/men6.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/54/300/300",
+      "thumbnail": "/images/products/men/men4.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -3620,11 +3620,11 @@
         "barcode": "1805933918108"
       },
       "images": [
-        "https://picsum.photos/seed/55_1/600/600",
-        "https://picsum.photos/seed/55_2/600/600",
-        "https://picsum.photos/seed/55_3/600/600"
+        "/images/products/men/men5.webp",
+        "/images/products/men/men6.webp",
+        "/images/products/men/men7.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/55/300/300",
+      "thumbnail": "/images/products/men/men5.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -3686,11 +3686,11 @@
         "barcode": "1331606389021"
       },
       "images": [
-        "https://picsum.photos/seed/56_1/600/600",
-        "https://picsum.photos/seed/56_2/600/600",
-        "https://picsum.photos/seed/56_3/600/600"
+        "/images/products/men/men6.webp",
+        "/images/products/men/men6.webp",
+        "/images/products/men/men7.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/56/300/300",
+      "thumbnail": "/images/products/men/men6.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -3751,12 +3751,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "9651692381975"
       },
-      "images": [
-        "https://picsum.photos/seed/57_1/600/600",
-        "https://picsum.photos/seed/57_2/600/600",
-        "https://picsum.photos/seed/57_3/600/600"
+     "images": [
+        "/images/products/men/men7.webp",
+        "/images/products/men/men8.webp",
+        "/images/products/men/men9.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/57/300/300",
+      "thumbnail": "/images/products/men/men7.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -3818,11 +3818,11 @@
         "barcode": "8082281277305"
       },
       "images": [
-        "https://picsum.photos/seed/58_1/600/600",
-        "https://picsum.photos/seed/58_2/600/600",
-        "https://picsum.photos/seed/58_3/600/600"
+        "/images/products/men/men8.webp",
+        "/images/products/men/men10.webp",
+        "/images/products/men/men9.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/58/300/300",
+      "thumbnail": "/images/products/men/men8.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -3884,11 +3884,11 @@
         "barcode": "7799718653766"
       },
       "images": [
-        "https://picsum.photos/seed/59_1/600/600",
-        "https://picsum.photos/seed/59_2/600/600",
-        "https://picsum.photos/seed/59_3/600/600"
+        "/images/products/men/men9.webp",
+        "/images/products/men/men10.webp",
+        "/images/products/men/men11.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/59/300/300",
+      "thumbnail": "/images/products/men/men9.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -3950,11 +3950,11 @@
         "barcode": "4836703099067"
       },
       "images": [
-        "https://picsum.photos/seed/60_1/600/600",
-        "https://picsum.photos/seed/60_2/600/600",
-        "https://picsum.photos/seed/60_3/600/600"
+        "/images/products/men/men11.webp",
+        "/images/products/men/men12.webp",
+        "/images/products/men/men13.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/60/300/300",
+      "thumbnail": "/images/products/men/men11.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -4016,11 +4016,11 @@
         "barcode": "6372426815004"
       },
       "images": [
-        "https://picsum.photos/seed/61_1/600/600",
-        "https://picsum.photos/seed/61_2/600/600",
-        "https://picsum.photos/seed/61_3/600/600"
+        "/images/products/men/men12.webp",
+        "/images/products/men/men14.webp",
+        "/images/products/men/men13.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/61/300/300",
+      "thumbnail": "/images/products/men/men12.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -4082,11 +4082,11 @@
         "barcode": "3225017462131"
       },
       "images": [
-        "https://picsum.photos/seed/62_1/600/600",
-        "https://picsum.photos/seed/62_2/600/600",
-        "https://picsum.photos/seed/62_3/600/600"
+        "/images/products/men/men13.webp",
+        "/images/products/men/men14.webp",
+        "/images/products/men/men15.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/62/300/300",
+      "thumbnail": "/images/products/men/men13.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -4148,11 +4148,11 @@
         "barcode": "9505920366603"
       },
       "images": [
-        "https://picsum.photos/seed/63_1/600/600",
-        "https://picsum.photos/seed/63_2/600/600",
-        "https://picsum.photos/seed/63_3/600/600"
+        "/images/products/men/men14.webp",
+        "/images/products/men/men16.webp",
+        "/images/products/men/men15.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/63/300/300",
+      "thumbnail": "/images/products/men/men14.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -4214,11 +4214,11 @@
         "barcode": "5508314127788"
       },
       "images": [
-        "https://picsum.photos/seed/64_1/600/600",
-        "https://picsum.photos/seed/64_2/600/600",
-        "https://picsum.photos/seed/64_3/600/600"
+        "/images/products/men/men15.webp",
+        "/images/products/men/men16.webp",
+        "/images/products/men/men17.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/64/300/300",
+      "thumbnail": "/images/products/men/men15.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -4280,11 +4280,11 @@
         "barcode": "1664367585115"
       },
       "images": [
-        "https://picsum.photos/seed/65_1/600/600",
-        "https://picsum.photos/seed/65_2/600/600",
-        "https://picsum.photos/seed/65_3/600/600"
+        "/images/products/men/men16.webp",
+        "/images/products/men/men18.webp",
+        "/images/products/men/men17.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/65/300/300",
+      "thumbnail": "/images/products/men/men16.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -4345,12 +4345,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "1652761436620"
       },
-      "images": [
-        "https://picsum.photos/seed/66_1/600/600",
-        "https://picsum.photos/seed/66_2/600/600",
-        "https://picsum.photos/seed/66_3/600/600"
+     "images": [
+        "/images/products/men/men17.webp",
+        "/images/products/men/men18.webp",
+        "/images/products/men/men19.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/66/300/300",
+      "thumbnail": "/images/products/men/men17.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -4412,11 +4412,11 @@
         "barcode": "2109226743812"
       },
       "images": [
-        "https://picsum.photos/seed/67_1/600/600",
-        "https://picsum.photos/seed/67_2/600/600",
-        "https://picsum.photos/seed/67_3/600/600"
+        "/images/products/men/men18.webp",
+        "/images/products/men/men20.webp",
+        "/images/products/men/men19.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/67/300/300",
+      "thumbnail": "/images/products/men/men18.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -4478,11 +4478,11 @@
         "barcode": "4595257581087"
       },
       "images": [
-        "https://picsum.photos/seed/68_1/600/600",
-        "https://picsum.photos/seed/68_2/600/600",
-        "https://picsum.photos/seed/68_3/600/600"
+        "/images/products/men/men19.webp",
+        "/images/products/men/men20.webp",
+        "/images/products/men/men21.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/68/300/300",
+      "thumbnail": "/images/products/men/men19.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -4544,11 +4544,11 @@
         "barcode": "6326597989165"
       },
       "images": [
-        "https://picsum.photos/seed/69_1/600/600",
-        "https://picsum.photos/seed/69_2/600/600",
-        "https://picsum.photos/seed/69_3/600/600"
+        "/images/products/men/men20.webp",
+        "/images/products/men/men22.webp",
+        "/images/products/men/men21.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/69/300/300",
+      "thumbnail": "/images/products/men/men20.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -4610,11 +4610,11 @@
         "barcode": "8515785766799"
       },
       "images": [
-        "https://picsum.photos/seed/70_1/600/600",
-        "https://picsum.photos/seed/70_2/600/600",
-        "https://picsum.photos/seed/70_3/600/600"
+        "/images/products/men/men21.webp",
+        "/images/products/men/men22.webp",
+        "/images/products/men/men23.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/70/300/300",
+      "thumbnail": "/images/products/men/men21.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -4676,11 +4676,11 @@
         "barcode": "6994178584380"
       },
       "images": [
-        "https://picsum.photos/seed/71_1/600/600",
-        "https://picsum.photos/seed/71_2/600/600",
-        "https://picsum.photos/seed/71_3/600/600"
+        "/images/products/men/men22.webp",
+        "/images/products/men/men24.webp",
+        "/images/products/men/men23.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/71/300/300",
+      "thumbnail": "/images/products/men/men22.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -4742,11 +4742,11 @@
         "barcode": "1928363614763"
       },
       "images": [
-        "https://picsum.photos/seed/72_1/600/600",
-        "https://picsum.photos/seed/72_2/600/600",
-        "https://picsum.photos/seed/72_3/600/600"
+        "/images/products/men/men23.webp",
+        "/images/products/men/men24.webp",
+        "/images/products/men/men25.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/72/300/300",
+      "thumbnail": "/images/products/men/men23.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -4807,12 +4807,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "9107260396602"
       },
-      "images": [
-        "https://picsum.photos/seed/73_1/600/600",
-        "https://picsum.photos/seed/73_2/600/600",
-        "https://picsum.photos/seed/73_3/600/600"
+     "images": [
+        "/images/products/men/men24.webp",
+        "/images/products/men/men25.webp",
+        "/images/products/men/men26.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/73/300/300",
+      "thumbnail": "/images/products/men/men24.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -4874,11 +4874,11 @@
         "barcode": "7602508107904"
       },
       "images": [
-        "https://picsum.photos/seed/74_1/600/600",
-        "https://picsum.photos/seed/74_2/600/600",
-        "https://picsum.photos/seed/74_3/600/600"
+        "/images/products/men/men25.webp",
+        "/images/products/men/men27.webp",
+        "/images/products/men/men26.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/74/300/300",
+      "thumbnail": "/images/products/men/men25.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -4940,11 +4940,11 @@
         "barcode": "6427718432053"
       },
       "images": [
-        "https://picsum.photos/seed/75_1/600/600",
-        "https://picsum.photos/seed/75_2/600/600",
-        "https://picsum.photos/seed/75_3/600/600"
+        "/images/products/men/men26.webp",
+        "/images/products/men/men27.webp",
+        "/images/products/men/men28.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/75/300/300",
+      "thumbnail": "/images/products/men/men26.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -5006,11 +5006,11 @@
         "barcode": "6577206724773"
       },
       "images": [
-        "https://picsum.photos/seed/76_1/600/600",
-        "https://picsum.photos/seed/76_2/600/600",
-        "https://picsum.photos/seed/76_3/600/600"
+        "/images/products/women/women1.webp",
+        "/images/products/men/women2.webp",
+        "/images/products/men/women3.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/76/300/300",
+      "thumbnail": "/images/products/women/women1.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -5072,11 +5072,11 @@
         "barcode": "3506370895832"
       },
       "images": [
-        "https://picsum.photos/seed/77_1/600/600",
-        "https://picsum.photos/seed/77_2/600/600",
-        "https://picsum.photos/seed/77_3/600/600"
+        "/images/products/women/women2.webp",
+        "/images/products/men/women4.webp",
+        "/images/products/men/women3.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/77/300/300",
+      "thumbnail": "/images/products/women/women2.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -5138,11 +5138,11 @@
         "barcode": "2274845141449"
       },
       "images": [
-        "https://picsum.photos/seed/78_1/600/600",
-        "https://picsum.photos/seed/78_2/600/600",
-        "https://picsum.photos/seed/78_3/600/600"
+        "/images/products/women/women3.webp",
+        "/images/products/men/women4.webp",
+        "/images/products/men/women5.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/78/300/300",
+      "thumbnail": "/images/products/women/women3.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -5204,11 +5204,11 @@
         "barcode": "2819349469876"
       },
       "images": [
-        "https://picsum.photos/seed/79_1/600/600",
-        "https://picsum.photos/seed/79_2/600/600",
-        "https://picsum.photos/seed/79_3/600/600"
+        "/images/products/women/women4.webp",
+        "/images/products/men/women6.webp",
+        "/images/products/men/women5.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/79/300/300",
+      "thumbnail": "/images/products/women/women4.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -5270,11 +5270,11 @@
         "barcode": "6570999228154"
       },
       "images": [
-        "https://picsum.photos/seed/80_1/600/600",
-        "https://picsum.photos/seed/80_2/600/600",
-        "https://picsum.photos/seed/80_3/600/600"
+        "/images/products/women/women5.webp",
+        "/images/products/men/women6.webp",
+        "/images/products/men/women7.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/80/300/300",
+      "thumbnail": "/images/products/women/women5.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -5336,11 +5336,11 @@
         "barcode": "1342464919574"
       },
       "images": [
-        "https://picsum.photos/seed/81_1/600/600",
-        "https://picsum.photos/seed/81_2/600/600",
-        "https://picsum.photos/seed/81_3/600/600"
+        "/images/products/women/women6.webp",
+        "/images/products/men/women7.webp",
+        "/images/products/men/women8.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/81/300/300",
+      "thumbnail": "/images/products/women/women6.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -5402,11 +5402,11 @@
         "barcode": "8398117783801"
       },
       "images": [
-        "https://picsum.photos/seed/82_1/600/600",
-        "https://picsum.photos/seed/82_2/600/600",
-        "https://picsum.photos/seed/82_3/600/600"
+        "/images/products/women/women7.webp",
+        "/images/products/men/women9.webp",
+        "/images/products/men/women8.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/82/300/300",
+      "thumbnail": "/images/products/women/women7.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -5468,11 +5468,11 @@
         "barcode": "7670487682923"
       },
       "images": [
-        "https://picsum.photos/seed/83_1/600/600",
-        "https://picsum.photos/seed/83_2/600/600",
-        "https://picsum.photos/seed/83_3/600/600"
+        "/images/products/women/women8.webp",
+        "/images/products/men/women9.webp",
+        "/images/products/men/women10.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/83/300/300",
+      "thumbnail": "/images/products/women/women8.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -5534,11 +5534,11 @@
         "barcode": "2574194013458"
       },
       "images": [
-        "https://picsum.photos/seed/84_1/600/600",
-        "https://picsum.photos/seed/84_2/600/600",
-        "https://picsum.photos/seed/84_3/600/600"
+        "/images/products/women/women9.webp",
+        "/images/products/men/women11.webp",
+        "/images/products/men/women10.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/84/300/300",
+      "thumbnail": "/images/products/women/women9.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -5600,11 +5600,11 @@
         "barcode": "9905294461843"
       },
       "images": [
-        "https://picsum.photos/seed/85_1/600/600",
-        "https://picsum.photos/seed/85_2/600/600",
-        "https://picsum.photos/seed/85_3/600/600"
+        "/images/products/women/women10.webp",
+        "/images/products/men/women11.webp",
+        "/images/products/men/women12.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/85/300/300",
+      "thumbnail": "/images/products/women/women10.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -5666,11 +5666,11 @@
         "barcode": "4051212685374"
       },
       "images": [
-        "https://picsum.photos/seed/86_1/600/600",
-        "https://picsum.photos/seed/86_2/600/600",
-        "https://picsum.photos/seed/86_3/600/600"
+        "/images/products/women/women11.webp",
+        "/images/products/men/women13.webp",
+        "/images/products/men/women12.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/86/300/300",
+      "thumbnail": "/images/products/women/women11.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -5732,11 +5732,11 @@
         "barcode": "2852999681021"
       },
       "images": [
-        "https://picsum.photos/seed/87_1/600/600",
-        "https://picsum.photos/seed/87_2/600/600",
-        "https://picsum.photos/seed/87_3/600/600"
+        "/images/products/women/women12.webp",
+        "/images/products/men/women13.webp",
+        "/images/products/men/women14.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/87/300/300",
+      "thumbnail": "/images/products/women/women12.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -5798,11 +5798,11 @@
         "barcode": "8678683982029"
       },
       "images": [
-        "https://picsum.photos/seed/88_1/600/600",
-        "https://picsum.photos/seed/88_2/600/600",
-        "https://picsum.photos/seed/88_3/600/600"
+        "/images/products/women/women13.webp",
+        "/images/products/men/women15.webp",
+        "/images/products/men/women14.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/88/300/300",
+      "thumbnail": "/images/products/women/women13.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -5864,11 +5864,11 @@
         "barcode": "9554258070821"
       },
       "images": [
-        "https://picsum.photos/seed/89_1/600/600",
-        "https://picsum.photos/seed/89_2/600/600",
-        "https://picsum.photos/seed/89_3/600/600"
+        "/images/products/women/women14.webp",
+        "/images/products/men/women15.webp",
+        "/images/products/men/women16.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/89/300/300",
+      "thumbnail": "/images/products/women/women14.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -5930,11 +5930,11 @@
         "barcode": "9369249295341"
       },
       "images": [
-        "https://picsum.photos/seed/90_1/600/600",
-        "https://picsum.photos/seed/90_2/600/600",
-        "https://picsum.photos/seed/90_3/600/600"
+        "/images/products/women/women15.webp",
+        "/images/products/men/women17.webp",
+        "/images/products/men/women16.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/90/300/300",
+      "thumbnail": "/images/products/women/women15.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -5996,11 +5996,11 @@
         "barcode": "5290910726471"
       },
       "images": [
-        "https://picsum.photos/seed/91_1/600/600",
-        "https://picsum.photos/seed/91_2/600/600",
-        "https://picsum.photos/seed/91_3/600/600"
+        "/images/products/women/women16.webp",
+        "/images/products/men/women17.webp",
+        "/images/products/men/women18.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/91/300/300",
+      "thumbnail": "/images/products/women/women16.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -6062,11 +6062,11 @@
         "barcode": "8135990144999"
       },
       "images": [
-        "https://picsum.photos/seed/92_1/600/600",
-        "https://picsum.photos/seed/92_2/600/600",
-        "https://picsum.photos/seed/92_3/600/600"
+        "/images/products/women/women17.webp",
+        "/images/products/men/women18.webp",
+        "/images/products/men/women19.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/92/300/300",
+      "thumbnail": "/images/products/women/women17.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -6128,11 +6128,11 @@
         "barcode": "7988246315637"
       },
       "images": [
-        "https://picsum.photos/seed/93_1/600/600",
-        "https://picsum.photos/seed/93_2/600/600",
-        "https://picsum.photos/seed/93_3/600/600"
+        "/images/products/women/women18.webp",
+        "/images/products/men/women20.webp",
+        "/images/products/men/women19.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/93/300/300",
+      "thumbnail": "/images/products/women/women18.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -6194,11 +6194,11 @@
         "barcode": "4254502871731"
       },
       "images": [
-        "https://picsum.photos/seed/94_1/600/600",
-        "https://picsum.photos/seed/94_2/600/600",
-        "https://picsum.photos/seed/94_3/600/600"
+        "/images/products/women/women19.webp",
+        "/images/products/men/women20.webp",
+        "/images/products/men/women21.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/94/300/300",
+      "thumbnail": "/images/products/women/women19.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -6260,11 +6260,11 @@
         "barcode": "3411311735387"
       },
       "images": [
-        "https://picsum.photos/seed/95_1/600/600",
-        "https://picsum.photos/seed/95_2/600/600",
-        "https://picsum.photos/seed/95_3/600/600"
+        "/images/products/women/women20.webp",
+        "/images/products/men/women22.webp",
+        "/images/products/men/women21.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/95/300/300",
+      "thumbnail": "/images/products/women/women20.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -6326,11 +6326,11 @@
         "barcode": "9494060118794"
       },
       "images": [
-        "https://picsum.photos/seed/96_1/600/600",
-        "https://picsum.photos/seed/96_2/600/600",
-        "https://picsum.photos/seed/96_3/600/600"
+        "/images/products/women/women21.webp",
+        "/images/products/men/women22.webp",
+        "/images/products/men/women23.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/96/300/300",
+      "thumbnail": "/images/products/women/women21.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -6392,11 +6392,11 @@
         "barcode": "4124909131454"
       },
       "images": [
-        "https://picsum.photos/seed/97_1/600/600",
-        "https://picsum.photos/seed/97_2/600/600",
-        "https://picsum.photos/seed/97_3/600/600"
+        "/images/products/women/women22.webp",
+        "/images/products/men/women24.webp",
+        "/images/products/men/women23.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/97/300/300",
+      "thumbnail": "/images/products/women/women22.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -6458,11 +6458,11 @@
         "barcode": "8530858990908"
       },
       "images": [
-        "https://picsum.photos/seed/98_1/600/600",
-        "https://picsum.photos/seed/98_2/600/600",
-        "https://picsum.photos/seed/98_3/600/600"
+        "/images/products/women/women23.webp",
+        "/images/products/men/women24.webp",
+        "/images/products/men/women25.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/98/300/300",
+      "thumbnail": "/images/products/women/women23.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -6523,12 +6523,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "4495530870906"
       },
-      "images": [
-        "https://picsum.photos/seed/99_1/600/600",
-        "https://picsum.photos/seed/99_2/600/600",
-        "https://picsum.photos/seed/99_3/600/600"
+     "images": [
+        "/images/products/women/women24.webp",
+        "/images/products/men/women25.webp",
+        "/images/products/men/women26.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/99/300/300",
+      "thumbnail": "/images/products/women/women24.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -6590,11 +6590,11 @@
         "barcode": "9826301000700"
       },
       "images": [
-        "https://picsum.photos/seed/100_1/600/600",
-        "https://picsum.photos/seed/100_2/600/600",
-        "https://picsum.photos/seed/100_3/600/600"
+        "/images/products/women/women25.webp",
+        "/images/products/men/women27.webp",
+        "/images/products/men/women26.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/100/300/300",
+      "thumbnail": "/images/products/women/women25.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -9955,12 +9955,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "6774154406094"
       },
-      "images": [
-        "https://picsum.photos/seed/151_1/600/600",
-        "https://picsum.photos/seed/151_2/600/600",
-        "https://picsum.photos/seed/151_3/600/600"
+     "images": [
+        "/images/products/kitchen/kitchen1.webp",
+        "/images/products/kitchen/kitchen2.webp",
+        "/images/products/kitchen/kitchen3.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/151/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen1.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -10022,11 +10022,11 @@
         "barcode": "7832683328855"
       },
       "images": [
-        "https://picsum.photos/seed/152_1/600/600",
-        "https://picsum.photos/seed/152_2/600/600",
-        "https://picsum.photos/seed/152_3/600/600"
+        "/images/products/kitchen/kitchen2.webp",
+        "/images/products/kitchen/kitchen3.webp",
+        "/images/products/kitchen/kitchen4.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/152/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen2.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -10088,11 +10088,11 @@
         "barcode": "5451536049072"
       },
       "images": [
-        "https://picsum.photos/seed/153_1/600/600",
-        "https://picsum.photos/seed/153_2/600/600",
-        "https://picsum.photos/seed/153_3/600/600"
+        "/images/products/kitchen/kitchen3.webp",
+        "/images/products/kitchen/kitchen4.webp",
+        "/images/products/kitchen/kitchen5.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/153/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen3.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -10154,11 +10154,11 @@
         "barcode": "4209159310500"
       },
       "images": [
-        "https://picsum.photos/seed/154_1/600/600",
-        "https://picsum.photos/seed/154_2/600/600",
-        "https://picsum.photos/seed/154_3/600/600"
+        "/images/products/kitchen/kitchen4.webp",
+        "/images/products/kitchen/kitchen6.webp",
+        "/images/products/kitchen/kitchen5.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/154/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen4.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -10220,11 +10220,11 @@
         "barcode": "1530126672628"
       },
       "images": [
-        "https://picsum.photos/seed/155_1/600/600",
-        "https://picsum.photos/seed/155_2/600/600",
-        "https://picsum.photos/seed/155_3/600/600"
+        "/images/products/kitchen/kitchen5.webp",
+        "/images/products/kitchen/kitchen6.webp",
+        "/images/products/kitchen/kitchen7.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/155/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen5.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -10286,11 +10286,11 @@
         "barcode": "3059071842002"
       },
       "images": [
-        "https://picsum.photos/seed/156_1/600/600",
-        "https://picsum.photos/seed/156_2/600/600",
-        "https://picsum.photos/seed/156_3/600/600"
+        "/images/products/kitchen/kitchen6.webp",
+        "/images/products/kitchen/kitchen7.webp",
+        "/images/products/kitchen/kitchen8.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/156/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen6.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -10352,11 +10352,11 @@
         "barcode": "8082099062133"
       },
       "images": [
-        "https://picsum.photos/seed/157_1/600/600",
-        "https://picsum.photos/seed/157_2/600/600",
-        "https://picsum.photos/seed/157_3/600/600"
+        "/images/products/kitchen/kitchen7.webp",
+        "/images/products/kitchen/kitchen8.webp",
+        "/images/products/kitchen/kitchen9.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/157/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen7.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -10417,12 +10417,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "5020592526050"
       },
-      "images": [
-        "https://picsum.photos/seed/158_1/600/600",
-        "https://picsum.photos/seed/158_2/600/600",
-        "https://picsum.photos/seed/158_3/600/600"
+     "images": [
+        "/images/products/kitchen/kitchen8.webp",
+        "/images/products/kitchen/kitchen9.webp",
+        "/images/products/kitchen/kitchen10.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/158/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen8.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -10484,11 +10484,11 @@
         "barcode": "8463791260192"
       },
       "images": [
-        "https://picsum.photos/seed/159_1/600/600",
-        "https://picsum.photos/seed/159_2/600/600",
-        "https://picsum.photos/seed/159_3/600/600"
+        "/images/products/kitchen/kitchen9.webp",
+        "/images/products/kitchen/kitchen10.webp",
+        "/images/products/kitchen/kitchen11.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/159/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen9.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -10550,11 +10550,11 @@
         "barcode": "9767584142401"
       },
       "images": [
-        "https://picsum.photos/seed/160_1/600/600",
-        "https://picsum.photos/seed/160_2/600/600",
-        "https://picsum.photos/seed/160_3/600/600"
+        "/images/products/kitchen/kitchen10.webp",
+        "/images/products/kitchen/kitchen12.webp",
+        "/images/products/kitchen/kitchen11.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/160/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen10.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -10616,11 +10616,11 @@
         "barcode": "3132489446890"
       },
       "images": [
-        "https://picsum.photos/seed/161_1/600/600",
-        "https://picsum.photos/seed/161_2/600/600",
-        "https://picsum.photos/seed/161_3/600/600"
+        "/images/products/kitchen/kitchen11.webp",
+        "/images/products/kitchen/kitchen12.webp",
+        "/images/products/kitchen/kitchen13.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/161/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen11.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -10682,11 +10682,11 @@
         "barcode": "2993226080317"
       },
       "images": [
-        "https://picsum.photos/seed/162_1/600/600",
-        "https://picsum.photos/seed/162_2/600/600",
-        "https://picsum.photos/seed/162_3/600/600"
+        "/images/products/kitchen/kitchen12.webp",
+        "/images/products/kitchen/kitchen13.webp",
+        "/images/products/kitchen/kitchen14.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/162/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen12.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -10748,11 +10748,11 @@
         "barcode": "8302660218440"
       },
       "images": [
-        "https://picsum.photos/seed/163_1/600/600",
-        "https://picsum.photos/seed/163_2/600/600",
-        "https://picsum.photos/seed/163_3/600/600"
+        "/images/products/kitchen/kitchen13.webp",
+        "/images/products/kitchen/kitchen14.webp",
+        "/images/products/kitchen/kitchen15.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/163/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen13.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -10814,11 +10814,11 @@
         "barcode": "8940887733544"
       },
       "images": [
-        "https://picsum.photos/seed/164_1/600/600",
-        "https://picsum.photos/seed/164_2/600/600",
-        "https://picsum.photos/seed/164_3/600/600"
+        "/images/products/kitchen/kitchen14.webp",
+        "/images/products/kitchen/kitchen15.webp",
+        "/images/products/kitchen/kitchen16.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/164/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen14.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -10880,11 +10880,11 @@
         "barcode": "9108833574549"
       },
       "images": [
-        "https://picsum.photos/seed/165_1/600/600",
-        "https://picsum.photos/seed/165_2/600/600",
-        "https://picsum.photos/seed/165_3/600/600"
+        "/images/products/kitchen/kitchen15.webp",
+        "/images/products/kitchen/kitchen16.webp",
+        "/images/products/kitchen/kitchen17.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/165/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen15.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -10946,11 +10946,11 @@
         "barcode": "6829121088899"
       },
       "images": [
-        "https://picsum.photos/seed/166_1/600/600",
-        "https://picsum.photos/seed/166_2/600/600",
-        "https://picsum.photos/seed/166_3/600/600"
+        "/images/products/kitchen/kitchen16.webp",
+        "/images/products/kitchen/kitchen17.webp",
+        "/images/products/kitchen/kitchen18.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/166/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen16.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -11012,11 +11012,11 @@
         "barcode": "1937588624825"
       },
       "images": [
-        "https://picsum.photos/seed/167_1/600/600",
-        "https://picsum.photos/seed/167_2/600/600",
-        "https://picsum.photos/seed/167_3/600/600"
+        "/images/products/kitchen/kitchen17.webp",
+        "/images/products/kitchen/kitchen18.webp",
+        "/images/products/kitchen/kitchen19.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/167/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen17.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -11078,11 +11078,11 @@
         "barcode": "3422406613136"
       },
       "images": [
-        "https://picsum.photos/seed/168_1/600/600",
-        "https://picsum.photos/seed/168_2/600/600",
-        "https://picsum.photos/seed/168_3/600/600"
+        "/images/products/kitchen/kitchen18.webp",
+        "/images/products/kitchen/kitchen19.webp",
+        "/images/products/kitchen/kitchen20.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/168/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen18.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -11144,11 +11144,11 @@
         "barcode": "8844797512737"
       },
       "images": [
-        "https://picsum.photos/seed/169_1/600/600",
-        "https://picsum.photos/seed/169_2/600/600",
-        "https://picsum.photos/seed/169_3/600/600"
+        "/images/products/kitchen/kitchen19.webp",
+        "/images/products/kitchen/kitchen20.webp",
+        "/images/products/kitchen/kitchen21.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/169/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen19.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -11210,11 +11210,11 @@
         "barcode": "9429021989525"
       },
       "images": [
-        "https://picsum.photos/seed/170_1/600/600",
-        "https://picsum.photos/seed/170_2/600/600",
-        "https://picsum.photos/seed/170_3/600/600"
+        "/images/products/kitchen/kitchen20.webp",
+        "/images/products/kitchen/kitchen21.webp",
+        "/images/products/kitchen/kitchen22.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/170/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen20.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -11276,11 +11276,11 @@
         "barcode": "8933413291837"
       },
       "images": [
-        "https://picsum.photos/seed/171_1/600/600",
-        "https://picsum.photos/seed/171_2/600/600",
-        "https://picsum.photos/seed/171_3/600/600"
+        "/images/products/kitchen/kitchen21.webp",
+        "/images/products/kitchen/kitchen22.webp",
+        "/images/products/kitchen/kitchen23.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/171/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen21.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -11342,11 +11342,11 @@
         "barcode": "5500447166409"
       },
       "images": [
-        "https://picsum.photos/seed/172_1/600/600",
-        "https://picsum.photos/seed/172_2/600/600",
-        "https://picsum.photos/seed/172_3/600/600"
+        "/images/products/kitchen/kitchen22.webp",
+        "/images/products/kitchen/kitchen23.webp",
+        "/images/products/kitchen/kitchen24.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/172/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen22.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -11408,11 +11408,11 @@
         "barcode": "8932552390783"
       },
       "images": [
-        "https://picsum.photos/seed/173_1/600/600",
-        "https://picsum.photos/seed/173_2/600/600",
-        "https://picsum.photos/seed/173_3/600/600"
+        "/images/products/kitchen/kitchen23.webp",
+        "/images/products/kitchen/kitchen24.webp",
+        "/images/products/kitchen/kitchen25.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/173/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen23.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -11474,11 +11474,11 @@
         "barcode": "2577799385174"
       },
       "images": [
-        "https://picsum.photos/seed/174_1/600/600",
-        "https://picsum.photos/seed/174_2/600/600",
-        "https://picsum.photos/seed/174_3/600/600"
+        "/images/products/kitchen/kitchen24.webp",
+        "/images/products/kitchen/kitchen25.webp",
+        "/images/products/kitchen/kitchen26.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/174/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen24.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -11540,11 +11540,11 @@
         "barcode": "9910192420022"
       },
       "images": [
-        "https://picsum.photos/seed/175_1/600/600",
-        "https://picsum.photos/seed/175_2/600/600",
-        "https://picsum.photos/seed/175_3/600/600"
+        "/images/products/kitchen/kitchen25.webp",
+        "/images/products/kitchen/kitchen26.webp",
+        "/images/products/kitchen/kitchen27.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/175/300/300",
+      "thumbnail": "/images/products/kitchen/kitchen25.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -11606,11 +11606,11 @@
         "barcode": "5053002140859"
       },
       "images": [
-        "https://picsum.photos/seed/176_1/600/600",
-        "https://picsum.photos/seed/176_2/600/600",
-        "https://picsum.photos/seed/176_3/600/600"
+        "/images/products/furniture/furniture1.webp",
+        "/images/products/furniture/furniture2.webp",
+        "/images/products/furniture/furniture3.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/176/300/300",
+      "thumbnail": "/images/products/furniture/furniture1.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -11672,11 +11672,11 @@
         "barcode": "6646771009368"
       },
       "images": [
-        "https://picsum.photos/seed/177_1/600/600",
-        "https://picsum.photos/seed/177_2/600/600",
-        "https://picsum.photos/seed/177_3/600/600"
+        "/images/products/furniture/furniture2.webp",
+        "/images/products/furniture/furniture3.webp",
+        "/images/products/furniture/furniture4.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/177/300/300",
+      "thumbnail": "/images/products/furniture/furniture2.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -11738,11 +11738,11 @@
         "barcode": "6631537366435"
       },
       "images": [
-        "https://picsum.photos/seed/178_1/600/600",
-        "https://picsum.photos/seed/178_2/600/600",
-        "https://picsum.photos/seed/178_3/600/600"
+        "/images/products/furniture/furniture3.webp",
+        "/images/products/furniture/furniture4.webp",
+        "/images/products/furniture/furniture5.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/178/300/300",
+      "thumbnail": "/images/products/furniture/furniture3.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -11804,11 +11804,11 @@
         "barcode": "6934074436755"
       },
       "images": [
-        "https://picsum.photos/seed/179_1/600/600",
-        "https://picsum.photos/seed/179_2/600/600",
-        "https://picsum.photos/seed/179_3/600/600"
+        "/images/products/furniture/furniture4.webp",
+        "/images/products/furniture/furniture5.webp",
+        "/images/products/furniture/furniture6.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/179/300/300",
+      "thumbnail": "/images/products/furniture/furniture4.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -11869,12 +11869,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "2459942166680"
       },
-      "images": [
-        "https://picsum.photos/seed/180_1/600/600",
-        "https://picsum.photos/seed/180_2/600/600",
-        "https://picsum.photos/seed/180_3/600/600"
+     "images": [
+        "/images/products/furniture/furniture5.webp",
+        "/images/products/furniture/furniture6.webp",
+        "/images/products/furniture/furniture7.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/180/300/300",
+      "thumbnail": "/images/products/furniture/furniture5.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -11936,11 +11936,11 @@
         "barcode": "9144829765309"
       },
       "images": [
-        "https://picsum.photos/seed/181_1/600/600",
-        "https://picsum.photos/seed/181_2/600/600",
-        "https://picsum.photos/seed/181_3/600/600"
+        "/images/products/furniture/furniture6.webp",
+        "/images/products/furniture/furniture7.webp",
+        "/images/products/furniture/furniture8.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/181/300/300",
+      "thumbnail": "/images/products/furniture/furniture6.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -12002,11 +12002,11 @@
         "barcode": "7199450989992"
       },
       "images": [
-        "https://picsum.photos/seed/182_1/600/600",
-        "https://picsum.photos/seed/182_2/600/600",
-        "https://picsum.photos/seed/182_3/600/600"
+        "/images/products/furniture/furniture7.webp",
+        "/images/products/furniture/furniture8.webp",
+        "/images/products/furniture/furniture9.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/182/300/300",
+      "thumbnail": "/images/products/furniture/furniture7.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -12068,11 +12068,11 @@
         "barcode": "1692019585354"
       },
       "images": [
-        "https://picsum.photos/seed/183_1/600/600",
-        "https://picsum.photos/seed/183_2/600/600",
-        "https://picsum.photos/seed/183_3/600/600"
+        "/images/products/furniture/furniture8.webp",
+        "/images/products/furniture/furniture8.webp",
+        "/images/products/furniture/furniture8.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/183/300/300",
+      "thumbnail": "/images/products/furniture/furniture8.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -12134,11 +12134,11 @@
         "barcode": "4157698499718"
       },
       "images": [
-        "https://picsum.photos/seed/184_1/600/600",
-        "https://picsum.photos/seed/184_2/600/600",
-        "https://picsum.photos/seed/184_3/600/600"
+        "/images/products/furniture/furniture9.webp",
+        "/images/products/furniture/furniture10.webp",
+        "/images/products/furniture/furniture11.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/184/300/300",
+      "thumbnail": "/images/products/furniture/furniture9.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -12200,11 +12200,11 @@
         "barcode": "6844984064711"
       },
       "images": [
-        "https://picsum.photos/seed/185_1/600/600",
-        "https://picsum.photos/seed/185_2/600/600",
-        "https://picsum.photos/seed/185_3/600/600"
+        "/images/products/furniture/furniture10.webp",
+        "/images/products/furniture/furniture11.webp",
+        "/images/products/furniture/furniture12.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/185/300/300",
+      "thumbnail": "/images/products/furniture/furniture10.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -12266,11 +12266,11 @@
         "barcode": "2672385144146"
       },
       "images": [
-        "https://picsum.photos/seed/186_1/600/600",
-        "https://picsum.photos/seed/186_2/600/600",
-        "https://picsum.photos/seed/186_3/600/600"
+        "/images/products/furniture/furniture12.webp",
+        "/images/products/furniture/furniture13.webp",
+        "/images/products/furniture/furniture14.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/186/300/300",
+      "thumbnail": "/images/products/furniture/furniture12.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -12332,11 +12332,11 @@
         "barcode": "4817466322763"
       },
       "images": [
-        "https://picsum.photos/seed/187_1/600/600",
-        "https://picsum.photos/seed/187_2/600/600",
-        "https://picsum.photos/seed/187_3/600/600"
+        "/images/products/furniture/furniture13.webp",
+        "/images/products/furniture/furniture14.webp",
+        "/images/products/furniture/furniture15.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/187/300/300",
+      "thumbnail": "/images/products/furniture/furniture13.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -12398,11 +12398,11 @@
         "barcode": "1690225587226"
       },
       "images": [
-        "https://picsum.photos/seed/188_1/600/600",
-        "https://picsum.photos/seed/188_2/600/600",
-        "https://picsum.photos/seed/188_3/600/600"
+        "/images/products/furniture/furniture14.webp",
+        "/images/products/furniture/furniture15.webp",
+        "/images/products/furniture/furniture16.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/188/300/300",
+      "thumbnail": "/images/products/furniture/furniture14.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -12464,11 +12464,11 @@
         "barcode": "3275031449218"
       },
       "images": [
-        "https://picsum.photos/seed/189_1/600/600",
-        "https://picsum.photos/seed/189_2/600/600",
-        "https://picsum.photos/seed/189_3/600/600"
+        "/images/products/furniture/furniture14.webp",
+        "/images/products/furniture/furniture15.webp",
+        "/images/products/furniture/furniture16.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/189/300/300",
+      "thumbnail": "/images/products/furniture/furniture14.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -12530,11 +12530,11 @@
         "barcode": "6443243396740"
       },
       "images": [
-        "https://picsum.photos/seed/190_1/600/600",
-        "https://picsum.photos/seed/190_2/600/600",
-        "https://picsum.photos/seed/190_3/600/600"
+        "/images/products/furniture/furniture15.webp",
+        "/images/products/furniture/furniture16.webp",
+        "/images/products/furniture/furniture17.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/190/300/300",
+      "thumbnail": "/images/products/furniture/furniture15.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -12596,11 +12596,11 @@
         "barcode": "5844593637432"
       },
       "images": [
-        "https://picsum.photos/seed/191_1/600/600",
-        "https://picsum.photos/seed/191_2/600/600",
-        "https://picsum.photos/seed/191_3/600/600"
+        "/images/products/furniture/furniture16.webp",
+        "/images/products/furniture/furniture17.webp",
+        "/images/products/furniture/furniture18.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/191/300/300",
+      "thumbnail": "/images/products/furniture/furniture16.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -12662,11 +12662,11 @@
         "barcode": "7623501096197"
       },
       "images": [
-        "https://picsum.photos/seed/192_1/600/600",
-        "https://picsum.photos/seed/192_2/600/600",
-        "https://picsum.photos/seed/192_3/600/600"
+        "/images/products/furniture/furniture17.webp",
+        "/images/products/furniture/furniture18.webp",
+        "/images/products/furniture/furniture19.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/192/300/300",
+      "thumbnail": "/images/products/furniture/furniture17.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -12728,11 +12728,11 @@
         "barcode": "3587130068206"
       },
       "images": [
-        "https://picsum.photos/seed/193_1/600/600",
-        "https://picsum.photos/seed/193_2/600/600",
-        "https://picsum.photos/seed/193_3/600/600"
+        "/images/products/furniture/furniture18.webp",
+        "/images/products/furniture/furniture19.webp",
+        "/images/products/furniture/furniture20.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/193/300/300",
+      "thumbnail": "/images/products/furniture/furniture18.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -12794,11 +12794,11 @@
         "barcode": "4637997053406"
       },
       "images": [
-        "https://picsum.photos/seed/194_1/600/600",
-        "https://picsum.photos/seed/194_2/600/600",
-        "https://picsum.photos/seed/194_3/600/600"
+        "/images/products/furniture/furniture19.webp",
+        "/images/products/furniture/furniture20.webp",
+        "/images/products/furniture/furniture21.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/194/300/300",
+      "thumbnail": "/images/products/furniture/furniture19.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -12860,11 +12860,11 @@
         "barcode": "9025074485293"
       },
       "images": [
-        "https://picsum.photos/seed/195_1/600/600",
-        "https://picsum.photos/seed/195_2/600/600",
-        "https://picsum.photos/seed/195_3/600/600"
+        "/images/products/furniture/furniture20.webp",
+        "/images/products/furniture/furniture21.webp",
+        "/images/products/furniture/furniture22.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/195/300/300",
+      "thumbnail": "/images/products/furniture/furniture20.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -12926,11 +12926,11 @@
         "barcode": "8322212327064"
       },
       "images": [
-        "https://picsum.photos/seed/196_1/600/600",
-        "https://picsum.photos/seed/196_2/600/600",
-        "https://picsum.photos/seed/196_3/600/600"
+        "/images/products/furniture/furniture21.webp",
+        "/images/products/furniture/furniture22.webp",
+        "/images/products/furniture/furniture23.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/196/300/300",
+      "thumbnail": "/images/products/furniture/furniture21.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -12992,11 +12992,11 @@
         "barcode": "9385551787626"
       },
       "images": [
-        "https://picsum.photos/seed/197_1/600/600",
-        "https://picsum.photos/seed/197_2/600/600",
-        "https://picsum.photos/seed/197_3/600/600"
+        "/images/products/furniture/furniture22.webp",
+        "/images/products/furniture/furniture23.webp",
+        "/images/products/furniture/furniture24.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/197/300/300",
+      "thumbnail": "/images/products/furniture/furniture22.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -13058,11 +13058,11 @@
         "barcode": "6010252601053"
       },
       "images": [
-        "https://picsum.photos/seed/198_1/600/600",
-        "https://picsum.photos/seed/198_2/600/600",
-        "https://picsum.photos/seed/198_3/600/600"
+        "/images/products/furniture/furniture23.webp",
+        "/images/products/furniture/furniture24.webp",
+        "/images/products/furniture/furniture25.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/198/300/300",
+      "thumbnail": "/images/products/furniture/furniture23.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -13124,11 +13124,11 @@
         "barcode": "6989583153516"
       },
       "images": [
-        "https://picsum.photos/seed/199_1/600/600",
-        "https://picsum.photos/seed/199_2/600/600",
-        "https://picsum.photos/seed/199_3/600/600"
+        "/images/products/furniture/furniture24.webp",
+        "/images/products/furniture/furniture25.webp",
+        "/images/products/furniture/furniture26.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/199/300/300",
+      "thumbnail": "/images/products/furniture/furniture24.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -13190,11 +13190,11 @@
         "barcode": "9903634982223"
       },
       "images": [
-        "https://picsum.photos/seed/200_1/600/600",
-        "https://picsum.photos/seed/200_2/600/600",
-        "https://picsum.photos/seed/200_3/600/600"
+        "/images/products/furniture/furniture27.webp",
+        "/images/products/furniture/furniture28.webp",
+        "/images/products/furniture/furniture29.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/200/300/300",
+      "thumbnail": "/images/products/furniture/furniture27.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -13255,12 +13255,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "9739169174870"
       },
-      "images": [
-        "https://picsum.photos/seed/201_1/600/600",
-        "https://picsum.photos/seed/201_2/600/600",
-        "https://picsum.photos/seed/201_3/600/600"
+     "images": [
+        "/images/products/beauty/beauty1.webp",
+        "/images/products/beauty/beauty2.webp",
+        "/images/products/beauty/beauty3.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/201/300/300",
+      "thumbnail": "/images/products/beauty/beauty1.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -13322,11 +13322,11 @@
         "barcode": "5036334711576"
       },
       "images": [
-        "https://picsum.photos/seed/202_1/600/600",
-        "https://picsum.photos/seed/202_2/600/600",
-        "https://picsum.photos/seed/202_3/600/600"
+        "/images/products/beauty/beauty2.webp",
+        "/images/products/beauty/beauty3.webp",
+        "/images/products/beauty/beauty4.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/202/300/300",
+      "thumbnail": "/images/products/beauty/beauty2.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -13388,11 +13388,11 @@
         "barcode": "2129355689518"
       },
       "images": [
-        "https://picsum.photos/seed/203_1/600/600",
-        "https://picsum.photos/seed/203_2/600/600",
-        "https://picsum.photos/seed/203_3/600/600"
+        "/images/products/beauty/beauty3.webp",
+        "/images/products/beauty/beauty4.webp",
+        "/images/products/beauty/beauty5.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/203/300/300",
+      "thumbnail": "/images/products/beauty/beauty3.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -13454,11 +13454,11 @@
         "barcode": "9872538993262"
       },
       "images": [
-        "https://picsum.photos/seed/204_1/600/600",
-        "https://picsum.photos/seed/204_2/600/600",
-        "https://picsum.photos/seed/204_3/600/600"
+        "/images/products/beauty/beauty4.webp",
+        "/images/products/beauty/beauty5.webp",
+        "/images/products/beauty/beauty6.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/204/300/300",
+      "thumbnail": "/images/products/beauty/beauty4.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -13520,11 +13520,11 @@
         "barcode": "8090839195928"
       },
       "images": [
-        "https://picsum.photos/seed/205_1/600/600",
-        "https://picsum.photos/seed/205_2/600/600",
-        "https://picsum.photos/seed/205_3/600/600"
+        "/images/products/beauty/beauty5.webp",
+        "/images/products/beauty/beauty6.webp",
+        "/images/products/beauty/beauty7.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/205/300/300",
+      "thumbnail": "/images/products/beauty/beauty5.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -13586,11 +13586,11 @@
         "barcode": "9272354161229"
       },
       "images": [
-        "https://picsum.photos/seed/206_1/600/600",
-        "https://picsum.photos/seed/206_2/600/600",
-        "https://picsum.photos/seed/206_3/600/600"
+        "/images/products/beauty/beauty6.webp",
+        "/images/products/beauty/beauty7.webp",
+        "/images/products/beauty/beauty8.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/206/300/300",
+      "thumbnail": "/images/products/beauty/beauty6.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -13652,11 +13652,11 @@
         "barcode": "7397899341408"
       },
       "images": [
-        "https://picsum.photos/seed/207_1/600/600",
-        "https://picsum.photos/seed/207_2/600/600",
-        "https://picsum.photos/seed/207_3/600/600"
+        "/images/products/beauty/beauty7.webp",
+        "/images/products/beauty/beauty8.webp",
+        "/images/products/beauty/beauty9.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/207/300/300",
+      "thumbnail": "/images/products/beauty/beauty7.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -13718,11 +13718,11 @@
         "barcode": "9442486188969"
       },
       "images": [
-        "https://picsum.photos/seed/208_1/600/600",
-        "https://picsum.photos/seed/208_2/600/600",
-        "https://picsum.photos/seed/208_3/600/600"
+        "/images/products/beauty/beauty8.webp",
+        "/images/products/beauty/beauty9.webp",
+        "/images/products/beauty/beauty10.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/208/300/300",
+      "thumbnail": "/images/products/beauty/beauty8.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -13784,11 +13784,11 @@
         "barcode": "6053410398349"
       },
       "images": [
-        "https://picsum.photos/seed/209_1/600/600",
-        "https://picsum.photos/seed/209_2/600/600",
-        "https://picsum.photos/seed/209_3/600/600"
+        "/images/products/beauty/beauty9.webp",
+        "/images/products/beauty/beauty10.webp",
+        "/images/products/beauty/beauty11.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/209/300/300",
+      "thumbnail": "/images/products/beauty/beauty9.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -13850,11 +13850,11 @@
         "barcode": "2612611966967"
       },
       "images": [
-        "https://picsum.photos/seed/210_1/600/600",
-        "https://picsum.photos/seed/210_2/600/600",
-        "https://picsum.photos/seed/210_3/600/600"
+        "/images/products/beauty/beauty11.webp",
+        "/images/products/beauty/beauty12.webp",
+        "/images/products/beauty/beauty13.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/210/300/300",
+      "thumbnail": "/images/products/beauty/beauty11.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -13916,11 +13916,11 @@
         "barcode": "5026619524555"
       },
       "images": [
-        "https://picsum.photos/seed/211_1/600/600",
-        "https://picsum.photos/seed/211_2/600/600",
-        "https://picsum.photos/seed/211_3/600/600"
+        "/images/products/beauty/beauty10.webp",
+        "/images/products/beauty/beauty11.webp",
+        "/images/products/beauty/beauty12.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/211/300/300",
+      "thumbnail": "/images/products/beauty/beauty10.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -13981,12 +13981,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "3696962814398"
       },
-      "images": [
-        "https://picsum.photos/seed/212_1/600/600",
-        "https://picsum.photos/seed/212_2/600/600",
-        "https://picsum.photos/seed/212_3/600/600"
+     "images": [
+        "/images/products/beauty/beauty12.webp",
+        "/images/products/beauty/beauty13.webp",
+        "/images/products/beauty/beauty14.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/212/300/300",
+      "thumbnail": "/images/products/beauty/beauty12.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -14048,11 +14048,11 @@
         "barcode": "4914492962965"
       },
       "images": [
-        "https://picsum.photos/seed/213_1/600/600",
-        "https://picsum.photos/seed/213_2/600/600",
-        "https://picsum.photos/seed/213_3/600/600"
+        "/images/products/beauty/beauty13.webp",
+        "/images/products/beauty/beauty14.webp",
+        "/images/products/beauty/beauty15.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/213/300/300",
+      "thumbnail": "/images/products/beauty/beauty13.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -14114,11 +14114,11 @@
         "barcode": "1591563145156"
       },
       "images": [
-        "https://picsum.photos/seed/214_1/600/600",
-        "https://picsum.photos/seed/214_2/600/600",
-        "https://picsum.photos/seed/214_3/600/600"
+        "/images/products/beauty/beauty14.webp",
+        "/images/products/beauty/beauty15.webp",
+        "/images/products/beauty/beauty16.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/214/300/300",
+      "thumbnail": "/images/products/beauty/beauty14.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -14180,11 +14180,11 @@
         "barcode": "7117909931496"
       },
       "images": [
-        "https://picsum.photos/seed/215_1/600/600",
-        "https://picsum.photos/seed/215_2/600/600",
-        "https://picsum.photos/seed/215_3/600/600"
+        "/images/products/beauty/beauty15.webp",
+        "/images/products/beauty/beauty16.webp",
+        "/images/products/beauty/beauty17.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/215/300/300",
+      "thumbnail": "/images/products/beauty/beauty15.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -14246,11 +14246,11 @@
         "barcode": "7325403138365"
       },
       "images": [
-        "https://picsum.photos/seed/216_1/600/600",
-        "https://picsum.photos/seed/216_2/600/600",
-        "https://picsum.photos/seed/216_3/600/600"
+        "/images/products/beauty/beauty16.webp",
+        "/images/products/beauty/beauty17.webp",
+        "/images/products/beauty/beauty18.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/216/300/300",
+      "thumbnail": "/images/products/beauty/beauty16.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -14312,11 +14312,11 @@
         "barcode": "1686767735852"
       },
       "images": [
-        "https://picsum.photos/seed/217_1/600/600",
-        "https://picsum.photos/seed/217_2/600/600",
-        "https://picsum.photos/seed/217_3/600/600"
+        "/images/products/beauty/beauty17.webp",
+        "/images/products/beauty/beauty18.webp",
+        "/images/products/beauty/beauty19.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/217/300/300",
+      "thumbnail": "/images/products/beauty/beauty17.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -14377,12 +14377,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "8877882383603"
       },
-      "images": [
-        "https://picsum.photos/seed/218_1/600/600",
-        "https://picsum.photos/seed/218_2/600/600",
-        "https://picsum.photos/seed/218_3/600/600"
+     "images": [
+        "/images/products/beauty/beauty18.webp",
+        "/images/products/beauty/beauty19.webp",
+        "/images/products/beauty/beauty20.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/218/300/300",
+      "thumbnail": "/images/products/beauty/beauty18.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -14444,11 +14444,11 @@
         "barcode": "7791514080208"
       },
       "images": [
-        "https://picsum.photos/seed/219_1/600/600",
-        "https://picsum.photos/seed/219_2/600/600",
-        "https://picsum.photos/seed/219_3/600/600"
+        "/images/products/beauty/beauty19.webp",
+        "/images/products/beauty/beauty20.webp",
+        "/images/products/beauty/beauty21.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/219/300/300",
+      "thumbnail": "/images/products/beauty/beauty19.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -14510,11 +14510,11 @@
         "barcode": "4091656908199"
       },
       "images": [
-        "https://picsum.photos/seed/220_1/600/600",
-        "https://picsum.photos/seed/220_2/600/600",
-        "https://picsum.photos/seed/220_3/600/600"
+        "/images/products/beauty/beauty20.webp",
+        "/images/products/beauty/beauty22.webp",
+        "/images/products/beauty/beauty21.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/220/300/300",
+      "thumbnail": "/images/products/beauty/beauty20.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -14576,11 +14576,11 @@
         "barcode": "8436865683347"
       },
       "images": [
-        "https://picsum.photos/seed/221_1/600/600",
-        "https://picsum.photos/seed/221_2/600/600",
-        "https://picsum.photos/seed/221_3/600/600"
+        "/images/products/beauty/beauty21.webp",
+        "/images/products/beauty/beauty22.webp",
+        "/images/products/beauty/beauty23.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/221/300/300",
+      "thumbnail": "/images/products/beauty/beauty21.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -14642,11 +14642,11 @@
         "barcode": "2718260026459"
       },
       "images": [
-        "https://picsum.photos/seed/222_1/600/600",
-        "https://picsum.photos/seed/222_2/600/600",
-        "https://picsum.photos/seed/222_3/600/600"
+        "/images/products/beauty/beauty22.webp",
+        "/images/products/beauty/beauty24.webp",
+        "/images/products/beauty/beauty23.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/222/300/300",
+      "thumbnail": "/images/products/beauty/beauty22.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -14707,12 +14707,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "5011928308181"
       },
-      "images": [
-        "https://picsum.photos/seed/223_1/600/600",
-        "https://picsum.photos/seed/223_2/600/600",
-        "https://picsum.photos/seed/223_3/600/600"
+       "images": [
+        "/images/products/beauty/beauty24.webp",
+        "/images/products/beauty/beauty25.webp",
+        "/images/products/beauty/beauty26.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/223/300/300",
+      "thumbnail": "/images/products/beauty/beauty24.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -14773,12 +14773,12 @@
         "updatedAt": "2026-07-23",
         "barcode": "2823530462595"
       },
-      "images": [
-        "https://picsum.photos/seed/224_1/600/600",
-        "https://picsum.photos/seed/224_2/600/600",
-        "https://picsum.photos/seed/224_3/600/600"
+       "images": [
+        "/images/products/beauty/beauty25.webp",
+        "/images/products/beauty/beauty26.webp",
+        "/images/products/beauty/beauty27.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/224/300/300",
+      "thumbnail": "/images/products/beauty/beauty25.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -14840,11 +14840,11 @@
         "barcode": "9994214664994"
       },
       "images": [
-        "https://picsum.photos/seed/225_1/600/600",
-        "https://picsum.photos/seed/225_2/600/600",
-        "https://picsum.photos/seed/225_3/600/600"
+        "/images/products/beauty/beauty26.webp",
+        "/images/products/beauty/beauty27.webp",
+        "/images/products/beauty/beauty28.webp"
       ],
-      "thumbnail": "https://picsum.photos/seed/225/300/300",
+      "thumbnail": "/images/products/beauty/beauty26.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
