@@ -43,17 +43,17 @@ const Home = () => {
         <section className='sd_pageSection pb-5'>
             <div className='container'>
                 <div className="row row-cols-1 row-cols-lg-3 mx-auto">
-                    <div className="col">
+                    <div className="col py-2">
                         <div className='sd_adBanners'>
                             <img src='./images/banners/banner-9.jpeg' className='img-fluid' alt='smartdeals' />
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col py-2">
                         <div className='sd_adBanners'>
                             <img src='./images/banners/banner-4.jpeg' className='img-fluid' alt='smartdeals' />
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col py-2">
                         <div className='sd_adBanners'>
                             <img src='./images/banners/banner-3.jpeg' className='img-fluid' alt='smartdeals' />
                         </div>

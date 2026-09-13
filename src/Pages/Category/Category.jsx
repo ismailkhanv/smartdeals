@@ -11,8 +11,9 @@ const Category = () => {
 
     const products = useContext(Productsinfo) || [];
     const {category} = useParams();
-
     const sdFilteredProducts = products.filter(p=> p.category.toLowerCase() === category.toLowerCase());
+
+
         
     const prodcount = sdFilteredProducts.length;
     const [ITEMS_PER_PAGE,setITEMS_PER_PAGE] = useState(16);
