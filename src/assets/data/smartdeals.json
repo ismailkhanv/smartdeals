@@ -56,11 +56,11 @@
         "barcode": "9790543996202"
       },
       "images": [
-        "/images/products/smartphone/mobile42.webp",
+        "/images/products/smartphone/mobile1.webp",
         "/images/products/smartphone/mobile2.webp",
         "/images/products/smartphone/mobile3.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile42.webp",
+      "thumbnail": "/images/products/smartphone/mobile1.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -122,11 +122,11 @@
         "barcode": "6912846052815"
       },
      "images": [
-        "/images/products/smartphone/mobile5.webp",
+        "/images/products/smartphone/mobile2.webp",
         "/images/products/smartphone/mobile3.webp",
         "/images/products/smartphone/mobile4.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile5.webp",
+      "thumbnail": "/images/products/smartphone/mobile2.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -188,11 +188,11 @@
         "barcode": "9185853018894"
       },
       "images": [
-        "/images/products/smartphone/mobile41.webp",
+        "/images/products/smartphone/mobile3.webp",
         "/images/products/smartphone/mobile4.webp",
         "/images/products/smartphone/mobile5.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile41.webp",
+      "thumbnail": "/images/products/smartphone/mobile3.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -254,11 +254,11 @@
         "barcode": "6842973461039"
       },
       "images": [
-        "/images/products/smartphone/mobile6.webp",
-        "/images/products/smartphone/mobile7.webp",
-        "/images/products/smartphone/mobile8.webp"
+        "/images/products/smartphone/mobile4.webp",
+        "/images/products/smartphone/mobile5.webp",
+        "/images/products/smartphone/mobile6.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile6.webp",
+      "thumbnail": "/images/products/smartphone/mobile4.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -320,11 +320,11 @@
         "barcode": "5295479532499"
       },
       "images": [
-        "/images/products/smartphone/mobile7.webp",
-        "/images/products/smartphone/mobile8.webp",
-        "/images/products/smartphone/mobile9.webp"
+        "/images/products/smartphone/mobile5.webp",
+        "/images/products/smartphone/mobile6.webp",
+        "/images/products/smartphone/mobile7.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile11.webp",
+      "thumbnail": "/images/products/smartphone/mobile5.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -386,11 +386,11 @@
         "barcode": "6492217560477"
       },
       "images": [
-        "/images/products/smartphone/mobile8.webp",
-        "/images/products/smartphone/mobile9.webp",
-        "/images/products/smartphone/mobile10.webp"
+        "/images/products/smartphone/mobile6.webp",
+        "/images/products/smartphone/mobile7.webp",
+        "/images/products/smartphone/mobile8.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile37.webp",
+      "thumbnail": "/images/products/smartphone/mobile6.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -452,11 +452,11 @@
         "barcode": "1906107160079"
       },
       "images": [
-        "/images/products/smartphone/mobile9.webp",
-        "/images/products/smartphone/mobile10.webp",
-        "/images/products/smartphone/mobile11.webp"
+        "/images/products/smartphone/mobile7.webp",
+        "/images/products/smartphone/mobile8.webp",
+        "/images/products/smartphone/mobile9.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile38.webp",
+      "thumbnail": "/images/products/smartphone/mobile7.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -518,11 +518,11 @@
         "barcode": "2097216962278"
       },
       "images": [
-        "/images/products/smartphone/mobile10.webp",
-        "/images/products/smartphone/mobile11.webp",
-        "/images/products/smartphone/mobile12.webp"
+        "/images/products/smartphone/mobile8.webp",
+        "/images/products/smartphone/mobile9.webp",
+        "/images/products/smartphone/mobile10.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile16.webp",
+      "thumbnail": "/images/products/smartphone/mobile8.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -584,11 +584,11 @@
         "barcode": "1162283304234"
       },
       "images": [
+        "/images/products/smartphone/mobile10.webp",
         "/images/products/smartphone/mobile11.webp",
-        "/images/products/smartphone/mobile12.webp",
-        "/images/products/smartphone/mobile13.webp"
+        "/images/products/smartphone/mobile12.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile30.webp",
+      "thumbnail": "/images/products/smartphone/mobile9.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -650,11 +650,11 @@
         "barcode": "2811666211015"
       },
       "images": [
-        "/images/products/smartphone/mobile17.webp",
+        "/images/products/smartphone/mobile10.webp",
         "/images/products/smartphone/mobile12.webp",
-        "/images/products/smartphone/mobile13.webp"
+        "/images/products/smartphone/mobile11.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile17.webp",
+      "thumbnail": "/images/products/smartphone/mobile10.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -716,11 +716,11 @@
         "barcode": "6915567251093"
       },
       "images": [
-        "/images/products/smartphone/mobile20.webp",
+        "/images/products/smartphone/mobile11.webp",
         "/images/products/smartphone/mobile13.webp",
-        "/images/products/smartphone/mobile14.webp"
+        "/images/products/smartphone/mobile12.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile20.webp",
+      "thumbnail": "/images/products/smartphone/mobile11.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -782,11 +782,11 @@
         "barcode": "8767921372790"
       },
       "images": [
-        "/images/products/smartphone/mobile21.webp",
+        "/images/products/smartphone/mobile12.webp",
         "/images/products/smartphone/mobile14.webp",
-        "/images/products/smartphone/mobile15.webp"
+        "/images/products/smartphone/mobile13.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile21.webp",
+      "thumbnail": "/images/products/smartphone/mobile12.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -848,11 +848,11 @@
         "barcode": "4149689535842"
       },
       "images": [
-        "/images/products/smartphone/mobile22.webp",
+        "/images/products/smartphone/mobile13.webp",
         "/images/products/smartphone/mobile15.webp",
-        "/images/products/smartphone/mobile16.webp"
+        "/images/products/smartphone/mobile14.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile22.webp",
+      "thumbnail": "/images/products/smartphone/mobile13.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -914,11 +914,11 @@
         "barcode": "7229653662424"
       },
       "images": [
-        "/images/products/smartphone/mobile23.webp",
+        "/images/products/smartphone/mobile15.webp",
         "/images/products/smartphone/mobile16.webp",
-        "/images/products/smartphone/mobile18.webp"
+        "/images/products/smartphone/mobile14.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile23.webp",
+      "thumbnail": "/images/products/smartphone/mobile14.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -980,11 +980,11 @@
         "barcode": "6026173232159"
       },
       "images": [
-        "/images/products/smartphone/mobile25.webp",
-        "/images/products/smartphone/mobile18.webp",
-        "/images/products/smartphone/mobile19.webp"
+        "/images/products/smartphone/mobile15.webp",
+        "/images/products/smartphone/mobile16.webp",
+        "/images/products/smartphone/mobile17.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile25.webp",
+      "thumbnail": "/images/products/smartphone/mobile15.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -1046,11 +1046,11 @@
         "barcode": "5067382650287"
       },
       "images": [
-        "/images/products/smartphone/mobile18.webp",
-        "/images/products/smartphone/mobile19.webp",
-        "/images/products/smartphone/mobile20.webp"
+        "/images/products/smartphone/mobile16.webp",
+        "/images/products/smartphone/mobile17.webp",
+        "/images/products/smartphone/mobile18.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile18.webp",
+      "thumbnail": "/images/products/smartphone/mobile16.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -1112,11 +1112,11 @@
         "barcode": "9601174380879"
       },
      "images": [
-        "/images/products/smartphone/mobile25.webp",
-        "/images/products/smartphone/mobile24.webp",
-        "/images/products/smartphone/mobile26.webp"
+        "/images/products/smartphone/mobile17.webp",
+        "/images/products/smartphone/mobile18.webp",
+        "/images/products/smartphone/mobile19.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile25.webp",
+      "thumbnail": "/images/products/smartphone/mobile17.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -1178,11 +1178,11 @@
         "barcode": "4337813286693"
       },
       "images": [
-        "/images/products/smartphone/mobile28.webp",
-        "/images/products/smartphone/mobile26.webp",
-        "/images/products/smartphone/mobile27.webp"
+        "/images/products/smartphone/mobile18.webp",
+        "/images/products/smartphone/mobile19.webp",
+        "/images/products/smartphone/mobile20.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile28.webp",
+      "thumbnail": "/images/products/smartphone/mobile18.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -1244,11 +1244,11 @@
         "barcode": "5410174422765"
       },
       "images": [
-        "/images/products/smartphone/mobile27.webp",
-        "/images/products/smartphone/mobile30.webp",
-        "/images/products/smartphone/mobile31.webp"
+        "/images/products/smartphone/mobile19.webp",
+        "/images/products/smartphone/mobile20.webp",
+        "/images/products/smartphone/mobile21.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile27.webp",
+      "thumbnail": "/images/products/smartphone/mobile19.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -1310,11 +1310,11 @@
         "barcode": "4968171801162"
       },
       "images": [
-        "/images/products/smartphone/mobile29.webp",
-        "/images/products/smartphone/mobile30.webp",
-        "/images/products/smartphone/mobile31.webp"
+        "/images/products/smartphone/mobile20.webp",
+        "/images/products/smartphone/mobile21.webp",
+        "/images/products/smartphone/mobile22.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile29.webp",
+      "thumbnail": "/images/products/smartphone/mobile20.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -1376,11 +1376,11 @@
         "barcode": "9291476687369"
       },
       "images": [
-        "/images/products/smartphone/mobile14.webp",
-        "/images/products/smartphone/mobile32.webp",
-        "/images/products/smartphone/mobile33.webp"
+        "/images/products/smartphone/mobile21.webp",
+        "/images/products/smartphone/mobile22.webp",
+        "/images/products/smartphone/mobile23.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile14.webp",
+      "thumbnail": "/images/products/smartphone/mobile21.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -1442,11 +1442,11 @@
         "barcode": "2156753027682"
       },
       "images": [
-        "/images/products/smartphone/mobile13.webp",
-        "/images/products/smartphone/mobile33.webp",
-        "/images/products/smartphone/mobile34.webp"
+        "/images/products/smartphone/mobile22.webp",
+        "/images/products/smartphone/mobile23.webp",
+        "/images/products/smartphone/mobile24.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile13.webp",
+      "thumbnail": "/images/products/smartphone/mobile22.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -1508,11 +1508,11 @@
         "barcode": "8542094344655"
       },
       "images": [
-        "/images/products/smartphone/mobile10.webp",
-        "/images/products/smartphone/mobile34.webp",
-        "/images/products/smartphone/mobile35.webp"
+        "/images/products/smartphone/mobile23.webp",
+        "/images/products/smartphone/mobile24.webp",
+        "/images/products/smartphone/mobile25.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile10.webp",
+      "thumbnail": "/images/products/smartphone/mobile23.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -1574,11 +1574,11 @@
         "barcode": "4281926558230"
       },
       "images": [
-        "/images/products/smartphone/mobile35.webp",
-        "/images/products/smartphone/mobile36.webp",
-        "/images/products/smartphone/mobile37.webp"
+        "/images/products/smartphone/mobile24.webp",
+        "/images/products/smartphone/mobile25.webp",
+        "/images/products/smartphone/mobile1.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile7.webp",
+      "thumbnail": "/images/products/smartphone/mobile24.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -1640,11 +1640,11 @@
         "barcode": "2826459975675"
       },
       "images": [
-        "/images/products/smartphone/mobile37.webp",
-        "/images/products/smartphone/mobile38.webp",
-        "/images/products/smartphone/mobile39.webp"
+        "/images/products/smartphone/mobile25.webp",
+        "/images/products/smartphone/mobile1.webp",
+        "/images/products/smartphone/mobile2.webp"
       ],
-      "thumbnail": "/images/products/smartphone/mobile24.webp",
+      "thumbnail": "/images/products/smartphone/mobile25.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -1773,10 +1773,10 @@
       },
       "images": [
         "/images/products/laptops/laptop3.webp",
-        "/images/products/laptops/laptop5.webp",
+        "/images/products/laptops/laptop2.webp",
         "/images/products/laptops/laptop4.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop3.webp",
+      "thumbnail": "/images/products/laptops/laptop2.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -1838,11 +1838,11 @@
         "barcode": "3909517834337"
       },
       "images": [
-        "/images/products/laptops/laptop7.webp",
-        "/images/products/laptops/laptop6.webp",
-        "/images/products/laptops/laptop8.webp"
+        "/images/products/laptops/laptop3.webp",
+        "/images/products/laptops/laptop4.webp",
+        "/images/products/laptops/laptop5.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop7.webp",
+      "thumbnail": "/images/products/laptops/laptop3.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -1904,11 +1904,11 @@
         "barcode": "9380822196253"
       },
       "images": [
-        "/images/products/laptops/laptop8.webp",
-        "/images/products/laptops/laptop9.webp",
-        "/images/products/laptops/laptop10.webp"
+        "/images/products/laptops/laptop4.webp",
+        "/images/products/laptops/laptop5.webp",
+        "/images/products/laptops/laptop6.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop8.webp",
+      "thumbnail": "/images/products/laptops/laptop4.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -1970,11 +1970,11 @@
         "barcode": "6566019504445"
       },
       "images": [
-        "/images/products/laptops/laptop11.webp",
-        "/images/products/laptops/laptop10.webp",
-        "/images/products/laptops/laptop13.webp"
+        "/images/products/laptops/laptop5.webp",
+        "/images/products/laptops/laptop6.webp",
+        "/images/products/laptops/laptop7.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop11.webp",
+      "thumbnail": "/images/products/laptops/laptop5.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -2036,11 +2036,11 @@
         "barcode": "4424703552916"
       },
       "images": [
-        "/images/products/laptops/laptop16.webp",
-        "/images/products/laptops/laptop13.webp",
-        "/images/products/laptops/laptop12.webp"
+        "/images/products/laptops/laptop6.webp",
+        "/images/products/laptops/laptop7.webp",
+        "/images/products/laptops/laptop8.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop16.webp",
+      "thumbnail": "/images/products/laptops/laptop6.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -2102,11 +2102,11 @@
         "barcode": "6925913846565"
       },
       "images": [
-        "/images/products/laptops/laptop5.webp",
-        "/images/products/laptops/laptop14.webp",
-        "/images/products/laptops/laptop12.webp"
+        "/images/products/laptops/laptop7.webp",
+        "/images/products/laptops/laptop8.webp",
+        "/images/products/laptops/laptop9.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop5.webp",
+      "thumbnail": "/images/products/laptops/laptop7.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -2168,11 +2168,11 @@
         "barcode": "4247811889391"
       },
       "images": [
-        "/images/products/laptops/laptop22.webp",
-        "/images/products/laptops/laptop18.webp",
-        "/images/products/laptops/laptop20.webp"
+        "/images/products/laptops/laptop8.webp",
+        "/images/products/laptops/laptop9.webp",
+        "/images/products/laptops/laptop10.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop22.webp",
+      "thumbnail": "/images/products/laptops/laptop8.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -2234,11 +2234,11 @@
         "barcode": "3735506838187"
       },
       "images": [
-        "/images/products/laptops/laptop42.webp",
-        "/images/products/laptops/laptop24.webp",
-        "/images/products/laptops/laptop25.webp"
+        "/images/products/laptops/laptop9.webp",
+        "/images/products/laptops/laptop10.webp",
+        "/images/products/laptops/laptop11.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop42.webp",
+      "thumbnail": "/images/products/laptops/laptop9.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -2300,11 +2300,11 @@
         "barcode": "6723208571783"
       },
       "images": [
-        "/images/products/laptops/laptop43.webp",
-        "/images/products/laptops/laptop25.webp",
-        "/images/products/laptops/laptop26.webp"
+        "/images/products/laptops/laptop10.webp",
+        "/images/products/laptops/laptop11.webp",
+        "/images/products/laptops/laptop12.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop43.webp",
+      "thumbnail": "/images/products/laptops/laptop10.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -2366,11 +2366,11 @@
         "barcode": "1630841444163"
       },
       "images": [
-        "/images/products/laptops/laptop44.webp",
-        "/images/products/laptops/laptop32.webp",
-        "/images/products/laptops/laptop33.webp"
+        "/images/products/laptops/laptop11.webp",
+        "/images/products/laptops/laptop12.webp",
+        "/images/products/laptops/laptop13.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop44.webp",
+      "thumbnail": "/images/products/laptops/laptop11.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -2432,11 +2432,11 @@
         "barcode": "4552700303208"
       },
      "images": [
-        "/images/products/laptops/laptop45.webp",
-        "/images/products/laptops/laptop34.webp",
-        "/images/products/laptops/laptop35.webp"
+        "/images/products/laptops/laptop12.webp",
+        "/images/products/laptops/laptop13.webp",
+        "/images/products/laptops/laptop14.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop45.webp",
+      "thumbnail": "/images/products/laptops/laptop12.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -2498,11 +2498,11 @@
         "barcode": "8228484388648"
       },
       "images": [
-        "/images/products/laptops/laptop46.webp",
-        "/images/products/laptops/laptop27.webp",
-        "/images/products/laptops/laptop29.webp"
+        "/images/products/laptops/laptop13.webp",
+        "/images/products/laptops/laptop14.webp",
+        "/images/products/laptops/laptop15.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop46.webp",
+      "thumbnail": "/images/products/laptops/laptop13.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": true,
@@ -2564,11 +2564,11 @@
         "barcode": "6839372286587"
       },
       "images": [
-        "/images/products/laptops/laptop47.webp",
-        "/images/products/laptops/laptop12.webp",
-        "/images/products/laptops/laptop35.webp"
+        "/images/products/laptops/laptop14.webp",
+        "/images/products/laptops/laptop15.webp",
+        "/images/products/laptops/laptop16.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop47.webp",
+      "thumbnail": "/images/products/laptops/laptop14.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -2630,11 +2630,11 @@
         "barcode": "7991090516894"
       },
       "images": [
-        "/images/products/laptops/laptop48.webp",
-        "/images/products/laptops/laptop21.webp",
-        "/images/products/laptops/laptop22.webp"
+        "/images/products/laptops/laptop15.webp",
+        "/images/products/laptops/laptop16.webp",
+        "/images/products/laptops/laptop17.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop48.webp",
+      "thumbnail": "/images/products/laptops/laptop15.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -2696,11 +2696,11 @@
         "barcode": "1544904227353"
       },
       "images": [
-        "/images/products/laptops/laptop49.webp",
-        "/images/products/laptops/laptop35.webp",
-        "/images/products/laptops/laptop36.webp"
+        "/images/products/laptops/laptop16.webp",
+        "/images/products/laptops/laptop17.webp",
+        "/images/products/laptops/laptop18.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop49.webp",
+      "thumbnail": "/images/products/laptops/laptop16.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": true,
@@ -2762,11 +2762,11 @@
         "barcode": "3252711792799"
       },
       "images": [
-        "/images/products/laptops/laptop50.webp",
-        "/images/products/laptops/laptop1.webp",
-        "/images/products/laptops/laptop2.webp"
+        "/images/products/laptops/laptop17.webp",
+        "/images/products/laptops/laptop18.webp",
+        "/images/products/laptops/laptop19.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop50.webp",
+      "thumbnail": "/images/products/laptops/laptop17.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": true,
@@ -2828,11 +2828,11 @@
         "barcode": "9479202353174"
       },
       "images": [
-        "/images/products/laptops/laptop38.webp",
-        "/images/products/laptops/laptop29.webp",
-        "/images/products/laptops/laptop30.webp"
+        "/images/products/laptops/laptop18.webp",
+        "/images/products/laptops/laptop19.webp",
+        "/images/products/laptops/laptop20.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop38.webp",
+      "thumbnail": "/images/products/laptops/laptop18.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -2894,11 +2894,11 @@
         "barcode": "5405447377710"
       },
       "images": [
-        "/images/products/laptops/laptop39.webp",
-        "/images/products/laptops/laptop22.webp",
-        "/images/products/laptops/laptop23.webp"
+        "/images/products/laptops/laptop19.webp",
+        "/images/products/laptops/laptop20.webp",
+        "/images/products/laptops/laptop21.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop39.webp",
+      "thumbnail": "/images/products/laptops/laptop19.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": false,
@@ -2960,11 +2960,11 @@
         "barcode": "4156477904257"
       },
       "images": [
-        "/images/products/laptops/laptop40.webp",
-        "/images/products/laptops/laptop41.webp",
-        "/images/products/laptops/laptop42.webp"
+        "/images/products/laptops/laptop20.webp",
+        "/images/products/laptops/laptop21.webp",
+        "/images/products/laptops/laptop22.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop40.webp",
+      "thumbnail": "/images/products/laptops/laptop20.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -3026,11 +3026,11 @@
         "barcode": "5918391175054"
       },
       "images": [
-        "/images/products/laptops/laptop31.webp",
-        "/images/products/laptops/laptop34.webp",
-        "/images/products/laptops/laptop35.webp"
+        "/images/products/laptops/laptop21.webp",
+        "/images/products/laptops/laptop24.webp",
+        "/images/products/laptops/laptop23.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop31.webp",
+      "thumbnail": "/images/products/laptops/laptop21.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -3092,11 +3092,11 @@
         "barcode": "3462053499448"
       },
       "images": [
-        "/images/products/laptops/laptop30.webp",
-        "/images/products/laptops/laptop31.webp",
-        "/images/products/laptops/laptop32.webp"
+        "/images/products/laptops/laptop22.webp",
+        "/images/products/laptops/laptop23.webp",
+        "/images/products/laptops/laptop24.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop30.webp",
+      "thumbnail": "/images/products/laptops/laptop22.webp",
       "featured": false,
       "bestSeller": true,
       "newArrival": false,
@@ -3158,11 +3158,11 @@
         "barcode": "8088524388168"
       },
       "images": [
-        "/images/products/laptops/laptop34.webp",
-        "/images/products/laptops/laptop22.webp",
-        "/images/products/laptops/laptop23.webp"
+        "/images/products/laptops/laptop23.webp",
+        "/images/products/laptops/laptop24.webp",
+        "/images/products/laptops/laptop25.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop34.webp",
+      "thumbnail": "/images/products/laptops/laptop23.webp",
       "featured": true,
       "bestSeller": false,
       "newArrival": false,
@@ -3224,11 +3224,11 @@
         "barcode": "8562546781240"
       },
       "images": [
-        "/images/products/laptops/laptop36.webp",
-        "/images/products/laptops/laptop26.webp",
-        "/images/products/laptops/laptop27.webp"
+        "/images/products/laptops/laptop24.webp",
+        "/images/products/laptops/laptop25.webp",
+        "/images/products/laptops/laptop1.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop36.webp",
+      "thumbnail": "/images/products/laptops/laptop24.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -3290,11 +3290,11 @@
         "barcode": "7690366005843"
       },
       "images": [
-        "/images/products/laptops/laptop10.webp",
-        "/images/products/laptops/laptop6.webp",
-        "/images/products/laptops/laptop7.webp"
+        "/images/products/laptops/laptop25.webp",
+        "/images/products/laptops/laptop2.webp",
+        "/images/products/laptops/laptop1.webp"
       ],
-      "thumbnail": "/images/products/laptops/laptop10.webp",
+      "thumbnail": "/images/products/laptops/laptop25.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
@@ -11146,7 +11146,7 @@
       "images": [
         "/images/products/kitchen/kitchen19.webp",
         "/images/products/kitchen/kitchen20.webp",
-        "/images/products/kitchen/kitchen21.webp"
+        "/images/products/kitchen/kitchen26.webp"
       ],
       "thumbnail": "/images/products/kitchen/kitchen19.webp",
       "featured": false,
@@ -11211,7 +11211,7 @@
       },
       "images": [
         "/images/products/kitchen/kitchen20.webp",
-        "/images/products/kitchen/kitchen21.webp",
+        "/images/products/kitchen/kitchen26.webp",
         "/images/products/kitchen/kitchen22.webp"
       ],
       "thumbnail": "/images/products/kitchen/kitchen20.webp",
@@ -11276,11 +11276,11 @@
         "barcode": "8933413291837"
       },
       "images": [
-        "/images/products/kitchen/kitchen21.webp",
+        "/images/products/kitchen/kitchen26.webp",
         "/images/products/kitchen/kitchen22.webp",
         "/images/products/kitchen/kitchen23.webp"
       ],
-      "thumbnail": "/images/products/kitchen/kitchen21.webp",
+      "thumbnail": "/images/products/kitchen/kitchen26.webp",
       "featured": true,
       "bestSeller": true,
       "newArrival": true,
@@ -13190,11 +13190,11 @@
         "barcode": "9903634982223"
       },
       "images": [
-        "/images/products/furniture/furniture27.webp",
-        "/images/products/furniture/furniture28.webp",
-        "/images/products/furniture/furniture29.webp"
+        "/images/products/furniture/furniture25.webp",
+        "/images/products/furniture/furniture1.webp",
+        "/images/products/furniture/furniture2.webp"
       ],
-      "thumbnail": "/images/products/furniture/furniture27.webp",
+      "thumbnail": "/images/products/furniture/furniture25.webp",
       "featured": false,
       "bestSeller": false,
       "newArrival": false,
